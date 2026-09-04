@@ -19,5 +19,28 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "68383231000000000900fd7c",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "@造山",
+   "date": "2025-05-29",
+   "timestamp": "2025-05-29 10:08:49",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  },
+  {
+   "id": "6838337f000000000d0178d1",
+   "nickname": "造山",
+   "is_author": false,
+   "content": "[笑哭R][笑哭R][笑哭R]",
+   "date": "2025-05-29",
+   "timestamp": "2025-05-29 10:14:24",
+   "location": "山东",
+   "likes": "0",
+   "reply_to": "68383231000000000900fd7c"
+  }
+ ]
 }
