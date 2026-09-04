@@ -3,54 +3,2616 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>XHS 笔记repo · syu-toutousai</title>
+<title>XHS 笔记repo · syu-toutousai の小红书镜像</title>
 <style>
 :root{--bg:#f5f7fb;--card:#fff;--ink:#1c2333;--sub:#5b6478;--acc:#ff2e4d;--acc2:#ffecef}
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:"PingFang SC","Hiragino Sans GB","Noto Sans CJK SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);min-height:100vh;display:flex;flex-direction:column}
-header{background:linear-gradient(135deg,#c2255c,#ff2e4d 60%,#ff7a45);color:#fff;padding:52px 20px 60px;text-align:center}
+header{background:linear-gradient(135deg,#c2255c,#ff2e4d 60%,#ff7a45);color:#fff;padding:48px 20px 56px;text-align:center}
 header h1{font-size:28px;letter-spacing:2px}
 header p{opacity:.92;font-size:14.5px;margin-top:10px}
-main{max-width:920px;width:100%;margin:-34px auto 0;padding:0 16px 40px;flex:1}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
-.site{background:var(--card);border-radius:20px;padding:28px 24px;display:flex;flex-direction:column;text-decoration:none;color:var(--ink);
-box-shadow:0 6px 24px rgba(30,40,90,.12);transition:.2s;border:2px solid transparent}
-.site:hover{transform:translateY(-4px);border-color:var(--acc)}
-.site .em{font-size:44px;line-height:1}
-.site h2{font-size:21px;margin:14px 0 2px}
-.site .jp{font-family:"Hiragino Mincho ProN","Yu Mincho",serif;color:var(--acc);font-size:13px;font-weight:700}
-.site .desc{font-size:13.5px;color:var(--sub);line-height:1.85;margin:12px 0 16px;flex:1}
-.chips span{display:inline-block;background:var(--acc2);color:var(--acc);
-border-radius:99px;padding:3px 11px;font-size:11.5px;margin:0 5px 6px 0;font-weight:600}
-.go{display:block;text-align:center;background:var(--acc);color:#fff;border-radius:12px;padding:11px 0;font-size:15px;font-weight:700;margin-top:6px}
-footer{text-align:center;font-size:12px;color:var(--sub);padding:18px;line-height:1.9}
-footer a{color:var(--sub)}
-@media (max-width:700px){.grid{grid-template-columns:1fr}}
+main{max-width:1100px;width:100%;margin:-30px auto 0;padding:0 16px 40px;flex:1}
+.search{position:sticky;top:12px;z-index:5;margin-bottom:18px}
+.search input{width:100%;padding:14px 18px;border-radius:14px;border:2px solid #eee;font-size:14px;box-shadow:0 4px 16px rgba(30,40,90,.08);background:#fff;outline:none}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px}
+.site{background:var(--card);border-radius:16px;padding:14px;display:block;text-decoration:none;color:var(--ink);box-shadow:0 4px 16px rgba(30,40,90,.10);transition:.2s;border:2px solid transparent}
+.site:hover{transform:translateY(-3px);border-color:var(--acc)}
+.th{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:10px;background:#eee}
+.noimg{display:flex;align-items:center;justify-content:center;font-size:34px}
+.t{font-size:13px;font-weight:600;margin-top:10px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.meta{font-size:11.5px;color:var(--sub);margin-top:6px}
+.count{text-align:center;color:var(--sub);font-size:13px;margin-top:6px}
+footer{text-align:center;font-size:12px;color:var(--sub);padding:18px}
+@media (max-width:700px){.grid{grid-template-columns:repeat(2,1fr)}}
 </style>
 </head>
 <body>
 <header>
   <h1>XHS 笔记repo ・ 小红书笔记镜像</h1>
-  <p>把自己发在小红书的笔记 & 评论存档到这里，带时间戳，可检索可回溯</p>
+  <p>高龄少年 · 全部 512 条笔记存档 · 含图片与带时间戳评论</p>
 </header>
 
 <main>
-  <div class="grid">
-    <a class="site" href="2025-11-九条の大罪/">
-      <div class="em">🗂️</div>
-      <h2>2025年11月「九条の大罪」</h2>
-      <div class="jp">こ く じ ょ う の た い ざ い</div>
-      <div class="desc">11月的阅读 / 观影清单：漫画、动画、剧集逐条记录，
-        正文与评论区持续追加「九条の大罪」相关的作品条目。
-        71 条评论（含作者自加条目）全部带时间戳存档。</div>
-      <div class="chips"><span>71 条评论</span><span>带时间戳</span><span>作者自述清单</span></div>
-      <div class="go">打开笔记 →</div>
+  <div class="search"><input id="q" type="text" placeholder="🔍 按标题筛选…" oninput="filter(this.value)"></div>
+  <div class="grid" id="grid">
+    <a class="site" href="notes/6948b783000000001e011dca/">
+      <img class="th" loading="lazy" src="notes/6948b783000000001e011dca/images/img1.jpg" alt="">
+      <div class="t">「always climbing」</div>
+      <div class="meta">2025-12-22 · 6948b78300</div>
+    </a>
+    <a class="site" href="notes/6947a6ab000000001e00921b/">
+      <img class="th" loading="lazy" src="notes/6947a6ab000000001e00921b/images/img1.jpg" alt="">
+      <div class="t">那只(条)在庙会魔法般的温暖灯光下呈现出亮红色、可爱无比的金鱼，在日光灯的照射下</div>
+      <div class="meta">2025-12-21 · 6947a6ab00</div>
+    </a>
+    <a class="site" href="notes/693f7217000000001e011351/">
+      <img class="th" loading="lazy" src="notes/693f7217000000001e011351/images/img1.jpg" alt="">
+      <div class="t">シャリキノキョジン syariki no kyojin</div>
+      <div class="meta">2025-12-15 · 693f721700</div>
+    </a>
+    <a class="site" href="notes/693ce267000000001d03de17/">
+      <img class="th" loading="lazy" src="notes/693ce267000000001d03de17/images/img1.jpg" alt="">
+      <div class="t">偏旁冠脚(垂繞) </div>
+      <div class="meta">2025-12-13 · 693ce26700</div>
+    </a>
+    <a class="site" href="notes/693bb9ed000000001d038ea4/">
+      <img class="th" loading="lazy" src="notes/693bb9ed000000001d038ea4/images/img1.jpg" alt="">
+      <div class="t">歴史家はまた、啓蒙以後の人々は啓蒙以前よりほぼ恒常的に恐怖と困惑を感じていると指</div>
+      <div class="meta">2025-12-12 · 693bb9ed00</div>
+    </a>
+    <a class="site" href="notes/69360b28000000001e00a35c/">
+      <img class="th" loading="lazy" src="notes/69360b28000000001e00a35c/images/img1.jpg" alt="">
+      <div class="t">西山さん也好，课长也罢，这俩半斤对八两，都不是省油的灯，都不是什么好鸟……😀</div>
+      <div class="meta">2025-12-07 · 69360b2800</div>
+    </a>
+    <a class="site" href="notes/69355aaf000000001d03c1f5/">
+      <img class="th" loading="lazy" src="notes/69355aaf000000001d03c1f5/images/img1.jpg" alt="">
+      <div class="t">69355aaf000000001d03c1f5</div>
+      <div class="meta">2025-12-07 · 69355aaf00</div>
+    </a>
+    <a class="site" href="notes/6930c2c6000000001e0173a8/">
+      <img class="th" loading="lazy" src="notes/6930c2c6000000001e0173a8/images/img1.jpg" alt="">
+      <div class="t">「政治家を批判するとき、本当に権力の暗部を嫌悪しているのか？ それともおとぎ話の</div>
+      <div class="meta">2025-12-03 · 6930c2c600</div>
+    </a>
+    <a class="site" href="notes/692d6b3c000000001e0068b7/">
+      <img class="th" loading="lazy" src="notes/692d6b3c000000001e0068b7/images/img1.jpg" alt="">
+      <div class="t">予定調和 </div>
+      <div class="meta">2025-12-01 · 692d6b3c00</div>
+    </a>
+    <a class="site" href="notes/692afa8c000000001e00b7f2/">
+      <img class="th" loading="lazy" src="notes/692afa8c000000001e00b7f2/images/img1.jpg" alt="">
+      <div class="t">富裕層が権力を握る世界は、権力を握ることでしか富を得られない世界よりもまだましで</div>
+      <div class="meta">2025-11-29 · 692afa8c00</div>
+    </a>
+    <a class="site" href="notes/692676ab000000001e01390b/">
+      <img class="th" loading="lazy" src="notes/692676ab000000001e01390b/images/img1.jpg" alt="">
+      <div class="t">ジャー…鳥肌の立つような高揚感！詰まりを解消した者だけが知っている…</div>
+      <div class="meta">2025-11-26 · 692676ab00</div>
+    </a>
+    <a class="site" href="notes/6923c8c5000000001d03981a/">
+      <img class="th" loading="lazy" src="notes/6923c8c5000000001d03981a/images/img1.jpg" alt="">
+      <div class="t">長い待ち時間をスマホゲームで紛らわした。カンニングで試験を誤魔化そうとした。一人</div>
+      <div class="meta">2025-11-24 · 6923c8c500</div>
+    </a>
+    <a class="site" href="notes/6920c038000000001e004f20/">
+      <img class="th" loading="lazy" src="notes/6920c038000000001e004f20/images/img1.jpg" alt="">
+      <div class="t">目标本来是穿过沼泽地前行，如今却变成了对付每一条鳄鱼</div>
+      <div class="meta">2025-11-21 · 6920c03800</div>
+    </a>
+    <a class="site" href="notes/691a753200000000070306a5/">
+      <img class="th" loading="lazy" src="notes/691a753200000000070306a5/images/img1.jpg" alt="">
+      <div class="t">「これは社会のバグです。社会は被害者になった方の勝ちなんです。被害者になったもん</div>
+      <div class="meta">2025-11-17 · 691a753200</div>
+    </a>
+    <a class="site" href="notes/6916bf610000000007030170/">
+      <img class="th" loading="lazy" src="notes/6916bf610000000007030170/images/img1.jpg" alt="">
+      <div class="t">-保持干燥‼️ -保持柔软‼️</div>
+      <div class="meta">2025-11-14 · 6916bf6100</div>
+    </a>
+    <a class="site" href="notes/691680d10000000007023645/">
+      <img class="th" loading="lazy" src="https://sns-webpic-qc.xhscdn.com/202609040847/f77aba7c1358748714a94ac94060dba4/1040g2sg31orlevmugsjg5pgki233co1t8lg8v8o!nc_n_webp_mw_1" alt="">
+      <div class="t">アマテラス じゃない</div>
+      <div class="meta">2025-11-14 · 691680d100</div>
+    </a>
+    <a class="site" href="notes/6911ae72000000000702034e/">
+      <img class="th" loading="lazy" src="notes/6911ae72000000000702034e/images/img1.jpg" alt="">
+      <div class="t">『楽々』のはずが、『這う這うの体』</div>
+      <div class="meta">2025-11-10 · 6911ae7200</div>
+    </a>
+    <a class="site" href="notes/6911a7470000000007003ff3/">
+      <img class="th" loading="lazy" src="notes/6911a7470000000007003ff3/images/img1.jpg" alt="">
+      <div class="t">Japlish/Japanglish</div>
+      <div class="meta">2025-11-10 · 6911a74700</div>
+    </a>
+    <a class="site" href="notes/6911391600000000070162e6/">
+      <img class="th" loading="lazy" src="notes/6911391600000000070162e6/images/img1.jpg" alt="">
+      <div class="t">しふべからざるなり </div>
+      <div class="meta">2025-11-10 · 6911391600</div>
+    </a>
+    <a class="site" href="notes/690ec94a0000000007031ad0/">
+      <img class="th" loading="lazy" src="notes/690ec94a0000000007031ad0/images/img1.jpg" alt="">
+      <div class="t">白鳥じゃなくなってしまったら…なんて考えながら生きている白鳥はいないわ。白鳥は死</div>
+      <div class="meta">2025-11-08 · 690ec94a00</div>
+    </a>
+    <a class="site" href="notes/690e97ef00000000070375c8/">
+      <img class="th" loading="lazy" src="notes/690e97ef00000000070375c8/images/img1.jpg" alt="">
+      <div class="t">△▼正三角関係▽▲ </div>
+      <div class="meta">2025-11-08 · 690e97ef00</div>
+    </a>
+    <a class="site" href="notes/690e0685000000000700cb36/">
+      <img class="th" loading="lazy" src="notes/690e0685000000000700cb36/images/img1.jpg" alt="">
+      <div class="t">有意识地选择栖居于不同的意义世界，实现精神的流动与解放「每种意义体系都可视为一个</div>
+      <div class="meta">2025-11-07 · 690e068500</div>
+    </a>
+    <a class="site" href="notes/690d845a000000000700851c/">
+      <img class="th" loading="lazy" src="notes/690d845a000000000700851c/images/img1.jpg" alt="">
+      <div class="t">我在日语打工人hana的笔记下发布了一条评论</div>
+      <div class="meta">2025-11-07 · 690d845a00</div>
+    </a>
+    <a class="site" href="notes/690c11ea0000000007002f7f/">
+      <img class="th" loading="lazy" src="notes/690c11ea0000000007002f7f/images/img1.jpg" alt="">
+      <div class="t">個人の言語、特に無意識のうちに頻繁に用いる語彙やメタファーの選択は、その人がこれ</div>
+      <div class="meta">2025-11-06 · 690c11ea00</div>
+    </a>
+    <a class="site" href="notes/6908bce7000000000703023e/">
+      <img class="th" loading="lazy" src="notes/6908bce7000000000703023e/images/img1.jpg" alt="">
+      <div class="t">「说不同语言的人，原来活在不同的世界观里」</div>
+      <div class="meta">2025-11-03 · 6908bce700</div>
+    </a>
+    <a class="site" href="notes/69046d3c0000000007003118/">
+      <img class="th" loading="lazy" src="notes/69046d3c0000000007003118/images/img1.jpg" alt="">
+      <div class="t">その日、人類は思い出したーーヤツらに支配られていた恐怖(キョウフ)を、鳥籠の中に</div>
+      <div class="meta">2025-10-31 · 69046d3c00</div>
+    </a>
+    <a class="site" href="notes/6902fcb90000000007035879/">
+      <img class="th" loading="lazy" src="notes/6902fcb90000000007035879/images/img1.jpg" alt="">
+      <div class="t">『認知生命』を 経営せよ！</div>
+      <div class="meta">2025-10-30 · 6902fcb900</div>
+    </a>
+    <a class="site" href="notes/690216040000000007014a68/">
+      <img class="th" loading="lazy" src="notes/690216040000000007014a68/images/img1.jpg" alt="">
+      <div class="t">一億総中流 vs. 数億総下流</div>
+      <div class="meta">2025-10-29 · 6902160400</div>
+    </a>
+    <a class="site" href="notes/6900332c000000000703a18e/">
+      <img class="th" loading="lazy" src="notes/6900332c000000000703a18e/images/img1.jpg" alt="">
+      <div class="t">2025年11月「九条の大罪」</div>
+      <div class="meta">2025-10-28 · 6900332c00</div>
+    </a>
+    <a class="site" href="notes/68fed21a0000000007038f66/">
+      <img class="th" loading="lazy" src="notes/68fed21a0000000007038f66/images/img1.jpg" alt="">
+      <div class="t">一个新动向:开始不再用「新能源车」指代电动汽车，回归用「电车」指代。</div>
+      <div class="meta">2025-10-27 · 68fed21a00</div>
+    </a>
+    <a class="site" href="notes/68fe08ad000000000700cdfb/">
+      <img class="th" loading="lazy" src="notes/68fe08ad000000000700cdfb/images/img1.jpg" alt="">
+      <div class="t">深度依赖并享受着现代化成果的人，站在由科技和工业构建的高台上，以回归自然的姿态，</div>
+      <div class="meta">2025-10-26 · 68fe08ad00</div>
+    </a>
+    <a class="site" href="notes/68fd7f7f00000000070369ea/">
+      <img class="th" loading="lazy" src="notes/68fd7f7f00000000070369ea/images/img1.jpg" alt="">
+      <div class="t">游走于人心若冬季的世界</div>
+      <div class="meta">2025-10-26 · 68fd7f7f00</div>
+    </a>
+    <a class="site" href="notes/68fc4a1e0000000007014286/">
+      <img class="th" loading="lazy" src="notes/68fc4a1e0000000007014286/images/img1.jpg" alt="">
+      <div class="t">どうなろうとも、時は過ぎる、どんなひどい日でも。</div>
+      <div class="meta">2025-10-25 · 68fc4a1e00</div>
+    </a>
+    <a class="site" href="notes/68facaaa0000000007021884/">
+      <img class="th" loading="lazy" src="notes/68facaaa0000000007021884/images/img1.jpg" alt="">
+      <div class="t">「スポーツ施設などで性的な意図を持ち正当な理由なくアスリートを撮影する行為を「性</div>
+      <div class="meta">2025-10-24 · 68facaaa00</div>
+    </a>
+    <a class="site" href="notes/68f9c13f0000000007038f8a/">
+      <img class="th" loading="lazy" src="notes/68f9c13f0000000007038f8a/images/img1.jpg" alt="">
+      <div class="t">「まぁしかし…せっかくひと稼ぎしに日本まで出張って来たのに、山奥のオレらは貧乏く</div>
+      <div class="meta">2025-10-23 · 68f9c13f00</div>
+    </a>
+    <a class="site" href="notes/68f9b784000000000703a02e/">
+      <img class="th" loading="lazy" src="notes/68f9b784000000000703a02e/images/img1.jpg" alt="">
+      <div class="t">「腹が減ったら飯を食う。強いものが独占する。弱いものは奪われる。これ自然の摂理な</div>
+      <div class="meta">2025-10-23 · 68f9b78400</div>
+    </a>
+    <a class="site" href="notes/68f856950000000007035d5d/">
+      <img class="th" loading="lazy" src="notes/68f856950000000007035d5d/images/img1.jpg" alt="">
+      <div class="t">安彦良和 やすひこよしかず</div>
+      <div class="meta">2025-10-22 · 68f8569500</div>
+    </a>
+    <a class="site" href="notes/68f83a220000000007034434/">
+      <img class="th" loading="lazy" src="notes/68f83a220000000007034434/images/img1.jpg" alt="">
+      <div class="t">R★O★C★K★S Hound Dog</div>
+      <div class="meta">2025-10-22 · 68f83a2200</div>
+    </a>
+    <a class="site" href="notes/68f821da00000000070019d8/">
+      <img class="th" loading="lazy" src="notes/68f821da00000000070019d8/images/img1.jpg" alt="">
+      <div class="t">年度神评论 「不怕神一样的对手，就怕朱一样的队友」</div>
+      <div class="meta">2025-10-22 · 68f821da00</div>
+    </a>
+    <a class="site" href="notes/68f73832000000000700b150/">
+      <img class="th" loading="lazy" src="notes/68f73832000000000700b150/images/img1.jpg" alt="">
+      <div class="t">「栄光の架橋」 </div>
+      <div class="meta">2025-10-21 · 68f7383200</div>
+    </a>
+    <a class="site" href="notes/68f734e20000000007031fce/">
+      <img class="th" loading="lazy" src="notes/68f734e20000000007031fce/images/img1.jpg" alt="">
+      <div class="t">帝国データバンクによると、10月の飲食料品値上げは3024品目、1回あたりの値上</div>
+      <div class="meta">2025-10-21 · 68f734e200</div>
+    </a>
+    <a class="site" href="notes/68f708020000000007033ecf/">
+      <img class="th" loading="lazy" src="notes/68f708020000000007033ecf/images/img1.jpg" alt="">
+      <div class="t">長引く物価高で、「節約疲れ」を感じている人も少なくないだろう。そんななか、静かに</div>
+      <div class="meta">2025-10-21 · 68f7080200</div>
+    </a>
+    <a class="site" href="notes/68f5ba19000000000700d7de/">
+      <img class="th" loading="lazy" src="notes/68f5ba19000000000700d7de/images/img1.jpg" alt="">
+      <div class="t">据20254321-Q-339</div>
+      <div class="meta">2025-10-20 · 68f5ba1900</div>
+    </a>
+    <a class="site" href="notes/68f4d2ab0000000007035517/">
+      <img class="th" loading="lazy" src="notes/68f4d2ab0000000007035517/images/img1.jpg" alt="">
+      <div class="t">For an outward-opening door, it remains </div>
+      <div class="meta">2025-10-19 · 68f4d2ab00</div>
+    </a>
+    <a class="site" href="notes/68f4bccb00000000070356f4/">
+      <img class="th" loading="lazy" src="notes/68f4bccb00000000070356f4/images/img1.jpg" alt="">
+      <div class="t">一个深刻的现代悖论：在鼓吹利己的言论环境中，苦苦追寻利他的生活体验。</div>
+      <div class="meta">2025-10-19 · 68f4bccb00</div>
+    </a>
+    <a class="site" href="notes/68f4909d000000000700fa4a/">
+      <img class="th" loading="lazy" src="notes/68f4909d000000000700fa4a/images/img1.jpg" alt="">
+      <div class="t">左前50KM/H+ 右前50KM/H+</div>
+      <div class="meta">2025-10-19 · 68f4909d00</div>
+    </a>
+    <a class="site" href="notes/68f42b08000000000700107d/">
+      <img class="th" loading="lazy" src="notes/68f42b08000000000700107d/images/img1.jpg" alt="">
+      <div class="t">为何认定雨田君是把互联网思维套用在了汽车领域？答:「用明显错误制造争议性话题(钩</div>
+      <div class="meta">2025-10-19 · 68f42b0800</div>
+    </a>
+    <a class="site" href="notes/68f373530000000007032f85/">
+      <img class="th" loading="lazy" src="notes/68f373530000000007032f85/images/img1.jpg" alt="">
+      <div class="t">又有一批「登」 将集体下线</div>
+      <div class="meta">2025-10-18 · 68f3735300</div>
+    </a>
+    <a class="site" href="notes/68f32fb600000000070341f4/">
+      <img class="th" loading="lazy" src="notes/68f32fb600000000070341f4/images/img1.jpg" alt="">
+      <div class="t">16.8亿种模式，每秒切换1次，需要多长时间切换完？答:约需53年零两个月又26</div>
+      <div class="meta">2025-10-18 · 68f32fb600</div>
+    </a>
+    <a class="site" href="notes/68f2e39c000000000700be59/">
+      <img class="th" loading="lazy" src="notes/68f2e39c000000000700be59/images/img1.jpg" alt="">
+      <div class="t">たとえ明日が来ないとしても、俺は君の事を明日も愛している。</div>
+      <div class="meta">2025-10-18 · 68f2e39c00</div>
+    </a>
+    <a class="site" href="notes/68f2de370000000007023a80/">
+      <img class="th" loading="lazy" src="notes/68f2de370000000007023a80/images/img1.jpg" alt="">
+      <div class="t">牛馬セット </div>
+      <div class="meta">2025-10-18 · 68f2de3700</div>
+    </a>
+    <a class="site" href="notes/68f23ec90000000007017f3d/">
+      <img class="th" loading="lazy" src="notes/68f23ec90000000007017f3d/images/img1.jpg" alt="">
+      <div class="t">剥离 切割 断流 清算</div>
+      <div class="meta">2025-10-17 · 68f23ec900</div>
+    </a>
+    <a class="site" href="notes/68f209650000000007031a7f/">
+      <img class="th" loading="lazy" src="notes/68f209650000000007031a7f/images/img1.jpg" alt="">
+      <div class="t">塔勒布的理论指出，一个缺乏风险共担的系统是无法持续且脆弱的。市场和社会会通过以下</div>
+      <div class="meta">2025-10-17 · 68f2096500</div>
+    </a>
+    <a class="site" href="notes/68f162f10000000007008724/">
+      <img class="th" loading="lazy" src="notes/68f162f10000000007008724/images/img1.jpg" alt="">
+      <div class="t">「廃墟に乞う」 </div>
+      <div class="meta">2025-10-16 · 68f162f100</div>
+    </a>
+    <a class="site" href="notes/68ec7eca000000000703b124/">
+      <img class="th" loading="lazy" src="notes/68ec7eca000000000703b124/images/img1.jpg" alt="">
+      <div class="t">糙 避雷 不解释 </div>
+      <div class="meta">2025-10-13 · 68ec7eca00</div>
+    </a>
+    <a class="site" href="notes/68ec61d2000000000700d5ee/">
+      <img class="th" loading="lazy" src="notes/68ec61d2000000000700d5ee/images/img1.jpg" alt="">
+      <div class="t">どうも彼とは壁ごしに话しているような気がする。</div>
+      <div class="meta">2025-10-13 · 68ec61d200</div>
+    </a>
+    <a class="site" href="notes/68ebb4ec000000000703512f/">
+      <img class="th" loading="lazy" src="notes/68ebb4ec000000000703512f/images/img1.jpg" alt="">
+      <div class="t">秋めいて、肌寒い夜だった。</div>
+      <div class="meta">2025-10-12 · 68ebb4ec00</div>
+    </a>
+    <a class="site" href="notes/68eaed96000000000703133d/">
+      <img class="th" loading="lazy" src="notes/68eaed96000000000703133d/images/img1.jpg" alt="">
+      <div class="t">凡长期上位者，必然会出现认知退化。由此可以将是否出现认知退化作为判定陌生人是否长</div>
+      <div class="meta">2025-10-11 · 68eaed9600</div>
+    </a>
+    <a class="site" href="notes/68eaea4d000000000700f5ef/">
+      <img class="th" loading="lazy" src="notes/68eaea4d000000000700f5ef/images/img1.jpg" alt="">
+      <div class="t">小句（简体形）+ から」构成了一个「理由节」，这个「理由节」在功能上等同于一个形</div>
+      <div class="meta">2025-10-11 · 68eaea4d00</div>
+    </a>
+    <a class="site" href="notes/68ea2241000000000703315e/">
+      <img class="th" loading="lazy" src="notes/68ea2241000000000703315e/images/img1.jpg" alt="">
+      <div class="t">わざわざ人に会いに行こうとしたのは、電話や手紙(もしくはメール)ですませるのでは</div>
+      <div class="meta">2025-10-11 · 68ea224100</div>
+    </a>
+    <a class="site" href="notes/68e9fc100000000007037ee6/">
+      <img class="th" loading="lazy" src="notes/68e9fc100000000007037ee6/images/img1.jpg" alt="">
+      <div class="t">「雨で洗濯が済んだ」</div>
+      <div class="meta">2025-10-11 · 68e9fc1000</div>
+    </a>
+    <a class="site" href="notes/68e9dec600000000070216cf/">
+      <img class="th" loading="lazy" src="notes/68e9dec600000000070216cf/images/img1.jpg" alt="">
+      <div class="t">「時代は」「社会は」「欧米は」</div>
+      <div class="meta">2025-10-11 · 68e9dec600</div>
+    </a>
+    <a class="site" href="notes/68e9c816000000000700f4fa/">
+      <img class="th" loading="lazy" src="notes/68e9c816000000000700f4fa/images/img1.jpg" alt="">
+      <div class="t">Krasznahorkai László&#x27;s works show us how</div>
+      <div class="meta">2025-10-11 · 68e9c81600</div>
+    </a>
+    <a class="site" href="notes/68e9c4ac0000000007001afa/">
+      <img class="th" loading="lazy" src="notes/68e9c4ac0000000007001afa/images/img1.jpg" alt="">
+      <div class="t">過ぎ去ったものは二度と戻ってこない‼️</div>
+      <div class="meta">2025-10-11 · 68e9c4ac00</div>
+    </a>
+    <a class="site" href="notes/68e944aa0000000007003d37/">
+      <img class="th" loading="lazy" src="notes/68e944aa0000000007003d37/images/img1.jpg" alt="">
+      <div class="t">俺はハゲていた そして</div>
+      <div class="meta">2025-10-10 · 68e944aa00</div>
+    </a>
+    <a class="site" href="notes/68e883760000000007001223/">
+      <img class="th" loading="lazy" src="notes/68e883760000000007001223/images/img1.jpg" alt="">
+      <div class="t">沖縄の古びた郷土資料館に眠る数多の記録。中学生の頃から資料の手伝っている未名子は</div>
+      <div class="meta">2025-10-10 · 68e8837600</div>
+    </a>
+    <a class="site" href="notes/68e8773100000000070331a2/">
+      <img class="th" loading="lazy" src="notes/68e8773100000000070331a2/images/img1.jpg" alt="">
+      <div class="t">この島のできる限りすべての情報を守りたい、いつか全世界の真実と接続するように、世</div>
+      <div class="meta">2025-10-10 · 68e8773100</div>
+    </a>
+    <a class="site" href="notes/68e7d4d70000000007023d22/">
+      <img class="th" loading="lazy" src="notes/68e7d4d70000000007023d22/images/img1.jpg" alt="">
+      <div class="t">「Influences are something that can be bo</div>
+      <div class="meta">2025-10-09 · 68e7d4d700</div>
+    </a>
+    <a class="site" href="notes/68e752bb0000000007021ce3/">
+      <img class="th" loading="lazy" src="notes/68e752bb0000000007021ce3/images/img1.jpg" alt="">
+      <div class="t">「文系学部廃止」の衝撃についての話は「ほぼ絵空事」です😀</div>
+      <div class="meta">2025-10-09 · 68e752bb00</div>
+    </a>
+    <a class="site" href="notes/68e72ebf000000000702350a/">
+      <img class="th" loading="lazy" src="notes/68e72ebf000000000702350a/images/img1.jpg" alt="">
+      <div class="t">「当代书法极少有高古卓绝意味的，勾来拐去起承转折点划间尽是乖巧、算计与媚态」</div>
+      <div class="meta">2025-10-09 · 68e72ebf00</div>
+    </a>
+    <a class="site" href="notes/68e5a1e60000000007009dd3/">
+      <img class="th" loading="lazy" src="notes/68e5a1e60000000007009dd3/images/img1.jpg" alt="">
+      <div class="t">68e5a1e60000000007009dd3</div>
+      <div class="meta">2025-10-07 · 68e5a1e600</div>
+    </a>
+    <a class="site" href="notes/68e49621000000000703accd/">
+      <img class="th" loading="lazy" src="notes/68e49621000000000703accd/images/img1.jpg" alt="">
+      <div class="t">いざよいのつき </div>
+      <div class="meta">2025-10-07 · 68e4962100</div>
+    </a>
+    <a class="site" href="notes/68e3b024000000000701400a/">
+      <img class="th" loading="lazy" src="notes/68e3b024000000000701400a/images/img1.jpg" alt="">
+      <div class="t">台風があきれるほどしょっちゅうやって来るせいで、このあたりに建っている家は低くて</div>
+      <div class="meta">2025-10-06 · 68e3b02400</div>
+    </a>
+    <a class="site" href="notes/68e369330000000007022c23/">
+      <img class="th" loading="lazy" src="notes/68e369330000000007022c23/images/img1.jpg" alt="">
+      <div class="t">「aura farming」</div>
+      <div class="meta">2025-10-06 · 68e3693300</div>
+    </a>
+    <a class="site" href="notes/68e24c3500000000070036ed/">
+      <img class="th" loading="lazy" src="notes/68e24c3500000000070036ed/images/img1.jpg" alt="">
+      <div class="t">「到底是什么伟大前程，值得你我白白错过每个四季？」</div>
+      <div class="meta">2025-10-05 · 68e24c3500</div>
+    </a>
+    <a class="site" href="notes/68e0a02e000000000700df51/">
+      <img class="th" loading="lazy" src="notes/68e0a02e000000000700df51/images/img1.jpg" alt="">
+      <div class="t">编造辉煌的历史，许诺你精彩的未来，指向牺牲你的现在</div>
+      <div class="meta">2025-10-04 · 68e0a02e00</div>
+    </a>
+    <a class="site" href="notes/68df6a500000000007039819/">
+      <img class="th" loading="lazy" src="notes/68df6a500000000007039819/images/img1.jpg" alt="">
+      <div class="t">LYH是下饵的渔夫，XB则是无意识咬钩的鱼。也就是说，「质疑」是LYH这类野生公</div>
+      <div class="meta">2025-10-03 · 68df6a5000</div>
+    </a>
+    <a class="site" href="notes/68df66540000000007002e64/">
+      <img class="th" loading="lazy" src="notes/68df66540000000007002e64/images/img1.jpg" alt="">
+      <div class="t">When questioned, share but DON&#x27;T OVERSHA</div>
+      <div class="meta">2025-10-03 · 68df665400</div>
+    </a>
+    <a class="site" href="notes/68df62af00000000070368a6/">
+      <img class="th" loading="lazy" src="notes/68df62af00000000070368a6/images/img1.jpg" alt="">
+      <div class="t">「纵使千乘君～ 纵令万品食～」</div>
+      <div class="meta">2025-10-03 · 68df62af00</div>
+    </a>
+    <a class="site" href="notes/68df3db900000000070338e1/">
+      <img class="th" loading="lazy" src="notes/68df3db900000000070338e1/images/img1.jpg" alt="">
+      <div class="t">荒(あら)木(き)公(こう)平(へい)の人生は――人生というのがおおげさであるな</div>
+      <div class="meta">2025-10-03 · 68df3db900</div>
+    </a>
+    <a class="site" href="notes/68df32f60000000007030269/">
+      <img class="th" loading="lazy" src="notes/68df32f60000000007030269/images/img1.jpg" alt="">
+      <div class="t">应该将「～にもまして」整体视作一个独立的复合辞或复合格助词，其引导的成分，作为连</div>
+      <div class="meta">2025-10-03 · 68df32f600</div>
+    </a>
+    <a class="site" href="notes/68dd115000000000070322da/">
+      <img class="th" loading="lazy" src="notes/68dd115000000000070322da/images/img1.jpg" alt="">
+      <div class="t">不轻易共情乃至维护地位财富远高于自己的人，是普通人必备的自觉，也是抵御饭圈操控的</div>
+      <div class="meta">2025-10-01 · 68dd115000</div>
+    </a>
+    <a class="site" href="notes/68dc62980000000007016fd1/">
+      <img class="th" loading="lazy" src="notes/68dc62980000000007016fd1/images/img1.jpg" alt="">
+      <div class="t">粗粮语言学 tensile=yield</div>
+      <div class="meta">2025-09-30 · 68dc629800</div>
+    </a>
+    <a class="site" href="notes/68dbd2ca0000000007009e0f/">
+      <img class="th" loading="lazy" src="notes/68dbd2ca0000000007009e0f/images/img1.jpg" alt="">
+      <div class="t">*「没有一道预制菜」是企业目标</div>
+      <div class="meta">2025-09-30 · 68dbd2ca00</div>
+    </a>
+    <a class="site" href="notes/68dbd0290000000007021e43/">
+      <img class="th" loading="lazy" src="notes/68dbd0290000000007021e43/images/img1.jpg" alt="">
+      <div class="t">反者道之动， 弱者道之用</div>
+      <div class="meta">2025-09-30 · 68dbd02900</div>
+    </a>
+    <a class="site" href="notes/68da9f5c000000001300b1f7/">
+      <img class="th" loading="lazy" src="notes/68da9f5c000000001300b1f7/images/img1.jpg" alt="">
+      <div class="t">余量 </div>
+      <div class="meta">2025-09-29 · 68da9f5c00</div>
+    </a>
+    <a class="site" href="notes/68da5461000000001202c205/">
+      <img class="th" loading="lazy" src="notes/68da5461000000001202c205/images/img1.jpg" alt="">
+      <div class="t">「文無第一 武無第二」</div>
+      <div class="meta">2025-09-29 · 68da546100</div>
+    </a>
+    <a class="site" href="notes/68d9c6ab0000000012016812/">
+      <img class="th" loading="lazy" src="notes/68d9c6ab0000000012016812/images/img1.jpg" alt="">
+      <div class="t">坂道を急カーブしながら、私は窓の向こうで揺れている木々の、枝の先まで破裂しそうに</div>
+      <div class="meta">2025-09-28 · 68d9c6ab00</div>
+    </a>
+    <a class="site" href="notes/68d830180000000013004d17/">
+      <img class="th" loading="lazy" src="notes/68d830180000000013004d17/images/img1.jpg" alt="">
+      <div class="t">在高度媒介化、流量驱动的时代，将KOL在公共场域（尤其社交媒体）的显著言论（特别</div>
+      <div class="meta">2025-09-27 · 68d8301800</div>
+    </a>
+    <a class="site" href="notes/68d80f630000000012015ef5/">
+      <img class="th" loading="lazy" src="notes/68d80f630000000012015ef5/images/img1.jpg" alt="">
+      <div class="t">追问权力本质者众，其</div>
+      <div class="meta">2025-09-27 · 68d80f6300</div>
+    </a>
+    <a class="site" href="notes/68d7c480000000001300a25d/">
+      <img class="th" loading="lazy" src="notes/68d7c480000000001300a25d/images/img1.jpg" alt="">
+      <div class="t">你我购买的是产品/服务，不是理想人设的赎罪券。某某与某某某可以是优秀的创业者，某</div>
+      <div class="meta">2025-09-27 · 68d7c48000</div>
+    </a>
+    <a class="site" href="notes/68d7c0b1000000001203dc96/">
+      <img class="th" loading="lazy" src="notes/68d7c0b1000000001203dc96/images/img1.jpg" alt="">
+      <div class="t">若是预备探讨对方的动机，就不要对底线有任何期待</div>
+      <div class="meta">2025-09-27 · 68d7c0b100</div>
+    </a>
+    <a class="site" href="notes/68d776f6000000001203d84b/">
+      <img class="th" loading="lazy" src="notes/68d776f6000000001203d84b/images/img1.jpg" alt="">
+      <div class="t">Everyone has a little dirty laundry.美女也拉</div>
+      <div class="meta">2025-09-27 · 68d776f600</div>
+    </a>
+    <a class="site" href="notes/68d5e065000000001202f700/">
+      <img class="th" loading="lazy" src="notes/68d5e065000000001202f700/images/img1.jpg" alt="">
+      <div class="t">登味儿登峰造极 </div>
+      <div class="meta">2025-09-26 · 68d5e06500</div>
+    </a>
+    <a class="site" href="notes/68d5c90300000000130090bc/">
+      <img class="th" loading="lazy" src="notes/68d5c90300000000130090bc/images/img1.jpg" alt="">
+      <div class="t">無為名尸 無為謀府 </div>
+      <div class="meta">2025-09-25 · 68d5c90300</div>
+    </a>
+    <a class="site" href="notes/68d53f480000000012016078/">
+      <img class="th" loading="lazy" src="notes/68d53f480000000012016078/images/img1.jpg" alt="">
+      <div class="t">雨田君 哈哈 </div>
+      <div class="meta">2025-09-25 · 68d53f4800</div>
+    </a>
+    <a class="site" href="notes/68d50cfa000000001201f165/">
+      <img class="th" loading="lazy" src="notes/68d50cfa000000001201f165/images/img1.jpg" alt="">
+      <div class="t">一个被赋予深层意义的词汇，「支配关系」。它被视为一种结构性利益。任何试图扰动这种</div>
+      <div class="meta">2025-09-25 · 68d50cfa00</div>
+    </a>
+    <a class="site" href="notes/68d4e7e9000000001203137a/">
+      <img class="th" loading="lazy" src="notes/68d4e7e9000000001203137a/images/img1.jpg" alt="">
+      <div class="t">核融合発電技術が確立すれば＿/＿/＿/＿になるだろうと言われている。</div>
+      <div class="meta">2025-09-25 · 68d4e7e900</div>
+    </a>
+    <a class="site" href="notes/68d3a24d00000000130078c5/">
+      <img class="th" loading="lazy" src="notes/68d3a24d00000000130078c5/images/img1.jpg" alt="">
+      <div class="t">😀开局直接落高点呼叫战备无人机🙀</div>
+      <div class="meta">2025-09-24 · 68d3a24d00</div>
+    </a>
+    <a class="site" href="notes/68d39b7c00000000130050c8/">
+      <img class="th" loading="lazy" src="notes/68d39b7c00000000130050c8/images/img1.jpg" alt="">
+      <div class="t">石崎ひゅーい </div>
+      <div class="meta">2025-09-24 · 68d39b7c00</div>
+    </a>
+    <a class="site" href="notes/68d24cce000000001203043a/">
+      <img class="th" loading="lazy" src="notes/68d24cce000000001203043a/images/img1.jpg" alt="">
+      <div class="t">通过持续制造非核心争议以掩盖主业缺失，不断靠刺激社会情绪维持人设</div>
+      <div class="meta">2025-09-23 · 68d24cce00</div>
+    </a>
+    <a class="site" href="notes/68d140ca0000000012015c20/">
+      <img class="th" loading="lazy" src="notes/68d140ca0000000012015c20/images/img1.jpg" alt="">
+      <div class="t">一种商业行动主义(Business Activism) ：以社会运动的形式修辞包</div>
+      <div class="meta">2025-09-22 · 68d140ca00</div>
+    </a>
+    <a class="site" href="notes/68d05de7000000001202f389/">
+      <img class="th" loading="lazy" src="notes/68d05de7000000001202f389/images/img1.jpg" alt="">
+      <div class="t">巴别塔的故事是对因根本观念体系的分化与被分化而导致沟通失效、合作崩溃这一永恒困境</div>
+      <div class="meta">2025-09-21 · 68d05de700</div>
+    </a>
+    <a class="site" href="notes/68cfda8a000000001203c943/">
+      <img class="th" loading="lazy" src="notes/68cfda8a000000001203c943/images/img1.jpg" alt="">
+      <div class="t">移动互联网上满山遍野的二极管与U型锁，是罗这类野生公众人物生存的土壤。罗的核心能</div>
+      <div class="meta">2025-09-21 · 68cfda8a00</div>
+    </a>
+    <a class="site" href="notes/68cfb240000000001202c6f9/">
+      <img class="th" loading="lazy" src="notes/68cfb240000000001202c6f9/images/img1.jpg" alt="">
+      <div class="t">ハイキング </div>
+      <div class="meta">2025-09-21 · 68cfb24000</div>
+    </a>
+    <a class="site" href="notes/68cfa02a0000000013005b61/">
+      <img class="th" loading="lazy" src="notes/68cfa02a0000000013005b61/images/img1.jpg" alt="">
+      <div class="t">①しょくひんのふはいをぼうしする②こちらのほうがあらいようだ③いがくのしんぽによ</div>
+      <div class="meta">2025-09-21 · 68cfa02a00</div>
+    </a>
+    <a class="site" href="notes/68cf755300000000120307bb/">
+      <img class="th" loading="lazy" src="notes/68cf755300000000120307bb/images/img1.jpg" alt="">
+      <div class="t">“数字时代的算法社会本质上是前数字时代社会逻辑的技术性扩展——它以数字维度重构了</div>
+      <div class="meta">2025-09-21 · 68cf755300</div>
+    </a>
+    <a class="site" href="notes/68ce17fe000000001300bee0/">
+      <img class="th" loading="lazy" src="notes/68ce17fe000000001300bee0/images/img1.jpg" alt="">
+      <div class="t">解构开始的时间点，源于LYH模式对社会认知的消耗已超过贡献。也就是说，清算已至</div>
+      <div class="meta">2025-09-20 · 68ce17fe00</div>
+    </a>
+    <a class="site" href="notes/68ccb59c0000000013006ddf/">
+      <img class="th" loading="lazy" src="notes/68ccb59c0000000013006ddf/images/img1.jpg" alt="">
+      <div class="t">网络红人型野生公众人物的注意力套利模式: 每隔一段时间找一两家企业「公开处刑」(</div>
+      <div class="meta">2025-09-19 · 68ccb59c00</div>
+    </a>
+    <a class="site" href="notes/68cb6ae60000000012032ad5/">
+      <img class="th" loading="lazy" src="notes/68cb6ae60000000012032ad5/images/img1.jpg" alt="">
+      <div class="t">「电视购物」 </div>
+      <div class="meta">2025-09-18 · 68cb6ae600</div>
+    </a>
+    <a class="site" href="notes/68ca33e10000000012023f18/">
+      <img class="th" loading="lazy" src="notes/68ca33e10000000012023f18/images/img1.jpg" alt="">
+      <div class="t">一种思维能力的高度局限，主要体现在只能对现有事物和人评判，而缺乏其他维度的思考能</div>
+      <div class="meta">2025-09-17 · 68ca33e100</div>
+    </a>
+    <a class="site" href="notes/68c93cc500000000130086d3/">
+      <img class="th" loading="lazy" src="notes/68c93cc500000000130086d3/images/img1.jpg" alt="">
+      <div class="t">大瓜: 两个挂逼被官方实锤</div>
+      <div class="meta">2025-09-16 · 68c93cc500</div>
+    </a>
+    <a class="site" href="notes/68c8e19c0000000013004473/">
+      <img class="th" loading="lazy" src="notes/68c8e19c0000000013004473/images/img1.jpg" alt="">
+      <div class="t">「老登时代彻底结束」</div>
+      <div class="meta">2025-09-16 · 68c8e19c00</div>
+    </a>
+    <a class="site" href="notes/68c6688a000000001d00c444/">
+      <img class="th" loading="lazy" src="notes/68c6688a000000001d00c444/images/img1.jpg" alt="">
+      <div class="t">一緒に歩いていると思っていた人が突然じゃあねって、違う道を曲がっていく。どんなに</div>
+      <div class="meta">2025-09-14 · 68c6688a00</div>
+    </a>
+    <a class="site" href="notes/68c6534e000000001c03ff70/">
+      <img class="th" loading="lazy" src="notes/68c6534e000000001c03ff70/images/img1.jpg" alt="">
+      <div class="t">68c6534e000000001c03ff70</div>
+      <div class="meta">2025-09-14 · 68c6534e00</div>
+    </a>
+    <a class="site" href="notes/68c4f042000000001d01768b/">
+      <img class="th" loading="lazy" src="notes/68c4f042000000001d01768b/images/img1.jpg" alt="">
+      <div class="t">祇園精舎(ぎおんしょうじゃ)の鐘の声、諸行無常の響(ひびき)あり。娑羅双樹(しゃ</div>
+      <div class="meta">2025-09-13 · 68c4f04200</div>
+    </a>
+    <a class="site" href="notes/68c387fa000000001d0151db/">
+      <img class="th" loading="lazy" src="notes/68c387fa000000001d0151db/images/img1.jpg" alt="">
+      <div class="t">羽州田川郡清川の舟着き場に、酒田から最上川を遡(さかのぼ)って来た舟が着いた。</div>
+      <div class="meta">2025-09-12 · 68c387fa00</div>
+    </a>
+    <a class="site" href="notes/68c38786000000001d005665/">
+      <img class="th" loading="lazy" src="notes/68c38786000000001d005665/images/img1.jpg" alt="">
+      <div class="t">①ほにゃらら ②まるまる</div>
+      <div class="meta">2025-09-12 · 68c3878600</div>
+    </a>
+    <a class="site" href="notes/68c24f7d000000001d017b83/">
+      <img class="th" loading="lazy" src="notes/68c24f7d000000001d017b83/images/img1.jpg" alt="">
+      <div class="t">なんて⇦など+と </div>
+      <div class="meta">2025-09-11 · 68c24f7d00</div>
+    </a>
+    <a class="site" href="notes/68c237d7000000001d00ed45/">
+      <img class="th" loading="lazy" src="notes/68c237d7000000001d00ed45/images/img1.jpg" alt="">
+      <div class="t">ゆく川の流れは絶えずして、しかも、もとの水にあらず。淀(よど)みに浮かぶうたかた</div>
+      <div class="meta">2025-09-11 · 68c237d700</div>
+    </a>
+    <a class="site" href="notes/68c0fd23000000001d0100b9/">
+      <img class="th" loading="lazy" src="notes/68c0fd23000000001d0100b9/images/img1.jpg" alt="">
+      <div class="t">一九九五年四月十九日。仙台市にあるカトリック教会で、矢野布美子の葬儀がとり行われ</div>
+      <div class="meta">2025-09-10 · 68c0fd2300</div>
+    </a>
+    <a class="site" href="notes/68c0f640000000001d011ed4/">
+      <img class="th" loading="lazy" src="notes/68c0f640000000001d011ed4/images/img1.jpg" alt="">
+      <div class="t">秩序本身并无道德属性。道德属性是秩序体间互动的产物</div>
+      <div class="meta">2025-09-10 · 68c0f64000</div>
+    </a>
+    <a class="site" href="notes/68c0e74e000000001d014643/">
+      <img class="th" loading="lazy" src="notes/68c0e74e000000001d014643/images/img1.jpg" alt="">
+      <div class="t">语言是认知的指纹 </div>
+      <div class="meta">2025-09-10 · 68c0e74e00</div>
+    </a>
+    <a class="site" href="notes/68c0581c000000001d0141ab/">
+      <img class="th" loading="lazy" src="notes/68c0581c000000001d0141ab/images/img1.jpg" alt="">
+      <div class="t">所谓韧性不过是时空置换游戏的技巧，与制度道德属性无关。韧性只是延迟清算的表现。</div>
+      <div class="meta">2025-09-09 · 68c0581c00</div>
+    </a>
+    <a class="site" href="notes/68bf9d43000000001d009be2/">
+      <img class="th" loading="lazy" src="notes/68bf9d43000000001d009be2/images/img1.jpg" alt="">
+      <div class="t">上好下甚、 党同伐异</div>
+      <div class="meta">2025-09-09 · 68bf9d4300</div>
+    </a>
+    <a class="site" href="notes/68be9910000000001d0091db/">
+      <img class="th" loading="lazy" src="notes/68be9910000000001d0091db/images/img1.jpg" alt="">
+      <div class="t">「はかなさ」 </div>
+      <div class="meta">2025-09-08 · 68be991000</div>
+    </a>
+    <a class="site" href="notes/68be9639000000001d0134e2/">
+      <img class="th" loading="lazy" src="notes/68be9639000000001d0134e2/images/img1.jpg" alt="">
+      <div class="t">“SS作为唯一收入的原则” 的价值不在于它能否被立即完美执行（现实约束使然），而</div>
+      <div class="meta">2025-09-08 · 68be963900</div>
+    </a>
+    <a class="site" href="notes/68be6e34000000001d01111c/">
+      <img class="th" loading="lazy" src="notes/68be6e34000000001d01111c/images/img1.jpg" alt="">
+      <div class="t">一九二四年四月一日、わたしは、同日付のミュンヘン国民裁判所の判決によって、レヒ河</div>
+      <div class="meta">2025-09-08 · 68be6e3400</div>
+    </a>
+    <a class="site" href="notes/68bd8b80000000001d00aa9b/">
+      <img class="th" loading="lazy" src="notes/68bd8b80000000001d00aa9b/images/img1.jpg" alt="">
+      <div class="t">若将每个实词视为一个符号元，那么经过两个符号元组合后，组合体仍停留在「符号界」，</div>
+      <div class="meta">2025-09-07 · 68bd8b8000</div>
+    </a>
+    <a class="site" href="notes/68bd2bd2000000001d012b4c/">
+      <img class="th" loading="lazy" src="notes/68bd2bd2000000001d012b4c/images/img1.jpg" alt="">
+      <div class="t">如果我们向拉康学习，化用其思想，把对象界别划分为想象、符号与实在界(与拉康的划分</div>
+      <div class="meta">2025-09-07 · 68bd2bd200</div>
+    </a>
+    <a class="site" href="notes/68bcdbf4000000001c034c2b/">
+      <img class="th" loading="lazy" src="notes/68bcdbf4000000001c034c2b/images/img1.jpg" alt="">
+      <div class="t">だったら、 なにを❓</div>
+      <div class="meta">2025-09-07 · 68bcdbf400</div>
+    </a>
+    <a class="site" href="notes/68bcb2af000000001d007a47/">
+      <img class="th" loading="lazy" src="notes/68bcb2af000000001d007a47/images/img1.jpg" alt="">
+      <div class="t">〈ムムム〉は、庭先で両足を踏ん張って空を見上げていた。両手の指で拳銃の形をつくる</div>
+      <div class="meta">2025-09-06 · 68bcb2af00</div>
+    </a>
+    <a class="site" href="notes/68baf08c000000001d00a9a1/">
+      <img class="th" loading="lazy" src="notes/68baf08c000000001d00a9a1/images/img1.jpg" alt="">
+      <div class="t">「ゆうべのかれー、明日のパン」</div>
+      <div class="meta">2025-09-05 · 68baf08c00</div>
+    </a>
+    <a class="site" href="notes/68ba7f45000000001d000008/">
+      <img class="th" loading="lazy" src="notes/68ba7f45000000001d000008/images/img1.jpg" alt="">
+      <div class="t">符号的本质是一场精神领域的瘟疫。各种XY通过符号化表达引导人认识到这一本质并告别</div>
+      <div class="meta">2025-09-05 · 68ba7f4500</div>
+    </a>
+    <a class="site" href="notes/68ba5711000000001d00a088/">
+      <img class="th" loading="lazy" src="notes/68ba5711000000001d00a088/images/img1.jpg" alt="">
+      <div class="t">永续维持符号迷幻结界</div>
+      <div class="meta">2025-09-05 · 68ba571100</div>
+    </a>
+    <a class="site" href="notes/68ba3fff000000001d011154/">
+      <img class="th" loading="lazy" src="notes/68ba3fff000000001d011154/images/img1.jpg" alt="">
+      <div class="t">四月の晴れた寒い日だった。時計が十三時を打っている。ウィストン・スミスは不快な風</div>
+      <div class="meta">2025-09-05 · 68ba3fff00</div>
+    </a>
+    <a class="site" href="notes/68b922e9000000001c03d1e9/">
+      <img class="th" loading="lazy" src="notes/68b922e9000000001c03d1e9/images/img1.jpg" alt="">
+      <div class="t">「拉康说，大他者不存在。那个你想象中全知全能、拥有最终评判标准、能为人生提供终极</div>
+      <div class="meta">2025-09-04 · 68b922e900</div>
+    </a>
+    <a class="site" href="notes/68b918db000000001c034cb3/">
+      <img class="th" loading="lazy" src="notes/68b918db000000001c034cb3/images/img1.jpg" alt="">
+      <div class="t">日比谷交差点の地下鉄には、三つの路線が走っている。この辺り一帯を、たとえば有楽町</div>
+      <div class="meta">2025-09-04 · 68b918db00</div>
+    </a>
+    <a class="site" href="notes/68b7e53c000000001d004448/">
+      <img class="th" loading="lazy" src="notes/68b7e53c000000001d004448/images/img1.jpg" alt="">
+      <div class="t">「谁掌握了现在，谁就掌握了过去; 谁掌握了过去，谁就掌握了未来」</div>
+      <div class="meta">2025-09-03 · 68b7e53c00</div>
+    </a>
+    <a class="site" href="notes/68b7bfab000000001c036224/">
+      <img class="th" loading="lazy" src="notes/68b7bfab000000001c036224/images/img1.jpg" alt="">
+      <div class="t">ある日の暮れ方の事である。一人の下人が、羅生門の下で雨止みを待っていた。広い門の</div>
+      <div class="meta">2025-09-03 · 68b7bfab00</div>
+    </a>
+    <a class="site" href="notes/68b7bd0b000000001d01500e/">
+      <img class="th" loading="lazy" src="notes/68b7bd0b000000001d01500e/images/img1.jpg" alt="">
+      <div class="t">北宋的高俅高太尉虽未能列入「宋史・奸臣传」，其本人也不是蹴鞠发明者，但他作为一名</div>
+      <div class="meta">2025-09-03 · 68b7bd0b00</div>
+    </a>
+    <a class="site" href="notes/68b656c3000000001d00fe44/">
+      <img class="th" loading="lazy" src="notes/68b656c3000000001d00fe44/images/img1.jpg" alt="">
+      <div class="t">习惯性事事都引向单一归因的确是一种习惯性愚蠢</div>
+      <div class="meta">2025-09-02 · 68b656c300</div>
+    </a>
+    <a class="site" href="notes/68b64fd8000000001d012b4f/">
+      <img class="th" loading="lazy" src="notes/68b64fd8000000001d012b4f/images/img1.jpg" alt="">
+      <div class="t">昼休みの十分前、支店長が「そば食べたい」と言い出した。「おれが車出すから、みんな</div>
+      <div class="meta">2025-09-02 · 68b64fd800</div>
+    </a>
+    <a class="site" href="notes/68b4ea48000000001d01186c/">
+      <img class="th" loading="lazy" src="notes/68b4ea48000000001d01186c/images/img1.jpg" alt="">
+      <div class="t">がらんがらん、と古びた鈴にふさわしい濁った音が聞こえてきた。</div>
+      <div class="meta">2025-09-01 · 68b4ea4800</div>
+    </a>
+    <a class="site" href="notes/68b4df32000000001c034d5f/">
+      <img class="th" loading="lazy" src="notes/68b4df32000000001c034d5f/images/img1.jpg" alt="">
+      <div class="t">我在免费的才是最贵的的笔记下发布了一条评论</div>
+      <div class="meta">2025-08-31 · 68b4df3200</div>
+    </a>
+    <a class="site" href="notes/68b42071000000001d013871/">
+      <img class="th" loading="lazy" src="notes/68b42071000000001d013871/images/img1.jpg" alt="">
+      <div class="t">The decision was ”a financial one.”</div>
+      <div class="meta">2025-08-31 · 68b4207100</div>
+    </a>
+    <a class="site" href="notes/68b3fcc8000000001d007292/">
+      <img class="th" loading="lazy" src="notes/68b3fcc8000000001d007292/images/img1.jpg" alt="">
+      <div class="t">高太尉点兵就任 王教头夜走延安</div>
+      <div class="meta">2025-08-31 · 68b3fcc800</div>
+    </a>
+    <a class="site" href="notes/68b3f4f0000000001c03e77e/">
+      <img class="th" loading="lazy" src="notes/68b3f4f0000000001c03e77e/images/img1.jpg" alt="">
+      <div class="t">「遇洪而開」 </div>
+      <div class="meta">2025-08-31 · 68b3f4f000</div>
+    </a>
+    <a class="site" href="notes/68b29f2c000000001d010cf0/">
+      <img class="th" loading="lazy" src="notes/68b29f2c000000001d010cf0/images/img1.jpg" alt="">
+      <div class="t">符号空转 Idle Semiosis</div>
+      <div class="meta">2025-08-30 · 68b29f2c00</div>
+    </a>
+    <a class="site" href="notes/68b27b1d000000001d004d65/">
+      <img class="th" loading="lazy" src="notes/68b27b1d000000001d004d65/images/img1.jpg" alt="">
+      <div class="t">有一部根据「カラマゾフの兄弟」改编的话剧，名叫「正三角関係」</div>
+      <div class="meta">2025-08-30 · 68b27b1d00</div>
+    </a>
+    <a class="site" href="notes/68b23cf0000000001d0078b8/">
+      <img class="th" loading="lazy" src="notes/68b23cf0000000001d0078b8/images/img1.jpg" alt="">
+      <div class="t">高CX率本质上是一种「社会信任赤字」的货币化表达</div>
+      <div class="meta">2025-08-29 · 68b23cf000</div>
+    </a>
+    <a class="site" href="notes/68b16ca1000000001d006ee5/">
+      <img class="th" loading="lazy" src="notes/68b16ca1000000001d006ee5/images/img1.jpg" alt="">
+      <div class="t">自笛卡尔“我思故我在”以来，西方理性传统将“否定现状”等同于主体性的证明。实际上</div>
+      <div class="meta">2025-08-29 · 68b16ca100</div>
+    </a>
+    <a class="site" href="notes/68b10f82000000001d00f017/">
+      <img class="th" loading="lazy" src="notes/68b10f82000000001d00f017/images/img1.jpg" alt="">
+      <div class="t">「傻子荒」，即低成本高服从性人口资源的逐渐枯竭，可从全球人均GDP增长率约每60</div>
+      <div class="meta">2025-08-29 · 68b10f8200</div>
+    </a>
+    <a class="site" href="notes/68b10004000000001d00848a/">
+      <img class="th" loading="lazy" src="notes/68b10004000000001d00848a/images/img1.jpg" alt="">
+      <div class="t">われわれが日常の生活において自分の思うことや感じたこと(すなわち</div>
+      <div class="meta">2025-08-29 · 68b1000400</div>
+    </a>
+    <a class="site" href="notes/68afec9f000000001c03d678/">
+      <img class="th" loading="lazy" src="notes/68afec9f000000001c03d678/images/img1.jpg" alt="">
+      <div class="t">コンブチャ </div>
+      <div class="meta">2025-08-28 · 68afec9f00</div>
+    </a>
+    <a class="site" href="notes/68afcf15000000001d0051a4/">
+      <img class="th" loading="lazy" src="notes/68afcf15000000001d0051a4/images/img1.jpg" alt="">
+      <div class="t">思想に乏しいものが感情に脆い人に感情を込めて話す🗣</div>
+      <div class="meta">2025-08-28 · 68afcf1500</div>
+    </a>
+    <a class="site" href="notes/68afb576000000001d00b9f9/">
+      <img class="th" loading="lazy" src="notes/68afb576000000001d00b9f9/images/img1.jpg" alt="">
+      <div class="t">月がのぼったので海が匂った🌙🌊</div>
+      <div class="meta">2025-08-28 · 68afb57600</div>
+    </a>
+    <a class="site" href="notes/68ae6657000000001d01167d/">
+      <img class="th" loading="lazy" src="notes/68ae6657000000001d01167d/images/img1.jpg" alt="">
+      <div class="t">「脱掉你心中的无花果叶」</div>
+      <div class="meta">2025-08-27 · 68ae665700</div>
+    </a>
+    <a class="site" href="notes/68ae4c40000000001d00d8e8/">
+      <img class="th" loading="lazy" src="notes/68ae4c40000000001d00d8e8/images/img1.jpg" alt="">
+      <div class="t">私はその人を常に先生と呼んでいた。だからここでもただ先生と書くだけで本名は打ち明</div>
+      <div class="meta">2025-08-27 · 68ae4c4000</div>
+    </a>
+    <a class="site" href="notes/68ad2c24000000001c03601c/">
+      <img class="th" loading="lazy" src="notes/68ad2c24000000001c03601c/images/img1.jpg" alt="">
+      <div class="t">おじいちゃんとおばあちゃんが住む、秋しなの山の中では、真昼でも夜の欠片が消えない</div>
+      <div class="meta">2025-08-26 · 68ad2c2400</div>
+    </a>
+    <a class="site" href="notes/68ad09dd000000001d00a2ff/">
+      <img class="th" loading="lazy" src="notes/68ad09dd000000001d00a2ff/images/img1.jpg" alt="">
+      <div class="t">68ad09dd000000001d00a2ff</div>
+      <div class="meta">2025-08-26 · 68ad09dd00</div>
+    </a>
+    <a class="site" href="notes/68ac2ff6000000001d006f40/">
+      <img class="th" loading="lazy" src="notes/68ac2ff6000000001d006f40/images/img1.jpg" alt="">
+      <div class="t">静🦀 </div>
+      <div class="meta">2025-08-25 · 68ac2ff600</div>
+    </a>
+    <a class="site" href="notes/68aab3da000000001d0002b1/">
+      <img class="th" loading="lazy" src="notes/68aab3da000000001d0002b1/images/img1.jpg" alt="">
+      <div class="t">68aab3da000000001d0002b1</div>
+      <div class="meta">2025-08-24 · 68aab3da00</div>
+    </a>
+    <a class="site" href="notes/68aa74a7000000001c03e92b/">
+      <img class="th" loading="lazy" src="notes/68aa74a7000000001c03e92b/images/img1.jpg" alt="">
+      <div class="t">「按脖颈以上划分阵营与按脖颈以下划分阵营」</div>
+      <div class="meta">2025-08-24 · 68aa74a700</div>
+    </a>
+    <a class="site" href="notes/68aa67ca000000001d00ebf6/">
+      <img class="th" loading="lazy" src="notes/68aa67ca000000001d00ebf6/images/img1.jpg" alt="">
+      <div class="t">いつも彼にお世話になってます、どうも</div>
+      <div class="meta">2025-08-24 · 68aa67ca00</div>
+    </a>
+    <a class="site" href="notes/68a9279d000000001c03c350/">
+      <img class="th" loading="lazy" src="notes/68a9279d000000001c03c350/images/img1.jpg" alt="">
+      <div class="t">「世界是个草台班子」然后呢？不然呢</div>
+      <div class="meta">2025-08-23 · 68a9279d00</div>
+    </a>
+    <a class="site" href="notes/68a87c64000000001d0083c0/">
+      <img class="th" loading="lazy" src="notes/68a87c64000000001d0083c0/images/img1.jpg" alt="">
+      <div class="t">「走出非洲，占领地球，飞向火星，觊觎星空」</div>
+      <div class="meta">2025-08-22 · 68a87c6400</div>
+    </a>
+    <a class="site" href="notes/68a67833000000001d00d90a/">
+      <img class="th" loading="lazy" src="notes/68a67833000000001d00d90a/images/img1.jpg" alt="">
+      <div class="t">「理性是一座牢笼」 「若你一直学不会一本正经胡说八道，那么你就还在一直被这座理性</div>
+      <div class="meta">2025-08-21 · 68a6783300</div>
+    </a>
+    <a class="site" href="notes/68a55f1c000000001d014eac/">
+      <img class="th" loading="lazy" src="notes/68a55f1c000000001d014eac/images/img1.jpg" alt="">
+      <div class="t">全整的归全整 人类的归人类</div>
+      <div class="meta">2025-08-20 · 68a55f1c00</div>
+    </a>
+    <a class="site" href="notes/68a54386000000001d00082d/">
+      <img class="th" loading="lazy" src="notes/68a54386000000001d00082d/images/img1.jpg" alt="">
+      <div class="t">一种认知模式：与符号视域融合而不与文本视域融合。这赋予了受众所有方向上解读的权力</div>
+      <div class="meta">2025-08-20 · 68a5438600</div>
+    </a>
+    <a class="site" href="notes/68a52be2000000001d002e2a/">
+      <img class="th" loading="lazy" src="notes/68a52be2000000001d002e2a/images/img1.jpg" alt="">
+      <div class="t">承认「在原典译者所融合的视域内打转」也是一种诚实与勇气</div>
+      <div class="meta">2025-08-20 · 68a52be200</div>
+    </a>
+    <a class="site" href="notes/68a526db000000001d01724f/">
+      <img class="th" loading="lazy" src="notes/68a526db000000001d01724f/images/img1.jpg" alt="">
+      <div class="t">「真理即谬论」 只有内在自身否定自身的论断才为真理，即自我指涉，具备自反性。例如</div>
+      <div class="meta">2025-08-20 · 68a526db00</div>
+    </a>
+    <a class="site" href="notes/68a524c4000000001d00b133/">
+      <img class="th" loading="lazy" src="notes/68a524c4000000001d00b133/images/img1.jpg" alt="">
+      <div class="t">一种观点：「结构化思维」是一种懒惰</div>
+      <div class="meta">2025-08-20 · 68a524c400</div>
+    </a>
+    <a class="site" href="notes/68a410ec000000001d00369f/">
+      <img class="th" loading="lazy" src="notes/68a410ec000000001d00369f/images/img1.jpg" alt="">
+      <div class="t">不自觉且无目的地反复扰动他人认知，与下意识地持续对他人的扰动行为做出反应。这是绝</div>
+      <div class="meta">2025-08-19 · 68a410ec00</div>
+    </a>
+    <a class="site" href="notes/68a3ec20000000001d012734/">
+      <img class="th" loading="lazy" src="notes/68a3ec20000000001d012734/images/img1.jpg" alt="">
+      <div class="t">哲学的世界是思维的世界💨，信仰的世界是灵性的世界🔥，而知觉的世界才是人的世界</div>
+      <div class="meta">2025-08-19 · 68a3ec2000</div>
+    </a>
+    <a class="site" href="notes/68a310f1000000001d00d970/">
+      <img class="th" loading="lazy" src="notes/68a310f1000000001d00d970/images/img1.jpg" alt="">
+      <div class="t">「一是整体上体系性革新的阻力随代际递减; 二是对于体系的认同与拥护一直存在代际差</div>
+      <div class="meta">2025-08-18 · 68a310f100</div>
+    </a>
+    <a class="site" href="notes/68a297e4000000001c03facc/">
+      <img class="th" loading="lazy" src="notes/68a297e4000000001c03facc/images/img1.jpg" alt="">
+      <div class="t">「越是通过指责他者兽性来证明自己的高尚，就越需要压抑和否认自身潜在的同类欲望。因</div>
+      <div class="meta">2025-08-18 · 68a297e400</div>
+    </a>
+    <a class="site" href="notes/68a2915e000000001d00cb53/">
+      <img class="th" loading="lazy" src="notes/68a2915e000000001d00cb53/images/img1.jpg" alt="">
+      <div class="t">「少有人选择的道路ーー让信仰恢复野生状态：如高原格桑花自由开谢，不嫁接主义砧木；</div>
+      <div class="meta">2025-08-18 · 68a2915e00</div>
+    </a>
+    <a class="site" href="notes/68a23c78000000001d007567/">
+      <img class="th" loading="lazy" src="notes/68a23c78000000001d007567/images/img1.jpg" alt="">
+      <div class="t">自然作为系统的秩序得以形成与得到维系的基础在于鬣狗不伤害鬣狗，而非自然系统的秩序</div>
+      <div class="meta">2025-08-17 · 68a23c7800</div>
+    </a>
+    <a class="site" href="notes/68a16691000000001d00ac48/">
+      <img class="th" loading="lazy" src="notes/68a16691000000001d00ac48/images/img1.jpg" alt="">
+      <div class="t">「下游枯水的根本原因在于水从下游向上游倒流」</div>
+      <div class="meta">2025-08-17 · 68a1669100</div>
+    </a>
+    <a class="site" href="notes/68a160f0000000001d014922/">
+      <img class="th" loading="lazy" src="notes/68a160f0000000001d014922/images/img1.jpg" alt="">
+      <div class="t">GGRKS </div>
+      <div class="meta">2025-08-17 · 68a160f000</div>
+    </a>
+    <a class="site" href="notes/68a14ad4000000001c0348c4/">
+      <img class="th" loading="lazy" src="notes/68a14ad4000000001c0348c4/images/img1.jpg" alt="">
+      <div class="t">「不要别人一提问题你就下意识地开始想解决方案，这是一种应试教育在你头脑中留下的思</div>
+      <div class="meta">2025-08-17 · 68a14ad400</div>
+    </a>
+    <a class="site" href="notes/68a1472a000000001c037381/">
+      <img class="th" loading="lazy" src="notes/68a1472a000000001c037381/images/img1.jpg" alt="">
+      <div class="t">AI对三人成虎的理解</div>
+      <div class="meta">2025-08-17 · 68a1472a00</div>
+    </a>
+    <a class="site" href="notes/68a037c5000000001d017910/">
+      <img class="th" loading="lazy" src="notes/68a037c5000000001d017910/images/img1.jpg" alt="">
+      <div class="t">68a037c5000000001d017910</div>
+      <div class="meta">2025-08-16 · 68a037c500</div>
+    </a>
+    <a class="site" href="notes/689ff683000000001d01631b/">
+      <img class="th" loading="lazy" src="notes/689ff683000000001d01631b/images/img1.jpg" alt="">
+      <div class="t">那啥从不重复，但押韵。这基本否定了那些直接指向当下实践或面向未来的某种必然的思想</div>
+      <div class="meta">2025-08-16 · 689ff68300</div>
+    </a>
+    <a class="site" href="notes/689f0e3a000000001d000c79/">
+      <img class="th" loading="lazy" src="notes/689f0e3a000000001d000c79/images/img1.jpg" alt="">
+      <div class="t">最崇高的美德，是守护他人作「非我」的权利；最深邃的信仰，是在自己的圣殿外挂起「施</div>
+      <div class="meta">2025-08-15 · 689f0e3a00</div>
+    </a>
+    <a class="site" href="notes/689f0d7e000000001d0115f3/">
+      <img class="th" loading="lazy" src="notes/689f0d7e000000001d0115f3/images/img1.jpg" alt="">
+      <div class="t">以爱为名的屠宰场效率最高</div>
+      <div class="meta">2025-08-15 · 689f0d7e00</div>
+    </a>
+    <a class="site" href="notes/689ef362000000001d00ff72/">
+      <img class="th" loading="lazy" src="notes/689ef362000000001d00ff72/images/img1.jpg" alt="">
+      <div class="t">信仰与道德只许指向个体的内部秩序，不得外溢为改造他者的蓝图</div>
+      <div class="meta">2025-08-15 · 689ef36200</div>
+    </a>
+    <a class="site" href="notes/689e4555000000001c03eefb/">
+      <img class="th" loading="lazy" src="notes/689e4555000000001c03eefb/images/img1.jpg" alt="">
+      <div class="t">对虚构的态度选择构成了至少两种虚构模式：遮蔽虚构与透明虚构。前者冒头句强调「此间</div>
+      <div class="meta">2025-08-14 · 689e455500</div>
+    </a>
+    <a class="site" href="notes/689d3e3e000000001d005d83/">
+      <img class="th" loading="lazy" src="notes/689d3e3e000000001d005d83/images/img1.jpg" alt="">
+      <div class="t">「真正的爱不是感觉，而是一种神经系统的星际旅行能力——在无数个&#x27;他者宇宙&#x27;中穿梭</div>
+      <div class="meta">2025-08-14 · 689d3e3e00</div>
+    </a>
+    <a class="site" href="notes/689c7cef000000001d012fd5/">
+      <img class="th" loading="lazy" src="notes/689c7cef000000001d012fd5/images/img1.jpg" alt="">
+      <div class="t">少年：无论如何都不「能量输出」。这句话不解释也不接受辩驳</div>
+      <div class="meta">2025-08-13 · 689c7cef00</div>
+    </a>
+    <a class="site" href="notes/689c6fcc000000001d00ad2a/">
+      <img class="th" loading="lazy" src="notes/689c6fcc000000001d00ad2a/images/img1.jpg" alt="">
+      <div class="t">骆驼的脚印是骆驼的文字，正如日月星辰是造物者谱写的一段乐谱</div>
+      <div class="meta">2025-08-13 · 689c6fcc00</div>
+    </a>
+    <a class="site" href="notes/689ac555000000002501c5af/">
+      <img class="th" loading="lazy" src="notes/689ac555000000002501c5af/images/img1.jpg" alt="">
+      <div class="t">「莊犬夜吠」 </div>
+      <div class="meta">2025-08-12 · 689ac55500</div>
+    </a>
+    <a class="site" href="notes/689ab280000000002501987f/">
+      <img class="th" loading="lazy" src="notes/689ab280000000002501987f/images/img1.jpg" alt="">
+      <div class="t">「明知自己是宇宙的杂种却偏要在DNA里刻写星图」</div>
+      <div class="meta">2025-08-12 · 689ab28000</div>
+    </a>
+    <a class="site" href="notes/689a94eb000000002502a67b/">
+      <img class="th" loading="lazy" src="notes/689a94eb000000002502a67b/images/img1.jpg" alt="">
+      <div class="t">申韓慎 老莊犬 </div>
+      <div class="meta">2025-08-12 · 689a94eb00</div>
+    </a>
+    <a class="site" href="notes/689a89170000000025012260/">
+      <img class="th" loading="lazy" src="notes/689a89170000000025012260/images/img1.jpg" alt="">
+      <div class="t">アンティステネスを祖とするギリシア哲学の一派。ソクラテスの思想の一部を受け継ぎ、</div>
+      <div class="meta">2025-08-12 · 689a891700</div>
+    </a>
+    <a class="site" href="notes/6899fdec0000000025024505/">
+      <img class="th" loading="lazy" src="notes/6899fdec0000000025024505/images/img1.jpg" alt="">
+      <div class="t">现在回头看近些年的英译中，特别是在那些「非通俗」领域，其中的翻译伦理问题一言难尽</div>
+      <div class="meta">2025-08-11 · 6899fdec00</div>
+    </a>
+    <a class="site" href="notes/6899a5cf000000002501c62e/">
+      <img class="th" loading="lazy" src="notes/6899a5cf000000002501c62e/images/img1.jpg" alt="">
+      <div class="t">发现有些作品里有强解释欲的男的，都有很大的爹味。只要有人请教或是即使没人请教也会</div>
+      <div class="meta">2025-08-11 · 6899a5cf00</div>
+    </a>
+    <a class="site" href="notes/68987b7a0000000025015266/">
+      <img class="th" loading="lazy" src="notes/68987b7a0000000025015266/images/img1.jpg" alt="">
+      <div class="t">和和气气 不破不立 </div>
+      <div class="meta">2025-08-10 · 68987b7a00</div>
+    </a>
+    <a class="site" href="notes/68987b1e0000000025022550/">
+      <img class="th" loading="lazy" src="notes/68987b1e0000000025022550/images/img1.jpg" alt="">
+      <div class="t">所有怨言的最终指向：</div>
+      <div class="meta">2025-08-10 · 68987b1e00</div>
+    </a>
+    <a class="site" href="notes/68981172000000002502656e/">
+      <img class="th" loading="lazy" src="notes/68981172000000002502656e/images/img1.jpg" alt="">
+      <div class="t">68981172000000002502656e</div>
+      <div class="meta">2025-08-10 · 6898117200</div>
+    </a>
+    <a class="site" href="notes/68972c69000000002502b852/">
+      <img class="th" loading="lazy" src="notes/68972c69000000002502b852/images/img1.jpg" alt="">
+      <div class="t">&quot;生产力-生产关系&quot;这类高度简化的具有二维思维特征的的思想理论，都属于低维思维，</div>
+      <div class="meta">2025-08-09 · 68972c6900</div>
+    </a>
+    <a class="site" href="notes/6896c81c00000000250159e1/">
+      <img class="th" loading="lazy" src="notes/6896c81c00000000250159e1/images/img1.jpg" alt="">
+      <div class="t">致某位U型锁型评论者：</div>
+      <div class="meta">2025-08-09 · 6896c81c00</div>
+    </a>
+    <a class="site" href="notes/6896962400000000250227c7/">
+      <img class="th" loading="lazy" src="notes/6896962400000000250227c7/images/img1.jpg" alt="">
+      <div class="t">成为作者 </div>
+      <div class="meta">2025-08-09 · 6896962400</div>
+    </a>
+    <a class="site" href="notes/689575120000000025020500/">
+      <img class="th" loading="lazy" src="notes/689575120000000025020500/images/img1.jpg" alt="">
+      <div class="t">人只要成群结队，就会产生可怕的力量。关键课题在于如何纠集人以及成群结队的内部代谢</div>
+      <div class="meta">2025-08-08 · 6895751200</div>
+    </a>
+    <a class="site" href="notes/68955f57000000002501f456/">
+      <img class="th" loading="lazy" src="notes/68955f57000000002501f456/images/img1.jpg" alt="">
+      <div class="t">日语表存在的「イル」与「アル」的区别：</div>
+      <div class="meta">2025-08-08 · 68955f5700</div>
+    </a>
+    <a class="site" href="notes/68954bd6000000002501c87b/">
+      <img class="th" loading="lazy" src="notes/68954bd6000000002501c87b/images/img1.jpg" alt="">
+      <div class="t">「襁褓」 「享保」 「享保の飢饉」</div>
+      <div class="meta">2025-08-08 · 68954bd600</div>
+    </a>
+    <a class="site" href="notes/68954380000000002502bd43/">
+      <img class="th" loading="lazy" src="notes/68954380000000002502bd43/images/img1.jpg" alt="">
+      <div class="t">「万物斉等」 </div>
+      <div class="meta">2025-08-08 · 6895438000</div>
+    </a>
+    <a class="site" href="notes/6894aff30000000025016a7b/">
+      <img class="th" loading="lazy" src="notes/6894aff30000000025016a7b/images/img1.jpg" alt="">
+      <div class="t">只要不💢💢， 一切照舊継続</div>
+      <div class="meta">2025-08-07 · 6894aff300</div>
+    </a>
+    <a class="site" href="notes/6894a512000000002501fb94/">
+      <img class="th" loading="lazy" src="notes/6894a512000000002501fb94/images/img1.jpg" alt="">
+      <div class="t">这台打印机曾经多么光彩照人‼️&quot;你是来拯救我们的吧⁉️&quot;可现如今墨粉将尽，纸也马</div>
+      <div class="meta">2025-08-07 · 6894a51200</div>
+    </a>
+    <a class="site" href="notes/68949076000000022501df6d/">
+      <img class="th" loading="lazy" src="notes/68949076000000022501df6d/images/img1.jpg" alt="">
+      <div class="t">自从本尼迪克特的「菊与刀」开始，理解就被武器化了。被理解即被解除武装。所以，你还</div>
+      <div class="meta">2025-08-07 · 6894907600</div>
+    </a>
+    <a class="site" href="notes/6894461f0000000225013257/">
+      <img class="th" loading="lazy" src="notes/6894461f0000000225013257/images/img1.jpg" alt="">
+      <div class="t">都在引用《莫要靠谎言过日子》。不然呢❓</div>
+      <div class="meta">2025-08-07 · 6894461f00</div>
+    </a>
+    <a class="site" href="notes/6893ffd60000000225022a6a/">
+      <img class="th" loading="lazy" src="notes/6893ffd60000000225022a6a/images/img1.jpg" alt="">
+      <div class="t">6893ffd60000000225022a6a</div>
+      <div class="meta">2025-08-07 · 6893ffd600</div>
+    </a>
+    <a class="site" href="notes/6893ef44000000002501e19b/">
+      <img class="th" loading="lazy" src="notes/6893ef44000000002501e19b/images/img1.jpg" alt="">
+      <div class="t">6893ef44000000002501e19b</div>
+      <div class="meta">2025-08-07 · 6893ef4400</div>
+    </a>
+    <a class="site" href="notes/68934735000000002500ee4c/">
+      <img class="th" loading="lazy" src="notes/68934735000000002500ee4c/images/img1.jpg" alt="">
+      <div class="t">炉火虽渐燃渐熄，但灰飞烟灭前，一定会肆虐地吞吐火蛇，狂嘶出四个大字：</div>
+      <div class="meta">2025-08-06 · 6893473500</div>
+    </a>
+    <a class="site" href="notes/6892e86e000000002501e1c7/">
+      <img class="th" loading="lazy" src="notes/6892e86e000000002501e1c7/images/img1.jpg" alt="">
+      <div class="t">暴力-庇护-暧昧 </div>
+      <div class="meta">2025-08-06 · 6892e86e00</div>
+    </a>
+    <a class="site" href="notes/6892c159000000002502216e/">
+      <img class="th" loading="lazy" src="notes/6892c159000000002502216e/images/img1.jpg" alt="">
+      <div class="t">「我々はもはや 万物の尺度にあらず――</div>
+      <div class="meta">2025-08-06 · 6892c15900</div>
+    </a>
+    <a class="site" href="notes/6892b7de000000002501289b/">
+      <img class="th" loading="lazy" src="notes/6892b7de000000002501289b/images/img1.jpg" alt="">
+      <div class="t">今日も憑依よろしく🙇🙏💫</div>
+      <div class="meta">2025-08-06 · 6892b7de00</div>
+    </a>
+    <a class="site" href="notes/68921766000000002501352e/">
+      <img class="th" loading="lazy" src="notes/68921766000000002501352e/images/img1.jpg" alt="">
+      <div class="t">又一个干瘪的、雷声大雨点小的时代落幕了，很多议题都未见实质性进展。之所以如此，还</div>
+      <div class="meta">2025-08-05 · 6892176600</div>
+    </a>
+    <a class="site" href="notes/68920af4000000002501e862/">
+      <img class="th" loading="lazy" src="notes/68920af4000000002501e862/images/img1.jpg" alt="">
+      <div class="t">68920af4000000002501e862</div>
+      <div class="meta">2025-08-05 · 68920af400</div>
+    </a>
+    <a class="site" href="notes/6891f1e00000000225021c3a/">
+      <img class="th" loading="lazy" src="notes/6891f1e00000000225021c3a/images/img1.jpg" alt="">
+      <div class="t">「有意抹去多元个性的简化归类，往往是编织谎言的铺垫，制造对立的前提，以及分别之恶</div>
+      <div class="meta">2025-08-05 · 6891f1e000</div>
+    </a>
+    <a class="site" href="notes/6891b3e90000000025017de3/">
+      <img class="th" loading="lazy" src="notes/6891b3e90000000025017de3/images/img1.jpg" alt="">
+      <div class="t">「読み進めるほど、黄泉に近づく」</div>
+      <div class="meta">2025-08-05 · 6891b3e900</div>
+    </a>
+    <a class="site" href="notes/6891a599000000002500e18a/">
+      <img class="th" loading="lazy" src="notes/6891a599000000002500e18a/images/img1.jpg" alt="">
+      <div class="t">「理解不是发现隐藏的真理，而是在与文本的对话中建立新的视域融合」</div>
+      <div class="meta">2025-08-05 · 6891a59900</div>
+    </a>
+    <a class="site" href="notes/689173a90000000025016736/">
+      <img class="th" loading="lazy" src="notes/689173a90000000025016736/images/img1.jpg" alt="">
+      <div class="t">「人生的意义只在人生本身，人生除了人生以外没有任何其它的课题」</div>
+      <div class="meta">2025-08-05 · 689173a900</div>
+    </a>
+    <a class="site" href="notes/689080300000000025014f65/">
+      <img class="th" loading="lazy" src="notes/689080300000000025014f65/images/img1.jpg" alt="">
+      <div class="t">技术加持下，符号思维正在退位而知觉智能正在升维 。新词pre-malum意指人尚</div>
+      <div class="meta">2025-08-04 · 6890803000</div>
+    </a>
+    <a class="site" href="notes/68902c0f0000000025022e02/">
+      <img class="th" loading="lazy" src="notes/68902c0f0000000025022e02/images/img1.jpg" alt="">
+      <div class="t">盛世集粟， 乱世舍粥。</div>
+      <div class="meta">2025-08-04 · 68902c0f00</div>
+    </a>
+    <a class="site" href="notes/689010980000000025023cbd/">
+      <img class="th" loading="lazy" src="notes/689010980000000025023cbd/images/img1.jpg" alt="">
+      <div class="t">善良乞丐与无心劫匪 </div>
+      <div class="meta">2025-08-04 · 6890109800</div>
+    </a>
+    <a class="site" href="notes/688ffcfa000000002500e315/">
+      <img class="th" loading="lazy" src="notes/688ffcfa000000002500e315/images/img1.jpg" alt="">
+      <div class="t">有些人毕生寻求如何把自己的人生课题的重量，嫁接到他人的脊梁上</div>
+      <div class="meta">2025-08-04 · 688ffcfa00</div>
+    </a>
+    <a class="site" href="notes/688f6eda0000000025023a3b/">
+      <img class="th" loading="lazy" src="notes/688f6eda0000000025023a3b/images/img1.jpg" alt="">
+      <div class="t">一种犹如低等生物的应激反应式的思维模式: 总是就外界抛来的议题被动思考，而不是主</div>
+      <div class="meta">2025-08-03 · 688f6eda00</div>
+    </a>
+    <a class="site" href="notes/688f63280000000225011353/">
+      <img class="th" loading="lazy" src="notes/688f63280000000225011353/images/img1.jpg" alt="">
+      <div class="t">少年：主宰这个世界的关键，并不在于尔等所认知的工具与价值，而在于铸币权的归属，或</div>
+      <div class="meta">2025-08-03 · 688f632800</div>
+    </a>
+    <a class="site" href="notes/688f5834000000022501d304/">
+      <img class="th" loading="lazy" src="notes/688f5834000000022501d304/images/img1.jpg" alt="">
+      <div class="t">Here on this soil, in this era, courage </div>
+      <div class="meta">2025-08-03 · 688f583400</div>
+    </a>
+    <a class="site" href="notes/688f41c0000000002500d242/">
+      <img class="th" loading="lazy" src="notes/688f41c0000000002500d242/images/img1.jpg" alt="">
+      <div class="t">「世間とは君の知らない他人のことだよ」（所谓世间，不过是你素不相识的他人）</div>
+      <div class="meta">2025-08-03 · 688f41c000</div>
+    </a>
+    <a class="site" href="notes/688f1434000000002501d263/">
+      <img class="th" loading="lazy" src="notes/688f1434000000002501d263/images/img1.jpg" alt="">
+      <div class="t">在中国古代文人的“号”中，带有道教、道家思想或隐逸色彩的别号（自号）占据了极其重</div>
+      <div class="meta">2025-08-03 · 688f143400</div>
+    </a>
+    <a class="site" href="notes/688ebc60000000002502a500/">
+      <img class="th" loading="lazy" src="notes/688ebc60000000002502a500/images/img1.jpg" alt="">
+      <div class="t">...Der Staat ist für die Menschen da und</div>
+      <div class="meta">2025-08-03 · 688ebc6000</div>
+    </a>
+    <a class="site" href="notes/688e060e000000002502771b/">
+      <img class="th" loading="lazy" src="notes/688e060e000000002502771b/images/img1.jpg" alt="">
+      <div class="t">𠈻・俍・狼 </div>
+      <div class="meta">2025-08-02 · 688e060e00</div>
+    </a>
+    <a class="site" href="notes/688da67e00000000250145c8/">
+      <img class="th" loading="lazy" src="notes/688da67e00000000250145c8/images/img1.jpg" alt="">
+      <div class="t">实然世界宣言： 永不踏入他人描绘的应然世界。</div>
+      <div class="meta">2025-08-02 · 688da67e00</div>
+    </a>
+    <a class="site" href="notes/688d87e5000000022501a777/">
+      <img class="th" loading="lazy" src="notes/688d87e5000000022501a777/images/img1.jpg" alt="">
+      <div class="t">种花人养着一株红花，根都烂掉了，可种花人为了维护身为花匠的体面，还在装模作样精心</div>
+      <div class="meta">2025-08-02 · 688d87e500</div>
+    </a>
+    <a class="site" href="notes/688d700e000000002500c3f9/">
+      <img class="th" loading="lazy" src="notes/688d700e000000002500c3f9/images/img1.jpg" alt="">
+      <div class="t">摆脱谏言情结，放下谏言冲动，逃离谏言情境，释放谏言对象</div>
+      <div class="meta">2025-08-02 · 688d700e00</div>
+    </a>
+    <a class="site" href="notes/688d6e130000000025027242/">
+      <img class="th" loading="lazy" src="notes/688d6e130000000025027242/images/img1.jpg" alt="">
+      <div class="t">「差生文具多」指的可不止是差生文具多，人生亦如此。虽都赤条条地来，再这样或那样与</div>
+      <div class="meta">2025-08-02 · 688d6e1300</div>
+    </a>
+    <a class="site" href="notes/688d60f30000000225018eff/">
+      <img class="th" loading="lazy" src="notes/688d60f30000000225018eff/images/img1.jpg" alt="">
+      <div class="t">当初原著选读那门课没好好学现在有点后悔搁今天怎么着也得顺带学个德语再加上练会毛体</div>
+      <div class="meta">2025-08-02 · 688d60f300</div>
+    </a>
+    <a class="site" href="notes/688c97f50000000025016b41/">
+      <img class="th" loading="lazy" src="notes/688c97f50000000025016b41/images/img1.jpg" alt="">
+      <div class="t">前赴后继，效用临界 </div>
+      <div class="meta">2025-08-01 · 688c97f500</div>
+    </a>
+    <a class="site" href="notes/688c2b4200000002250139d4/">
+      <img class="th" loading="lazy" src="notes/688c2b4200000002250139d4/images/img1.jpg" alt="">
+      <div class="t">&quot;当规训失去宿主，市井拒斥认证，公章帝国的黄昏即至&quot;</div>
+      <div class="meta">2025-08-01 · 688c2b4200</div>
+    </a>
+    <a class="site" href="notes/688c1fb7000000002500fc69/">
+      <img class="th" loading="lazy" src="notes/688c1fb7000000002500fc69/images/img1.jpg" alt="">
+      <div class="t">「从树上现摘的鲜核桃」</div>
+      <div class="meta">2025-08-01 · 688c1fb700</div>
+    </a>
+    <a class="site" href="notes/688b8a5700000000250109c6/">
+      <img class="th" loading="lazy" src="notes/688b8a5700000000250109c6/images/img1.jpg" alt="">
+      <div class="t">三位思想家的生平简介</div>
+      <div class="meta">2025-07-31 · 688b8a5700</div>
+    </a>
+    <a class="site" href="notes/688b799e000000002502ba34/">
+      <img class="th" loading="lazy" src="notes/688b799e000000002502ba34/images/img1.jpg" alt="">
+      <div class="t">人工智能体时代最先现原形的是那些冒充信仰且自诩真理的YSXT，尤其是那些具有&quot;个</div>
+      <div class="meta">2025-07-31 · 688b799e00</div>
+    </a>
+    <a class="site" href="notes/688b3592000000002501900b/">
+      <img class="th" loading="lazy" src="notes/688b3592000000002501900b/images/img1.jpg" alt="">
+      <div class="t">通胀本质上是一种可被技术分析的通过侵蚀货币购买力实现财富再分配的隐形税，可作为一</div>
+      <div class="meta">2025-07-31 · 688b359200</div>
+    </a>
+    <a class="site" href="notes/688b28bf000000022502118f/">
+      <img class="th" loading="lazy" src="notes/688b28bf000000022502118f/images/img1.jpg" alt="">
+      <div class="t">コノ報告書ハ改竄サレテオリ、信頼性が失ワレテイル</div>
+      <div class="meta">2025-07-31 · 688b28bf00</div>
+    </a>
+    <a class="site" href="notes/6889aca20000000225019206/">
+      <img class="th" loading="lazy" src="notes/6889aca20000000225019206/images/img1.jpg" alt="">
+      <div class="t">人类历史上最为安静的一场清算：</div>
+      <div class="meta">2025-07-30 · 6889aca200</div>
+    </a>
+    <a class="site" href="notes/688946b80000000225019210/">
+      <img class="th" loading="lazy" src="notes/688946b80000000225019210/images/img1.jpg" alt="">
+      <div class="t">有人说当代年轻人信奉的是马基雅维利与新社达。个人比较接受「動物化生存」与「去意义</div>
+      <div class="meta">2025-07-29 · 688946b800</div>
+    </a>
+    <a class="site" href="notes/6888b24b000000022501cb7a/">
+      <img class="th" loading="lazy" src="notes/6888b24b000000022501cb7a/images/img1.jpg" alt="">
+      <div class="t">不触动体系的个别个体性纠错，属于内部争斗而非体系性自我净化。这是一种侮辱观众的拙</div>
+      <div class="meta">2025-07-29 · 6888b24b00</div>
+    </a>
+    <a class="site" href="notes/688888f9000000002501adb7/">
+      <img class="th" loading="lazy" src="notes/688888f9000000002501adb7/images/img1.jpg" alt="">
+      <div class="t">On Abstraction</div>
+      <div class="meta">2025-07-29 · 688888f900</div>
+    </a>
+    <a class="site" href="notes/68880e1e0000000025028457/">
+      <img class="th" loading="lazy" src="notes/68880e1e0000000025028457/images/img1.jpg" alt="">
+      <div class="t">简化是「抽象」这棱枚镜的一面，是这届文明在认知方面的顽疾。其还有一重面相：刻满文</div>
+      <div class="meta">2025-07-28 · 68880e1e00</div>
+    </a>
+    <a class="site" href="notes/6887686f000000022502c544/">
+      <img class="th" loading="lazy" src="notes/6887686f000000022502c544/images/img1.jpg" alt="">
+      <div class="t">时代结构的镜像 </div>
+      <div class="meta">2025-07-28 · 6887686f00</div>
+    </a>
+    <a class="site" href="notes/68873ef50000000012014a3e/">
+      <img class="th" loading="lazy" src="notes/68873ef50000000012014a3e/images/img1.jpg" alt="">
+      <div class="t">68873ef50000000012014a3e</div>
+      <div class="meta">2025-07-28 · 68873ef500</div>
+    </a>
+    <a class="site" href="notes/6887271b000000000b01c370/">
+      <img class="th" loading="lazy" src="notes/6887271b000000000b01c370/images/img1.jpg" alt="">
+      <div class="t">十年之蛊。恶不在蛊，恶在蛊主</div>
+      <div class="meta">2025-07-28 · 6887271b00</div>
+    </a>
+    <a class="site" href="notes/688724230000000010024c31/">
+      <img class="th" loading="lazy" src="notes/688724230000000010024c31/images/img1.jpg" alt="">
+      <div class="t">那件事，终于有只靴子落地，有感。总之还是跳不出「认识-批判-理解-成为」这样的怪</div>
+      <div class="meta">2025-07-28 · 6887242300</div>
+    </a>
+    <a class="site" href="notes/6887219800000000110027e5/">
+      <img class="th" loading="lazy" src="notes/6887219800000000110027e5/images/img1.jpg" alt="">
+      <div class="t">一种热爱的精神姿态:</div>
+      <div class="meta">2025-07-28 · 6887219800</div>
+    </a>
+    <a class="site" href="notes/68871ed700000000120166b3/">
+      <img class="th" loading="lazy" src="notes/68871ed700000000120166b3/images/img1.jpg" alt="">
+      <div class="t">何处不羇旅 </div>
+      <div class="meta">2025-07-28 · 68871ed700</div>
+    </a>
+    <a class="site" href="notes/688708de000000000d025c49/">
+      <img class="th" loading="lazy" src="notes/688708de000000000d025c49/images/img1.jpg" alt="">
+      <div class="t">当“回收”作为显性动作浮现时，通常意味着背后存在更复杂的权力再分配进程</div>
+      <div class="meta">2025-07-28 · 688708de00</div>
+    </a>
+    <a class="site" href="notes/6886f7a200000000110029c8/">
+      <img class="th" loading="lazy" src="notes/6886f7a200000000110029c8/images/img1.jpg" alt="">
+      <div class="t">每件渺小的物件里，都藏着未被意识形态玷染的灵魂</div>
+      <div class="meta">2025-07-28 · 6886f7a200</div>
+    </a>
+    <a class="site" href="notes/68861f490000000010026d82/">
+      <img class="th" loading="lazy" src="notes/68861f490000000010026d82/images/img1.jpg" alt="">
+      <div class="t">饕餮之宴 </div>
+      <div class="meta">2025-07-27 · 68861f4900</div>
+    </a>
+    <a class="site" href="notes/6885c6ea000000000b01ef2c/">
+      <img class="th" loading="lazy" src="notes/6885c6ea000000000b01ef2c/images/img1.jpg" alt="">
+      <div class="t">ꉂ🤣天上一囫囵 ꉂ😂地下一窟窿</div>
+      <div class="meta">2025-07-27 · 6885c6ea00</div>
+    </a>
+    <a class="site" href="notes/6885a78a0000000010025e85/">
+      <img class="th" loading="lazy" src="notes/6885a78a0000000010025e85/images/img1.jpg" alt="">
+      <div class="t">6885a78a0000000010025e85</div>
+      <div class="meta">2025-07-27 · 6885a78a00</div>
+    </a>
+    <a class="site" href="notes/688577e4000000020d012a9c/">
+      <img class="th" loading="lazy" src="notes/688577e4000000020d012a9c/images/img1.jpg" alt="">
+      <div class="t">688577e4000000020d012a9c</div>
+      <div class="meta">2025-07-27 · 688577e400</div>
+    </a>
+    <a class="site" href="notes/68847635000000001201633f/">
+      <img class="th" loading="lazy" src="notes/68847635000000001201633f/images/img1.jpg" alt="">
+      <div class="t">#戲臺 每个人所渡过的，都是在洪大帅蓝大帅或远或近或明或暗的枪口的胁迫下的自我监</div>
+      <div class="meta">2025-07-26 · 6884763500</div>
+    </a>
+    <a class="site" href="notes/688427cb00000000120165aa/">
+      <img class="th" loading="lazy" src="notes/688427cb00000000120165aa/images/img1.jpg" alt="">
+      <div class="t">少年，请务必牢记：凡他人赋予的意义，隐藏着他人的算计。&quot;真正的意义，在意义之外&quot;</div>
+      <div class="meta">2025-07-26 · 688427cb00</div>
+    </a>
+    <a class="site" href="notes/68839b7f000000020b01446d/">
+      <img class="th" loading="lazy" src="notes/68839b7f000000020b01446d/images/img1.jpg" alt="">
+      <div class="t">戏台 虚华实境。有哪个戏班的境遇与侯班主的不相通，又有哪个大王不似洪大帅，投机于</div>
+      <div class="meta">2025-07-25 · 68839b7f00</div>
+    </a>
+    <a class="site" href="notes/68836c990000000011001dad/">
+      <img class="th" loading="lazy" src="notes/68836c990000000011001dad/images/img1.jpg" alt="">
+      <div class="t">日本文学的魔力在于拒绝将人简化——既不像中国的文以载道，通过文学用“道”提纯人性</div>
+      <div class="meta">2025-07-25 · 68836c9900</div>
+    </a>
+    <a class="site" href="notes/6882ef1c000000000d019242/">
+      <img class="th" loading="lazy" src="notes/6882ef1c000000000d019242/images/img1.jpg" alt="">
+      <div class="t">《细雪》译本质量的三个评判维度:完整性、翻译伦理和美学体系传达。综合来看，储元熹</div>
+      <div class="meta">2025-07-25 · 6882ef1c00</div>
+    </a>
+    <a class="site" href="notes/6882c6a3000000000d019bcc/">
+      <img class="th" loading="lazy" src="notes/6882c6a3000000000d019bcc/images/img1.jpg" alt="">
+      <div class="t">Z译本如同将谷崎手稿浸入漂白水——褪去阴翳的纹理，熨平文化褶皱，最终产出光滑苍白</div>
+      <div class="meta">2025-07-24 · 6882c6a300</div>
+    </a>
+    <a class="site" href="notes/68818d480000000012014b91/">
+      <img class="th" loading="lazy" src="notes/68818d480000000012014b91/images/img1.jpg" alt="">
+      <div class="t">「エクソフォニー」（exophony / 异语性）是由日本作家多和田叶子提出的核</div>
+      <div class="meta">2025-07-24 · 68818d4800</div>
+    </a>
+    <a class="site" href="notes/68801f4c000000000d01b48e/">
+      <img class="th" loading="lazy" src="notes/68801f4c000000000d01b48e/images/img1.jpg" alt="">
+      <div class="t">一种思维框架: 结构化分析+有意剥离干扰因素。无论如何，看待社会现象时，都要熟稔</div>
+      <div class="meta">2025-07-22 · 68801f4c00</div>
+    </a>
+    <a class="site" href="notes/6880192b000000000d01abed/">
+      <img class="th" loading="lazy" src="notes/6880192b000000000d01abed/images/img1.jpg" alt="">
+      <div class="t">剥离了德性批判的成分后的暴走团现象其实可视作一种集体的体制性反抗，至少从其成因上</div>
+      <div class="meta">2025-07-22 · 6880192b00</div>
+    </a>
+    <a class="site" href="notes/68801545000000000d025537/">
+      <img class="th" loading="lazy" src="notes/68801545000000000d025537/images/img1.jpg" alt="">
+      <div class="t">读书、旅行、留学，这些并非为着拓展视野或增长见识，而是给自己一个机会，从长期浸润</div>
+      <div class="meta">2025-07-22 · 6880154500</div>
+    </a>
+    <a class="site" href="notes/687fa6c10000000012014b4b/">
+      <img class="th" loading="lazy" src="notes/687fa6c10000000012014b4b/images/img1.jpg" alt="">
+      <div class="t">下人侍主如低枝(シモ)</div>
+      <div class="meta">2025-07-22 · 687fa6c100</div>
+    </a>
+    <a class="site" href="notes/687f915e000000000d024594/">
+      <img class="th" loading="lazy" src="notes/687f915e000000000d024594/images/img1.jpg" alt="">
+      <div class="t">“心有猛虎，细嗅蔷薇”是诗人余光中翻译英国诗人西格夫里·萨松诗句&quot;In me t</div>
+      <div class="meta">2025-07-22 · 687f915e00</div>
+    </a>
+    <a class="site" href="notes/687f19b1000000001001225d/">
+      <img class="th" loading="lazy" src="notes/687f19b1000000001001225d/images/img1.jpg" alt="">
+      <div class="t">偶因狂疾成殊類 災患相仍不可逃</div>
+      <div class="meta">2025-07-22 · 687f19b100</div>
+    </a>
+    <a class="site" href="notes/687e3abe00000000110012f3/">
+      <img class="th" loading="lazy" src="notes/687e3abe00000000110012f3/images/img1.jpg" alt="">
+      <div class="t">极度不理解跟跳的队友最后最后不脱离然后非得进同一间房子一起抢着搜装备完了还时不时</div>
+      <div class="meta">2025-07-21 · 687e3abe00</div>
+    </a>
+    <a class="site" href="notes/687daa620000000010012ca2/">
+      <img class="th" loading="lazy" src="notes/687daa620000000010012ca2/images/img1.jpg" alt="">
+      <div class="t">若希望早一点觉醒，可以刻意与自己所处的社会文化语境有一定的疏离感，即哲学家所言的</div>
+      <div class="meta">2025-07-21 · 687daa6200</div>
+    </a>
+    <a class="site" href="notes/687d863c0000000010010545/">
+      <img class="th" loading="lazy" src="notes/687d863c0000000010010545/images/img1.jpg" alt="">
+      <div class="t">高等教育体系已启动对&quot;伪学科&quot;的清算？太多的外语专业被办成了高级语言培训班，一直</div>
+      <div class="meta">2025-07-21 · 687d863c00</div>
+    </a>
+    <a class="site" href="notes/687cf566000000000d01bfb2/">
+      <img class="th" loading="lazy" src="notes/687cf566000000000d01bfb2/images/img1.jpg" alt="">
+      <div class="t">我在✨Anna的小日子的笔记下发布了一条评论</div>
+      <div class="meta">2025-07-20 · 687cf56600</div>
+    </a>
+    <a class="site" href="notes/687c549e000000000d01b563/">
+      <img class="th" loading="lazy" src="notes/687c549e000000000d01b563/images/img1.jpg" alt="">
+      <div class="t">卡视野时最好不要持枪顶墙绝大多数情况下这样都会穿模有可能暴露精确位置最佳做法是主</div>
+      <div class="meta">2025-07-20 · 687c549e00</div>
+    </a>
+    <a class="site" href="notes/687c3776000000000d01be98/">
+      <img class="th" loading="lazy" src="notes/687c3776000000000d01be98/images/img1.jpg" alt="">
+      <div class="t">美女也拉粑粑 </div>
+      <div class="meta">2025-07-20 · 687c377600</div>
+    </a>
+    <a class="site" href="notes/687b9062000000000d0258ba/">
+      <img class="th" loading="lazy" src="notes/687b9062000000000d0258ba/images/img1.jpg" alt="">
+      <div class="t">“某些拼配豆中罗豆配比过高会导致咖啡中咖啡因浓度过高从而导致心慌，而之所以配搭罗</div>
+      <div class="meta">2025-07-19 · 687b906200</div>
+    </a>
+    <a class="site" href="notes/687b50c4000000000b02fd23/">
+      <img class="th" loading="lazy" src="notes/687b50c4000000000b02fd23/images/img1.jpg" alt="">
+      <div class="t">有些东西，例如人文社科，高度情境化，离开了历史与社会语境就如同胡说八道</div>
+      <div class="meta">2025-07-19 · 687b50c400</div>
+    </a>
+    <a class="site" href="notes/687b169100000000100264de/">
+      <img class="th" loading="lazy" src="notes/687b169100000000100264de/images/img1.jpg" alt="">
+      <div class="t">GL机构具有固有扩张倾向——通过制造复杂流程维系存在感</div>
+      <div class="meta">2025-07-19 · 687b169100</div>
+    </a>
+    <a class="site" href="notes/687b0cf1000000000b02da94/">
+      <img class="th" loading="lazy" src="notes/687b0cf1000000000b02da94/images/img1.jpg" alt="">
+      <div class="t">おじいちゃんとおばあちゃんが住む、秋級の大きな山の中では、真昼でも夜の欠片が消え</div>
+      <div class="meta">2025-07-19 · 687b0cf100</div>
+    </a>
+    <a class="site" href="notes/6879b06d0000000010010e14/">
+      <img class="th" loading="lazy" src="notes/6879b06d0000000010010e14/images/img1.jpg" alt="">
+      <div class="t">确如你所言，我们每个人都像在空气中游泳的鱼，都被囚禁在一个盛满诱惑与恐怖的透明器</div>
+      <div class="meta">2025-07-18 · 6879b06d00</div>
+    </a>
+    <a class="site" href="notes/68799775000000000b01e3b4/">
+      <img class="th" loading="lazy" src="notes/68799775000000000b01e3b4/images/img1.jpg" alt="">
+      <div class="t">少买破烂货 少买破烂货</div>
+      <div class="meta">2025-07-18 · 6879977500</div>
+    </a>
+    <a class="site" href="notes/68797bad000000000d01960a/">
+      <img class="th" loading="lazy" src="notes/68797bad000000000d01960a/images/img1.jpg" alt="">
+      <div class="t">发展的终极目的不是数字图腾，而是让人免于匮乏的自由。 继续延迟分配，等同于宣告：</div>
+      <div class="meta">2025-07-17 · 68797bad00</div>
+    </a>
+    <a class="site" href="notes/68791d690000000012014d60/">
+      <img class="th" loading="lazy" src="notes/68791d690000000012014d60/images/img1.jpg" alt="">
+      <div class="t">听说四字那事有结果了。议论纷纷，指摘那谎太离谱。其实最该做的是加入扯谎的行列，而</div>
+      <div class="meta">2025-07-17 · 68791d6900</div>
+    </a>
+    <a class="site" href="notes/68785faa000000000d025dc5/">
+      <img class="th" loading="lazy" src="notes/68785faa000000000d025dc5/images/img1.jpg" alt="">
+      <div class="t">身份是一种建构，流动且可操控。阶层身份常被用作符号性面具，服务于职业表演并最终落</div>
+      <div class="meta">2025-07-17 · 68785faa00</div>
+    </a>
+    <a class="site" href="notes/6876cda800000000100103dd/">
+      <img class="th" loading="lazy" src="notes/6876cda800000000100103dd/images/img1.jpg" alt="">
+      <div class="t">「世间伪者，伎俩虽多，其核心无非三步：虚构一个辉煌的过去，许诺一个光明的未来，然</div>
+      <div class="meta">2025-07-15 · 6876cda800</div>
+    </a>
+    <a class="site" href="notes/6876b73e000000001001379b/">
+      <img class="th" loading="lazy" src="notes/6876b73e000000001001379b/images/img1.jpg" alt="">
+      <div class="t">无论如何你我都不可能活着离开这个世界</div>
+      <div class="meta">2025-07-15 · 6876b73e00</div>
+    </a>
+    <a class="site" href="notes/6876235e000000000b02d38b/">
+      <img class="th" loading="lazy" src="notes/6876235e000000000b02d38b/images/img1.jpg" alt="">
+      <div class="t">要说喜欢的当代政治人物，还得说这两位:日本首相石破茂和阿根廷总统米莱。石演讲时，</div>
+      <div class="meta">2025-07-15 · 6876235e00</div>
+    </a>
+    <a class="site" href="notes/68761c0b0000000010026506/">
+      <img class="th" loading="lazy" src="notes/68761c0b0000000010026506/images/img1.jpg" alt="">
+      <div class="t">「有些适用于中年人的道理，不一定适用于少年人」但人最喜欢做的就是在社交媒体上无差</div>
+      <div class="meta">2025-07-15 · 68761c0b00</div>
+    </a>
+    <a class="site" href="notes/6875ecae0000000011003fe9/">
+      <img class="th" loading="lazy" src="notes/6875ecae0000000011003fe9/images/img1.jpg" alt="">
+      <div class="t">「驚き桃の木山椒の木、ブリキに狸に蓄音機」</div>
+      <div class="meta">2025-07-15 · 6875ecae00</div>
+    </a>
+    <a class="site" href="notes/6875d0d500000000100132bd/">
+      <img class="th" loading="lazy" src="notes/6875d0d500000000100132bd/images/img1.jpg" alt="">
+      <div class="t">“日韩是先行服” </div>
+      <div class="meta">2025-07-15 · 6875d0d500</div>
+    </a>
+    <a class="site" href="notes/6875cf060000000012015f89/">
+      <img class="th" loading="lazy" src="notes/6875cf060000000012015f89/images/img1.jpg" alt="">
+      <div class="t">世上哪还有未曾被战火蹂躏过，未曾弥漫过硝烟，未曾被献血浸染过的角落，又有哪一种文</div>
+      <div class="meta">2025-07-15 · 6875cf0600</div>
+    </a>
+    <a class="site" href="notes/6873531000000000100102ce/">
+      <img class="th" loading="lazy" src="notes/6873531000000000100102ce/images/img1.jpg" alt="">
+      <div class="t">游戏的精彩在于玩家之间基于规则的、多样的、可预测（通过学习）的博弈（刚/苟/老六</div>
+      <div class="meta">2025-07-13 · 6873531000</div>
+    </a>
+    <a class="site" href="notes/68733b710000000012016582/">
+      <img class="th" loading="lazy" src="notes/68733b710000000012016582/images/img1.jpg" alt="">
+      <div class="t">换个视角看文化ーー哀荣，一种将ZZ、伦理、艺术熔铸为一体的美学。若哀荣美学有段位</div>
+      <div class="meta">2025-07-13 · 68733b7100</div>
+    </a>
+    <a class="site" href="notes/68732457000000000b02de61/">
+      <img class="th" loading="lazy" src="notes/68732457000000000b02de61/images/img1.jpg" alt="">
+      <div class="t">言必称希腊。一直以在他处的精神姿态生活，或许也算是一种勇气？</div>
+      <div class="meta">2025-07-13 · 6873245700</div>
+    </a>
+    <a class="site" href="notes/6871f3e2000000000d027d8f/">
+      <img class="th" loading="lazy" src="notes/6871f3e2000000000d027d8f/images/img1.jpg" alt="">
+      <div class="t">三浦紫苑曾在采访中明确表示：“我对描写男女恋情没什么兴趣”。她更倾向于探索家庭、</div>
+      <div class="meta">2025-07-12 · 6871f3e200</div>
+    </a>
+    <a class="site" href="notes/6871c113000000000d0245d7/">
+      <img class="th" loading="lazy" src="notes/6871c113000000000d0245d7/images/img1.jpg" alt="">
+      <div class="t">西方发明东方，东方发明西方。这句话乍听上去有些许怪异，却道出了东方西方这种提法的</div>
+      <div class="meta">2025-07-12 · 6871c11300</div>
+    </a>
+    <a class="site" href="notes/687066c800000000100272a9/">
+      <img class="th" loading="lazy" src="notes/687066c800000000100272a9/images/img1.jpg" alt="">
+      <div class="t">理解“上帝不可重现人间，因为宗教大法官不允许” 是理解《卡拉马佐夫兄弟》中《宗教</div>
+      <div class="meta">2025-07-11 · 687066c800</div>
+    </a>
+    <a class="site" href="notes/6870292800000000100245e0/">
+      <img class="th" loading="lazy" src="notes/6870292800000000100245e0/images/img1.jpg" alt="">
+      <div class="t">谷崎潤一郎在其成名作《刺青》中曾这样写道:「那个时候，人们还有着所谓&quot;愚&quot;的高贵</div>
+      <div class="meta">2025-07-10 · 6870292800</div>
+    </a>
+    <a class="site" href="notes/686f4998000000000d01a1f0/">
+      <img class="th" loading="lazy" src="notes/686f4998000000000d01a1f0/images/img1.jpg" alt="">
+      <div class="t">彪悍的人生无需解释。森林不解释年轮，飓风不道歉摧毁。彪悍者的最高境界，是让质问者</div>
+      <div class="meta">2025-07-10 · 686f499800</div>
+    </a>
+    <a class="site" href="notes/686de3de0000000010011b99/">
+      <img class="th" loading="lazy" src="notes/686de3de0000000010011b99/images/img1.jpg" alt="">
+      <div class="t">人类存在悖论:认识论的幻想属性与本体论的群居动物性。认识论上——我们是仰望星空的</div>
+      <div class="meta">2025-07-09 · 686de3de00</div>
+    </a>
+    <a class="site" href="notes/686cb8760000000012017e33/">
+      <img class="th" loading="lazy" src="notes/686cb8760000000012017e33/images/img1.jpg" alt="">
+      <div class="t">奉献与牺牲的本质是献祭，注意，首先是献祭，在不区分自愿与否时，必然是献祭。语言以</div>
+      <div class="meta">2025-07-08 · 686cb87600</div>
+    </a>
+    <a class="site" href="notes/686c4843000000000d024b26/">
+      <img class="th" loading="lazy" src="notes/686c4843000000000d024b26/images/img1.jpg" alt="">
+      <div class="t">若把语言比做牢笼，那么学习外语可谓转监或越狱。即便不成，至少可以算做扩建监舍，或</div>
+      <div class="meta">2025-07-07 · 686c484300</div>
+    </a>
+    <a class="site" href="notes/686b28b00000000012016bce/">
+      <img class="th" loading="lazy" src="notes/686b28b00000000012016bce/images/img1.jpg" alt="">
+      <div class="t">若你能认识到所谓因果本指充满偶然的链条所构成的错杂多维网络，那么你就能懂得宣称如</div>
+      <div class="meta">2025-07-07 · 686b28b000</div>
+    </a>
+    <a class="site" href="notes/686a00ba000000000d026e3d/">
+      <img class="th" loading="lazy" src="notes/686a00ba000000000d026e3d/images/img1.jpg" alt="">
+      <div class="t">我们必须有意识地尽可能减少隐喻的使用？</div>
+      <div class="meta">2025-07-06 · 686a00ba00</div>
+    </a>
+    <a class="site" href="notes/68692008000000000b01c378/">
+      <img class="th" loading="lazy" src="notes/68692008000000000b01c378/images/img1.jpg" alt="">
+      <div class="t">关于真相的反思与讨论，可以彻底告一段落了。完整画个句号吧，少年！</div>
+      <div class="meta">2025-07-05 · 6869200800</div>
+    </a>
+    <a class="site" href="notes/68686f94000000001001357f/">
+      <img class="th" loading="lazy" src="notes/68686f94000000001001357f/images/img1.jpg" alt="">
+      <div class="t">简单两个愿望吧算是 ①横排简中书一概不读</div>
+      <div class="meta">2025-07-05 · 68686f9400</div>
+    </a>
+    <a class="site" href="notes/68678d5f000000000d018ab8/">
+      <img class="th" loading="lazy" src="notes/68678d5f000000000d018ab8/images/img1.jpg" alt="">
+      <div class="t">不稼不穑不狩不猎不饲不养不蒸不煮即告食者贼也</div>
+      <div class="meta">2025-07-04 · 68678d5f00</div>
+    </a>
+    <a class="site" href="notes/6866fdb00000000012014857/">
+      <img class="th" loading="lazy" src="notes/6866fdb00000000012014857/images/img1.jpg" alt="">
+      <div class="t">我在上课达人的笔记下发布了一条评论</div>
+      <div class="meta">2025-07-03 · 6866fdb000</div>
+    </a>
+    <a class="site" href="notes/6865f3a8000000000d02712c/">
+      <img class="th" loading="lazy" src="notes/6865f3a8000000000d02712c/images/img1.jpg" alt="">
+      <div class="t">一个深刻而复杂的维度——当我们将思想家的文本与其真实人生并置时，往往能窥见思想本</div>
+      <div class="meta">2025-07-03 · 6865f3a800</div>
+    </a>
+    <a class="site" href="notes/6865d875000000000b01f53d/">
+      <img class="th" loading="lazy" src="notes/6865d875000000000b01f53d/images/img1.jpg" alt="">
+      <div class="t">拔葵去织，一种表述得高妙却永难落地的思想主张，渗透着至虚的伪装</div>
+      <div class="meta">2025-07-03 · 6865d87500</div>
+    </a>
+    <a class="site" href="notes/6865d2d0000000001001168d/">
+      <img class="th" loading="lazy" src="notes/6865d2d0000000001001168d/images/img1.jpg" alt="">
+      <div class="t">6865d2d0000000001001168d</div>
+      <div class="meta">2025-07-03 · 6865d2d000</div>
+    </a>
+    <a class="site" href="notes/6865d23000000000100240c5/">
+      <img class="th" loading="lazy" src="notes/6865d23000000000100240c5/images/img1.jpg" alt="">
+      <div class="t">与権力（けんりょく）对应的英语单词是power，定义为: 他人を支配する強制力（</div>
+      <div class="meta">2025-07-03 · 6865d23000</div>
+    </a>
+    <a class="site" href="notes/68654b6c000000001002557a/">
+      <img class="th" loading="lazy" src="notes/68654b6c000000001002557a/images/img1.jpg" alt="">
+      <div class="t">爱上文学，尤其是虚构的小说，既能剔除理性与效率的戾气，亦可独享审美愉悦，还能抵挡</div>
+      <div class="meta">2025-07-02 · 68654b6c00</div>
+    </a>
+    <a class="site" href="notes/68649fd40000000010013309/">
+      <img class="th" loading="lazy" src="notes/68649fd40000000010013309/images/img1.jpg" alt="">
+      <div class="t">68649fd40000000010013309</div>
+      <div class="meta">2025-07-02 · 68649fd400</div>
+    </a>
+    <a class="site" href="notes/6863ff7e000000000d026f6e/">
+      <img class="th" loading="lazy" src="notes/6863ff7e000000000d026f6e/images/img1.jpg" alt="">
+      <div class="t">一个当前学术界令人忧虑的现象——“人文社科论文会计账簿化”。这种现象的核心在于过</div>
+      <div class="meta">2025-07-01 · 6863ff7e00</div>
+    </a>
+    <a class="site" href="notes/6863d3ce000000000d01ac72/">
+      <img class="th" loading="lazy" src="notes/6863d3ce000000000d01ac72/images/img1.jpg" alt="">
+      <div class="t">内卷 being caught up in a rat race</div>
+      <div class="meta">2025-07-01 · 6863d3ce00</div>
+    </a>
+    <a class="site" href="notes/6863c867000000000d026954/">
+      <img class="th" loading="lazy" src="notes/6863c867000000000d026954/images/img1.jpg" alt="">
+      <div class="t">沉迷于文本正确是知识分子特有的自欺与欺人方式</div>
+      <div class="meta">2025-07-01 · 6863c86700</div>
+    </a>
+    <a class="site" href="notes/68633bf8000000000b02d12e/">
+      <img class="th" loading="lazy" src="notes/68633bf8000000000b02d12e/images/img1.jpg" alt="">
+      <div class="t">68633bf8000000000b02d12e</div>
+      <div class="meta">2025-07-01 · 68633bf800</div>
+    </a>
+    <a class="site" href="notes/686339e90000000010024ab4/">
+      <img class="th" loading="lazy" src="notes/686339e90000000010024ab4/images/img1.jpg" alt="">
+      <div class="t">逻各斯作为一种叙事，是叙事本身，只不过披着去蔽的外衣</div>
+      <div class="meta">2025-07-01 · 686339e900</div>
+    </a>
+    <a class="site" href="notes/68629503000000000d01bfaa/">
+      <img class="th" loading="lazy" src="notes/68629503000000000d01bfaa/images/img1.jpg" alt="">
+      <div class="t">当怀疑成为常态，暴力将成为最后的叙事工具。我们永远需要故事，但再也不能相信任何一</div>
+      <div class="meta">2025-06-30 · 6862950300</div>
+    </a>
+    <a class="site" href="notes/6861e88e000000000b01fa64/">
+      <img class="th" loading="lazy" src="notes/6861e88e000000000b01fa64/images/img1.jpg" alt="">
+      <div class="t">不言而察方为境界，而显化底层逻辑往往反损系统超稳定性</div>
+      <div class="meta">2025-06-30 · 6861e88e00</div>
+    </a>
+    <a class="site" href="notes/6861cc24000000000d0190df/">
+      <img class="th" loading="lazy" src="notes/6861cc24000000000d0190df/images/img1.jpg" alt="">
+      <div class="t">江湖逻辑 </div>
+      <div class="meta">2025-06-29 · 6861cc2400</div>
+    </a>
+    <a class="site" href="notes/6861c76f0000000012017a59/">
+      <img class="th" loading="lazy" src="notes/6861c76f0000000012017a59/images/img1.jpg" alt="">
+      <div class="t">6861c76f0000000012017a59</div>
+      <div class="meta">2025-06-29 · 6861c76f00</div>
+    </a>
+    <a class="site" href="notes/6860b4e9000000000d026647/">
+      <img class="th" loading="lazy" src="notes/6860b4e9000000000d026647/images/img1.jpg" alt="">
+      <div class="t">象牙塔中文科的破败现象，并非出于那些被翻来覆去咀嚼的表层原因，而是由于当代人之于</div>
+      <div class="meta">2025-06-29 · 6860b4e900</div>
+    </a>
+    <a class="site" href="notes/6860aaa6000000000b02f5e1/">
+      <img class="th" loading="lazy" src="notes/6860aaa6000000000b02f5e1/images/img1.jpg" alt="">
+      <div class="t">濡れた荒野を走れ 1973</div>
+      <div class="meta">2025-06-29 · 6860aaa600</div>
+    </a>
+    <a class="site" href="notes/68607bec00000000120140aa/">
+      <img class="th" loading="lazy" src="notes/68607bec00000000120140aa/images/img1.jpg" alt="">
+      <div class="t">西方文明（其哲学、科学、社科、文学）很大程度上可视作一场跨越两千年的、以理性为工</div>
+      <div class="meta">2025-06-28 · 68607bec00</div>
+    </a>
+    <a class="site" href="notes/686073be000000000b01db2f/">
+      <img class="th" loading="lazy" src="notes/686073be000000000b01db2f/images/img1.jpg" alt="">
+      <div class="t">问: 何谓真理？ 答: 喷子。</div>
+      <div class="meta">2025-06-28 · 686073be00</div>
+    </a>
+    <a class="site" href="notes/685fd44a000000001100127c/">
+      <img class="th" loading="lazy" src="notes/685fd44a000000001100127c/images/img1.jpg" alt="">
+      <div class="t">当代国民精神状态，与日本七十年代国民精神处境相仿。在避免历史决定论基础上，此假说</div>
+      <div class="meta">2025-06-28 · 685fd44a00</div>
+    </a>
+    <a class="site" href="notes/685fbc8b000000000b01e0d8/">
+      <img class="th" loading="lazy" src="notes/685fbc8b000000000b01e0d8/images/img1.jpg" alt="">
+      <div class="t">モップス たどり着いたらいつも雨降り</div>
+      <div class="meta">2025-06-28 · 685fbc8b00</div>
+    </a>
+    <a class="site" href="notes/685f72cc0000000010027ab0/">
+      <img class="th" loading="lazy" src="notes/685f72cc0000000010027ab0/images/img1.jpg" alt="">
+      <div class="t">库克里奇. Precarious Playbour: Modders and t</div>
+      <div class="meta">2025-06-28 · 685f72cc00</div>
+    </a>
+    <a class="site" href="notes/685e8b2a0000000012016659/">
+      <img class="th" loading="lazy" src="notes/685e8b2a0000000012016659/images/img1.jpg" alt="">
+      <div class="t">来源: nippon.com</div>
+      <div class="meta">2025-06-27 · 685e8b2a00</div>
+    </a>
+    <a class="site" href="notes/685dff2b00000000100242f3/">
+      <img class="th" loading="lazy" src="notes/685dff2b00000000100242f3/images/img1.jpg" alt="">
+      <div class="t">685dff2b00000000100242f3</div>
+      <div class="meta">2025-06-27 · 685dff2b00</div>
+    </a>
+    <a class="site" href="notes/685df1bd00000000100113af/">
+      <img class="th" loading="lazy" src="notes/685df1bd00000000100113af/images/img1.jpg" alt="">
+      <div class="t">教育需回归“身体体验”：知识传递应激活学生的感官-运动系统（如物理实验＞公式背诵</div>
+      <div class="meta">2025-06-27 · 685df1bd00</div>
+    </a>
+    <a class="site" href="notes/685cabaa000000000b02e1d0/">
+      <img class="th" loading="lazy" src="notes/685cabaa000000000b02e1d0/images/img1.jpg" alt="">
+      <div class="t">盐铁论洋洋洒洒翻来覆去讲的都是些制度性寻租方面的东西，和汤姆索亚想方设法诱使小伙</div>
+      <div class="meta">2025-06-26 · 685cabaa00</div>
+    </a>
+    <a class="site" href="notes/685ca97c0000000011001630/">
+      <img class="th" loading="lazy" src="notes/685ca97c0000000011001630/images/img1.jpg" alt="">
+      <div class="t">道德经讲的，其实是“得道曰德，遵道即德，德乃循道”，不是什么道德教化方面的伦理道</div>
+      <div class="meta">2025-06-26 · 685ca97c00</div>
+    </a>
+    <a class="site" href="notes/685ca40f000000000b02fa2d/">
+      <img class="th" loading="lazy" src="notes/685ca40f000000000b02fa2d/images/img1.jpg" alt="">
+      <div class="t">奥派与道家的立场，都是盐铁论的对立面，都认为有为是一种有害的职业化表演。有为干预</div>
+      <div class="meta">2025-06-26 · 685ca40f00</div>
+    </a>
+    <a class="site" href="notes/685ba11a000000000b01ccb4/">
+      <img class="th" loading="lazy" src="notes/685ba11a000000000b01ccb4/images/img1.jpg" alt="">
+      <div class="t">第四次世界大战所用的武器将是拳头、木棒与石头</div>
+      <div class="meta">2025-06-25 · 685ba11a00</div>
+    </a>
+    <a class="site" href="notes/685b68460000000010027270/">
+      <img class="th" loading="lazy" src="notes/685b68460000000010027270/images/img1.jpg" alt="">
+      <div class="t">和平铁律 打赢吹牛皮</div>
+      <div class="meta">2025-06-25 · 685b684600</div>
+    </a>
+    <a class="site" href="notes/685a2d93000000000d027705/">
+      <img class="th" loading="lazy" src="notes/685a2d93000000000d027705/images/img1.jpg" alt="">
+      <div class="t">“我们不是能量海洋的主人，只是其中一组暂居的耗散结构——所谓文明，不过是一群试图</div>
+      <div class="meta">2025-06-24 · 685a2d9300</div>
+    </a>
+    <a class="site" href="notes/685a16d3000000000d0279cf/">
+      <img class="th" loading="lazy" src="notes/685a16d3000000000d0279cf/images/img1.jpg" alt="">
+      <div class="t">临深履薄这类源自诗经等国学经典的习语，本身都属于隐喻驱动的元叙事认知，是非逻辑的</div>
+      <div class="meta">2025-06-24 · 685a16d300</div>
+    </a>
+    <a class="site" href="notes/6858cc16000000000b01db92/">
+      <img class="th" loading="lazy" src="notes/6858cc16000000000b01db92/images/img1.jpg" alt="">
+      <div class="t">鶴林玉露序 余閒居無營日與客清談鶴林之下或欣然會心或慨然興懷輒命童子筆之久而成編</div>
+      <div class="meta">2025-06-23 · 6858cc1600</div>
+    </a>
+    <a class="site" href="notes/68575e7e000000001001395f/">
+      <img class="th" loading="lazy" src="notes/68575e7e000000001001395f/images/img1.jpg" alt="">
+      <div class="t">🔰ｼｮｼﾝｼｬ </div>
+      <div class="meta">2025-06-22 · 68575e7e00</div>
+    </a>
+    <a class="site" href="notes/685602dd000000000b01c3d1/">
+      <img class="th" loading="lazy" src="notes/685602dd000000000b01c3d1/images/img1.jpg" alt="">
+      <div class="t">读过加缪西西弗神话后，你就再也做不成蒙眼拉磨的驴了</div>
+      <div class="meta">2025-06-21 · 685602dd00</div>
+    </a>
+    <a class="site" href="notes/6855345c0000000011000db3/">
+      <img class="th" loading="lazy" src="notes/6855345c0000000011000db3/images/img1.jpg" alt="">
+      <div class="t">思辨并非通往幸福之路的捷径，而是贫穷的表现</div>
+      <div class="meta">2025-06-20 · 6855345c00</div>
+    </a>
+    <a class="site" href="notes/6853fa88000000001201536c/">
+      <img class="th" loading="lazy" src="notes/6853fa88000000001201536c/images/img1.jpg" alt="">
+      <div class="t">偶尔把narrative这个单词翻译成「小作文」也不赖。谁还不会写点小作文儿了</div>
+      <div class="meta">2025-06-19 · 6853fa8800</div>
+    </a>
+    <a class="site" href="notes/68522dfd000000002301ff4f/">
+      <img class="th" loading="lazy" src="notes/68522dfd000000002301ff4f/images/img1.jpg" alt="">
+      <div class="t">真知必须穿上世俗的外衣才能行走于人间</div>
+      <div class="meta">2025-06-18 · 68522dfd00</div>
+    </a>
+    <a class="site" href="notes/685227ca000000002202a2d7/">
+      <img class="th" loading="lazy" src="notes/685227ca000000002202a2d7/images/img1.jpg" alt="">
+      <div class="t">🌊 愿君行过千川 仍如初渡</div>
+      <div class="meta">2025-06-18 · 685227ca00</div>
+    </a>
+    <a class="site" href="notes/684f9dcf00000000230142bf/">
+      <img class="th" loading="lazy" src="notes/684f9dcf00000000230142bf/images/img1.jpg" alt="">
+      <div class="t">1⃣穿透遮蔽：警惕一切亘古不变的许诺，包括对自身理论的偶像化</div>
+      <div class="meta">2025-06-16 · 684f9dcf00</div>
+    </a>
+    <a class="site" href="notes/684f96de000000002202beb8/">
+      <img class="th" loading="lazy" src="notes/684f96de000000002202beb8/images/img1.jpg" alt="">
+      <div class="t">从个体内部视角看，具有绝对性的，只有自身从生到死的生命旅程。其它一切都不具有绝对</div>
+      <div class="meta">2025-06-16 · 684f96de00</div>
+    </a>
+    <a class="site" href="notes/684e3014000000002301dda0/">
+      <img class="th" loading="lazy" src="notes/684e3014000000002301dda0/images/img1.jpg" alt="">
+      <div class="t">Jiddu Krishnamurti</div>
+      <div class="meta">2025-06-15 · 684e301400</div>
+    </a>
+    <a class="site" href="notes/684e146b000000002301ef0a/">
+      <img class="th" loading="lazy" src="notes/684e146b000000002301ef0a/images/img1.jpg" alt="">
+      <div class="t">日月火水木金土 </div>
+      <div class="meta">2025-06-15 · 684e146b00</div>
+    </a>
+    <a class="site" href="notes/684d4976000000002202a0fb/">
+      <img class="th" loading="lazy" src="notes/684d4976000000002202a0fb/images/img1.jpg" alt="">
+      <div class="t">絶対領域で 🤞領域展開❣️</div>
+      <div class="meta">2025-06-14 · 684d497600</div>
+    </a>
+    <a class="site" href="notes/684cd340000000002203692f/">
+      <img class="th" loading="lazy" src="notes/684cd340000000002203692f/images/img1.jpg" alt="">
+      <div class="t">西哲的内在悖论：个体文本的确定性宣称与所有文本整体上的不确定性现实之间的张力。</div>
+      <div class="meta">2025-06-14 · 684cd34000</div>
+    </a>
+    <a class="site" href="notes/684c3fad000000002301c3d0/">
+      <img class="th" loading="lazy" src="notes/684c3fad000000002301c3d0/images/img1.jpg" alt="">
+      <div class="t">两个隐形枷锁: 1⃣线性时空观</div>
+      <div class="meta">2025-06-13 · 684c3fad00</div>
+    </a>
+    <a class="site" href="notes/684c18bd0000000023010ab9/">
+      <img class="th" loading="lazy" src="notes/684c18bd0000000023010ab9/images/img1.jpg" alt="">
+      <div class="t">&#x27;Man for Himself&#x27;</div>
+      <div class="meta">2025-06-13 · 684c18bd00</div>
+    </a>
+    <a class="site" href="notes/684b9ae6000000002301d74d/">
+      <img class="th" loading="lazy" src="notes/684b9ae6000000002301d74d/images/img1.jpg" alt="">
+      <div class="t">有种说法认为人格分掠夺型与创造型，有意思</div>
+      <div class="meta">2025-06-13 · 684b9ae600</div>
+    </a>
+    <a class="site" href="notes/684a9e3a000000002202d741/">
+      <img class="th" loading="lazy" src="notes/684a9e3a000000002202d741/images/img1.jpg" alt="">
+      <div class="t">若言琴上有琴声 放在匣中何不鸣</div>
+      <div class="meta">2025-06-12 · 684a9e3a00</div>
+    </a>
+    <a class="site" href="notes/684a68fa000000002300146f/">
+      <img class="th" loading="lazy" src="notes/684a68fa000000002300146f/images/img1.jpg" alt="">
+      <div class="t">可以隐蔽操纵认知的其实还有皱纹、白发与长须，当然还有高龄者的少年感。</div>
+      <div class="meta">2025-06-12 · 684a68fa00</div>
+    </a>
+    <a class="site" href="notes/684a43610000000023016603/">
+      <img class="th" loading="lazy" src="notes/684a43610000000023016603/images/img1.jpg" alt="">
+      <div class="t">思辨理性触及信仰领域时，西哲必须亦必然止步，让位于生命实践。西哲从怀疑开始，却终</div>
+      <div class="meta">2025-06-12 · 684a436100</div>
+    </a>
+    <a class="site" href="notes/684a334c00000000230149e6/">
+      <img class="th" loading="lazy" src="notes/684a334c00000000230149e6/images/img1.jpg" alt="">
+      <div class="t">禋 イン 祓 ハラエ</div>
+      <div class="meta">2025-06-12 · 684a334c00</div>
+    </a>
+    <a class="site" href="notes/684a27a1000000002300e3cc/">
+      <img class="th" loading="lazy" src="notes/684a27a1000000002300e3cc/images/img1.jpg" alt="">
+      <div class="t">在古希腊，文字系统本身曾被视为“音声的仆从”，而非独立的思想载体。对“言说”的尊</div>
+      <div class="meta">2025-06-12 · 684a27a100</div>
+    </a>
+    <a class="site" href="notes/684a21fb000000002301050b/">
+      <img class="th" loading="lazy" src="notes/684a21fb000000002301050b/images/img1.jpg" alt="">
+      <div class="t">साधु साधु </div>
+      <div class="meta">2025-06-12 · 684a21fb00</div>
+    </a>
+    <a class="site" href="notes/6848d2ee0000000023015f7f/">
+      <img class="th" loading="lazy" src="notes/6848d2ee0000000023015f7f/images/img1.jpg" alt="">
+      <div class="t">雅俗共賞 </div>
+      <div class="meta">2025-06-11 · 6848d2ee00</div>
+    </a>
+    <a class="site" href="notes/6847aa26000000002202856b/">
+      <img class="th" loading="lazy" src="notes/6847aa26000000002202856b/images/img1.jpg" alt="">
+      <div class="t">学会用形式趣味抵御劣质思辨👺</div>
+      <div class="meta">2025-06-10 · 6847aa2600</div>
+    </a>
+    <a class="site" href="notes/6847152400000000230119f6/">
+      <img class="th" loading="lazy" src="notes/6847152400000000230119f6/images/img1.jpg" alt="">
+      <div class="t">此在在其在世之烦忙中沉沦于常人状态</div>
+      <div class="meta">2025-06-09 · 6847152400</div>
+    </a>
+    <a class="site" href="notes/684667b90000000022037479/">
+      <img class="th" loading="lazy" src="notes/684667b90000000022037479/images/img1.jpg" alt="">
+      <div class="t">Traduttore, Traditore. Non Legor, Nisi R</div>
+      <div class="meta">2025-06-09 · 684667b900</div>
+    </a>
+    <a class="site" href="notes/68465d6000000000230008f0/">
+      <img class="th" loading="lazy" src="notes/68465d6000000000230008f0/images/img1.jpg" alt="">
+      <div class="t">网上的既得者隐身现象与幸福者沉默原则本质是一回事，区别仅在于视角不同</div>
+      <div class="meta">2025-06-09 · 68465d6000</div>
+    </a>
+    <a class="site" href="notes/684645c7000000002301f794/">
+      <img class="th" loading="lazy" src="notes/684645c7000000002301f794/images/img1.jpg" alt="">
+      <div class="t">while True:</div>
+      <div class="meta">2025-06-09 · 684645c700</div>
+    </a>
+    <a class="site" href="notes/684642e1000000002202ab8b/">
+      <img class="th" loading="lazy" src="notes/684642e1000000002202ab8b/images/img1.jpg" alt="">
+      <div class="t">当您用手机阅读此文时：</div>
+      <div class="meta">2025-06-09 · 684642e100</div>
+    </a>
+    <a class="site" href="notes/684512840000000023013b2d/">
+      <img class="th" loading="lazy" src="notes/684512840000000023013b2d/images/img1.jpg" alt="">
+      <div class="t">试试这个全新的分类框架:将人划分为真理主义者（高举真理旗帜却常在实践中遮蔽真相）</div>
+      <div class="meta">2025-06-08 · 6845128400</div>
+    </a>
+    <a class="site" href="notes/6844e3800000000023017fe4/">
+      <img class="th" loading="lazy" src="notes/6844e3800000000023017fe4/images/img1.jpg" alt="">
+      <div class="t">&#x27;哈佛演讲蒋&#x27;现象与&#x27;横渠四句董&#x27;现象看似发生在不同领域（国际精英演讲与本土文化</div>
+      <div class="meta">2025-06-08 · 6844e38000</div>
+    </a>
+    <a class="site" href="notes/6844c98700000000220378bb/">
+      <img class="th" loading="lazy" src="notes/6844c98700000000220378bb/images/img1.jpg" alt="">
+      <div class="t">人类作为依赖多模态环境线索与内部状态驱动的碳基智能体，其意识涌现的本质可概括为元</div>
+      <div class="meta">2025-06-07 · 6844c98700</div>
+    </a>
+    <a class="site" href="notes/684408610000000023013d8f/">
+      <img class="th" loading="lazy" src="notes/684408610000000023013d8f/images/img1.jpg" alt="">
+      <div class="t">官样文本一直在或明或暗地污名化亚文化群体的兴趣共同体现象，将其归因于沉迷于某种虚</div>
+      <div class="meta">2025-06-07 · 6844086100</div>
+    </a>
+    <a class="site" href="notes/6843ab1b000000002300e54c/">
+      <img class="th" loading="lazy" src="notes/6843ab1b000000002300e54c/images/img1.jpg" alt="">
+      <div class="t">阿诺的头怎么尖尖的 </div>
+      <div class="meta">2025-06-07 · 6843ab1b00</div>
+    </a>
+    <a class="site" href="notes/6843aa0d000000002300df07/">
+      <img class="th" loading="lazy" src="notes/6843aa0d000000002300df07/images/img1.jpg" alt="">
+      <div class="t">封建社会历史语境中的”榜下捉婿的丈母娘经济”与“横渠四句”的共生，本质是一场悲剧</div>
+      <div class="meta">2025-06-07 · 6843aa0d00</div>
+    </a>
+    <a class="site" href="notes/6843a23300000000230008c8/">
+      <img class="th" loading="lazy" src="notes/6843a23300000000230008c8/images/img1.jpg" alt="">
+      <div class="t">丈母娘们的”开黑色帕萨特后备箱放单位米面油”的择婿标准必然催生出”横渠四句”现象</div>
+      <div class="meta">2025-06-07 · 6843a23300</div>
+    </a>
+    <a class="site" href="notes/68438d940000000023013fb8/">
+      <img class="th" loading="lazy" src="notes/68438d940000000023013fb8/images/img1.jpg" alt="">
+      <div class="t">儒表商里的实用主义者而已，谁又不是呢？</div>
+      <div class="meta">2025-06-07 · 68438d9400</div>
+    </a>
+    <a class="site" href="notes/684373d9000000002301ea63/">
+      <img class="th" loading="lazy" src="notes/684373d9000000002301ea63/images/img1.jpg" alt="">
+      <div class="t">分析即认同 </div>
+      <div class="meta">2025-06-06 · 684373d900</div>
+    </a>
+    <a class="site" href="notes/6842af9a000000002202d849/">
+      <img class="th" loading="lazy" src="notes/6842af9a000000002202d849/images/img1.jpg" alt="">
+      <div class="t">6842af9a000000002202d849</div>
+      <div class="meta">2025-06-06 · 6842af9a00</div>
+    </a>
+    <a class="site" href="notes/68427250000000002202ad7d/">
+      <img class="th" loading="lazy" src="notes/68427250000000002202ad7d/images/img1.jpg" alt="">
+      <div class="t">婴儿啼哭声的绝对统治力提醒我们：人类大脑极易被特定频率、节奏和情感的声音征服。如</div>
+      <div class="meta">2025-06-06 · 6842725000</div>
+    </a>
+    <a class="site" href="notes/68425cce0000000022037b4b/">
+      <img class="th" loading="lazy" src="notes/68425cce0000000022037b4b/images/img1.jpg" alt="">
+      <div class="t">在别国生活的移民呈现独特面容特征，其形成机制主要源于:社会声景对生物形态的共振影</div>
+      <div class="meta">2025-06-06 · 68425cce00</div>
+    </a>
+    <a class="site" href="notes/68424456000000002202e9c8/">
+      <img class="th" loading="lazy" src="notes/68424456000000002202e9c8/images/img1.jpg" alt="">
+      <div class="t">以中文为母语的多语者的快乐与内心安宁，在于其深知何时在何种情境如何放下母语所承载</div>
+      <div class="meta">2025-06-06 · 6842445600</div>
+    </a>
+    <a class="site" href="notes/68423e3d00000000230135a1/">
+      <img class="th" loading="lazy" src="notes/68423e3d00000000230135a1/images/img1.jpg" alt="">
+      <div class="t">禅宗的“正语”观念在语用学框架下指一种高效的交际策略，中文语境的文化与语言特性使</div>
+      <div class="meta">2025-06-06 · 68423e3d00</div>
+    </a>
+    <a class="site" href="notes/6841220400000000220283fe/">
+      <img class="th" loading="lazy" src="notes/6841220400000000220283fe/images/img1.jpg" alt="">
+      <div class="t">元和乐天咏，方丈莲胤冥。拾遗讥世苦，遁世写庵轻</div>
+      <div class="meta">2025-06-05 · 6841220400</div>
+    </a>
+    <a class="site" href="notes/68410d420000000023016b1c/">
+      <img class="th" loading="lazy" src="notes/68410d420000000023016b1c/images/img1.jpg" alt="">
+      <div class="t">”古代封建社会的人文一直是权力的通房丫头而不自觉，其间的人文觉醒，只是形式上改为</div>
+      <div class="meta">2025-06-05 · 68410d4200</div>
+    </a>
+    <a class="site" href="notes/6840ed220000000023017de1/">
+      <img class="th" loading="lazy" src="notes/6840ed220000000023017de1/images/img1.jpg" alt="">
+      <div class="t">先制造焦虑感， 再贩卖确定性</div>
+      <div class="meta">2025-06-05 · 6840ed2200</div>
+    </a>
+    <a class="site" href="notes/68401f16000000002202cf41/">
+      <img class="th" loading="lazy" src="notes/68401f16000000002202cf41/images/img1.jpg" alt="">
+      <div class="t">到底有多少实为和制汉语的回流的现代汉语词汇？</div>
+      <div class="meta">2025-06-04 · 68401f1600</div>
+    </a>
+    <a class="site" href="notes/683fbbc00000000023003b31/">
+      <img class="th" loading="lazy" src="notes/683fbbc00000000023003b31/images/img1.jpg" alt="">
+      <div class="t">晚清的”庸医用兽药给健康人看病”现象</div>
+      <div class="meta">2025-06-04 · 683fbbc000</div>
+    </a>
+    <a class="site" href="notes/683fabc2000000002300ca92/">
+      <img class="th" loading="lazy" src="notes/683fabc2000000002300ca92/images/img1.jpg" alt="">
+      <div class="t">经验主义与实证主义傻傻分不清？</div>
+      <div class="meta">2025-06-04 · 683fabc200</div>
+    </a>
+    <a class="site" href="notes/683ed8d0000000002202ed07/">
+      <img class="th" loading="lazy" src="notes/683ed8d0000000002202ed07/images/img1.jpg" alt="">
+      <div class="t">吃鸡铁律 打赢吹牛逼打输讲道理</div>
+      <div class="meta">2025-06-03 · 683ed8d000</div>
+    </a>
+    <a class="site" href="notes/683ecaf000000000230031d9/">
+      <img class="th" loading="lazy" src="notes/683ecaf000000000230031d9/images/img1.jpg" alt="">
+      <div class="t">贵族定义: 不事生产者</div>
+      <div class="meta">2025-06-03 · 683ecaf000</div>
+    </a>
+    <a class="site" href="notes/683e5a7b0000000023011b3a/">
+      <img class="th" loading="lazy" src="notes/683e5a7b0000000023011b3a/images/img1.jpg" alt="">
+      <div class="t">“直觉是人类的神性器官，世界既非唯心亦非唯物，而是唯‘神性直觉’的共振场——从六</div>
+      <div class="meta">2025-06-03 · 683e5a7b00</div>
+    </a>
+    <a class="site" href="notes/683e4a76000000002301132b/">
+      <img class="th" loading="lazy" src="notes/683e4a76000000002301132b/images/img1.jpg" alt="">
+      <div class="t">只对机制感兴趣 体制和制度嘛...大忽悠</div>
+      <div class="meta">2025-06-03 · 683e4a7600</div>
+    </a>
+    <a class="site" href="notes/683db9ae000000002202f529/">
+      <img class="th" loading="lazy" src="notes/683db9ae000000002202f529/images/img1.jpg" alt="">
+      <div class="t">降低想象力 以避免被想象共同体支配</div>
+      <div class="meta">2025-06-02 · 683db9ae00</div>
+    </a>
+    <a class="site" href="notes/683da6b0000000002202c7ed/">
+      <img class="th" loading="lazy" src="notes/683da6b0000000002202c7ed/images/img1.jpg" alt="">
+      <div class="t">为宇宙立心 为万物立命</div>
+      <div class="meta">2025-06-02 · 683da6b000</div>
+    </a>
+    <a class="site" href="notes/683d4777000000002300d6ac/">
+      <img class="th" loading="lazy" src="notes/683d4777000000002300d6ac/images/img1.jpg" alt="">
+      <div class="t">aminos </div>
+      <div class="meta">2025-06-02 · 683d477700</div>
+    </a>
+    <a class="site" href="notes/683d434f000000002300fe45/">
+      <img class="th" loading="lazy" src="notes/683d434f000000002300fe45/images/img1.jpg" alt="">
+      <div class="t">初生牛犊不怕虎 乱拳打死老师傅</div>
+      <div class="meta">2025-06-02 · 683d434f00</div>
+    </a>
+    <a class="site" href="notes/683d38d800000000230166cc/">
+      <img class="th" loading="lazy" src="notes/683d38d800000000230166cc/images/img1.jpg" alt="">
+      <div class="t">技术理性有自反性 </div>
+      <div class="meta">2025-06-02 · 683d38d800</div>
+    </a>
+    <a class="site" href="notes/683d045e000000002300eb42/">
+      <img class="th" loading="lazy" src="notes/683d045e000000002300eb42/images/img1.jpg" alt="">
+      <div class="t">静水流深 </div>
+      <div class="meta">2025-06-02 · 683d045e00</div>
+    </a>
+    <a class="site" href="notes/683c3e81000000002202b9d5/">
+      <img class="th" loading="lazy" src="notes/683c3e81000000002202b9d5/images/img1.jpg" alt="">
+      <div class="t">与迷者示有 与悟者言空</div>
+      <div class="meta">2025-06-01 · 683c3e8100</div>
+    </a>
+    <a class="site" href="notes/683bdb4d0000000022028c03/">
+      <img class="th" loading="lazy" src="notes/683bdb4d0000000022028c03/images/img1.jpg" alt="">
+      <div class="t">本文未参考任何文献资料[露营灯R]</div>
+      <div class="meta">2025-06-01 · 683bdb4d00</div>
+    </a>
+    <a class="site" href="notes/683bb598000000002202fcb4/">
+      <img class="th" loading="lazy" src="notes/683bb598000000002202fcb4/images/img1.jpg" alt="">
+      <div class="t">认知闭合需求是那啥啥啥的入口</div>
+      <div class="meta">2025-06-01 · 683bb59800</div>
+    </a>
+    <a class="site" href="notes/683acdb0000000002202c5a0/">
+      <img class="th" loading="lazy" src="notes/683acdb0000000002202c5a0/images/img1.jpg" alt="">
+      <div class="t">情动 </div>
+      <div class="meta">2025-05-31 · 683acdb000</div>
+    </a>
+    <a class="site" href="notes/683aab6c000000002301d485/">
+      <img class="th" loading="lazy" src="notes/683aab6c000000002301d485/images/img1.jpg" alt="">
+      <div class="t">思想脱离生存经验导致的“认知失调”，某国知识分子的总体精神面貌。</div>
+      <div class="meta">2025-05-31 · 683aab6c00</div>
+    </a>
+    <a class="site" href="notes/683a92ae0000000022028ddf/">
+      <img class="th" loading="lazy" src="notes/683a92ae0000000022028ddf/images/img1.jpg" alt="">
+      <div class="t">GLOCALIZATION</div>
+      <div class="meta">2025-05-31 · 683a92ae00</div>
+    </a>
+    <a class="site" href="notes/683a21120000000022035a78/">
+      <img class="th" loading="lazy" src="notes/683a21120000000022035a78/images/img1.jpg" alt="">
+      <div class="t">རྟེན་ཅིང་འབྲེལ་བར་འབྱུང་བ་སྟོང་པ་ཉིད</div>
+      <div class="meta">2025-05-30 · 683a211200</div>
+    </a>
+    <a class="site" href="notes/6839484b000000002301488d/">
+      <img class="th" loading="lazy" src="notes/6839484b000000002301488d/images/img1.jpg" alt="">
+      <div class="t">为啥有些人非得把东西给拟人化了以后才会说人话？</div>
+      <div class="meta">2025-05-30 · 6839484b00</div>
+    </a>
+    <a class="site" href="notes/6838aa30000000002202b90f/">
+      <img class="th" loading="lazy" src="notes/6838aa30000000002202b90f/images/img1.jpg" alt="">
+      <div class="t">”科学”本指科举之学，其现当代语义源自science的日译，指系统性分科之学。康</div>
+      <div class="meta">2025-05-29 · 6838aa3000</div>
+    </a>
+    <a class="site" href="notes/68386b880000000023015436/">
+      <img class="th" loading="lazy" src="notes/68386b880000000023015436/images/img1.jpg" alt="">
+      <div class="t">#乡愿 </div>
+      <div class="meta">2025-05-29 · 68386b8800</div>
+    </a>
+    <a class="site" href="notes/68383a2c000000002202d222/">
+      <img class="th" loading="lazy" src="notes/68383a2c000000002202d222/images/img1.jpg" alt="">
+      <div class="t">科学这个词的语义，在汉语中为什么一直在窄化？</div>
+      <div class="meta">2025-05-29 · 68383a2c00</div>
+    </a>
+    <a class="site" href="notes/683827df00000000230101d7/">
+      <img class="th" loading="lazy" src="notes/683827df00000000230101d7/images/img1.jpg" alt="">
+      <div class="t">抽象 </div>
+      <div class="meta">2025-05-29 · 683827df00</div>
+    </a>
+    <a class="site" href="notes/6838166900000000230112af/">
+      <img class="th" loading="lazy" src="notes/6838166900000000230112af/images/img1.jpg" alt="">
+      <div class="t">那谁谁重提横渠四句之所以被那啥的原因，在于那啥对意义生产的暴力垄断已超出某种容忍</div>
+      <div class="meta">2025-05-29 · 6838166900</div>
+    </a>
+    <a class="site" href="notes/68378642000000002203544f/">
+      <img class="th" loading="lazy" src="notes/68378642000000002203544f/images/img1.jpg" alt="">
+      <div class="t">MIT 18.06 Linear Algebra</div>
+      <div class="meta">2025-05-28 · 6837864200</div>
+    </a>
+    <a class="site" href="notes/683676240000000022034552/">
+      <img class="th" loading="lazy" src="notes/683676240000000022034552/images/img1.jpg" alt="">
+      <div class="t">“七年之病求三年之艾”</div>
+      <div class="meta">2025-05-28 · 6836762400</div>
+    </a>
+    <a class="site" href="notes/68366a37000000002301d6b5/">
+      <img class="th" loading="lazy" src="notes/68366a37000000002301d6b5/images/img1.jpg" alt="">
+      <div class="t">Westerners are largely presentists, whil</div>
+      <div class="meta">2025-05-28 · 68366a3700</div>
+    </a>
+    <a class="site" href="notes/683558b6000000002300d3e2/">
+      <img class="th" loading="lazy" src="notes/683558b6000000002300d3e2/images/img1.jpg" alt="">
+      <div class="t">豨韋 </div>
+      <div class="meta">2025-05-27 · 683558b600</div>
+    </a>
+    <a class="site" href="notes/68353a8100000000230124c1/">
+      <img class="th" loading="lazy" src="notes/68353a8100000000230124c1/images/img1.jpg" alt="">
+      <div class="t">续《横渠四句》 </div>
+      <div class="meta">2025-05-27 · 68353a8100</div>
+    </a>
+    <a class="site" href="notes/68350c91000000002202da8c/">
+      <img class="th" loading="lazy" src="notes/68350c91000000002202da8c/images/img1.jpg" alt="">
+      <div class="t">后现代解构主义无论怎么洗都有新犬儒主义的味道</div>
+      <div class="meta">2025-05-27 · 68350c9100</div>
+    </a>
+    <a class="site" href="notes/68350b59000000002300cddd/">
+      <img class="th" loading="lazy" src="notes/68350b59000000002300cddd/images/img1.jpg" alt="">
+      <div class="t">LTP5.6的否定形式其实也成立</div>
+      <div class="meta">2025-05-27 · 68350b5900</div>
+    </a>
+    <a class="site" href="notes/6834f9aa0000000023000560/">
+      <img class="th" loading="lazy" src="notes/6834f9aa0000000023000560/images/img1.jpg" alt="">
+      <div class="t">把一整块蛋糕切成两块，然后比较二者有何不同。于是就有了蛋糕世界的地理学。</div>
+      <div class="meta">2025-05-26 · 6834f9aa00</div>
+    </a>
+    <a class="site" href="notes/6834f8cd000000002300e665/">
+      <img class="th" loading="lazy" src="notes/6834f8cd000000002300e665/images/img1.jpg" alt="">
+      <div class="t">英语学习笔记 自研: self-developed</div>
+      <div class="meta">2025-05-26 · 6834f8cd00</div>
+    </a>
+    <a class="site" href="notes/68332179000000002202e8b1/">
+      <img class="th" loading="lazy" src="notes/68332179000000002202e8b1/images/img1.jpg" alt="">
+      <div class="t">今天听来的暴论，无从辩驳:</div>
+      <div class="meta">2025-05-25 · 6833217900</div>
+    </a>
+    <a class="site" href="notes/6832e115000000002202dac6/">
+      <img class="th" loading="lazy" src="notes/6832e115000000002202dac6/images/img1.jpg" alt="">
+      <div class="t">凡是论断，皆为耍流氓</div>
+      <div class="meta">2025-05-25 · 6832e11500</div>
+    </a>
+    <a class="site" href="notes/6832d2c9000000002301d5e2/">
+      <img class="th" loading="lazy" src="notes/6832d2c9000000002301d5e2/images/img1.jpg" alt="">
+      <div class="t">LTP5.6 </div>
+      <div class="meta">2025-05-25 · 6832d2c900</div>
+    </a>
+    <a class="site" href="notes/6832b382000000002301e35f/">
+      <img class="th" loading="lazy" src="notes/6832b382000000002301e35f/images/img1.jpg" alt="">
+      <div class="t">6832b382000000002301e35f</div>
+      <div class="meta">2025-05-25 · 6832b38200</div>
+    </a>
+    <a class="site" href="notes/683291aa000000002301efa0/">
+      <img class="th" loading="lazy" src="notes/683291aa000000002301efa0/images/img1.jpg" alt="">
+      <div class="t">王者师编制名额已满 </div>
+      <div class="meta">2025-05-25 · 683291aa00</div>
+    </a>
+    <a class="site" href="notes/68327baa000000002301f7e7/">
+      <img class="th" loading="lazy" src="notes/68327baa000000002301f7e7/images/img1.jpg" alt="">
+      <div class="t">超时空压缩的现代性 </div>
+      <div class="meta">2025-05-25 · 68327baa00</div>
+    </a>
+    <a class="site" href="notes/683146d50000000023016292/">
+      <img class="th" loading="lazy" src="notes/683146d50000000023016292/images/img1.jpg" alt="">
+      <div class="t">提示词工程≈呪術 </div>
+      <div class="meta">2025-05-24 · 683146d500</div>
+    </a>
+    <a class="site" href="notes/68310864000000002202ed7e/">
+      <img class="th" loading="lazy" src="notes/68310864000000002202ed7e/images/img1.jpg" alt="">
+      <div class="t">GB/T 7714-2015</div>
+      <div class="meta">2025-05-23 · 6831086400</div>
+    </a>
+    <a class="site" href="notes/6831068e0000000023011144/">
+      <img class="th" loading="lazy" src="notes/6831068e0000000023011144/images/img1.jpg" alt="">
+      <div class="t">学术论文编写规则 （GB/T 7713.2-2022）</div>
+      <div class="meta">2025-05-23 · 6831068e00</div>
+    </a>
+    <a class="site" href="notes/6831020800000000230143f0/">
+      <img class="th" loading="lazy" src="notes/6831020800000000230143f0/images/img1.jpg" alt="">
+      <div class="t">Stephanus码</div>
+      <div class="meta">2025-05-23 · 6831020800</div>
+    </a>
+    <a class="site" href="notes/68305aba000000002202fdde/">
+      <img class="th" loading="lazy" src="notes/68305aba000000002202fdde/images/img1.jpg" alt="">
+      <div class="t">请问如何用CSS画个X再画个RING？</div>
+      <div class="meta">2025-05-23 · 68305aba00</div>
+    </a>
+    <a class="site" href="notes/683058b2000000002202f175/">
+      <img class="th" loading="lazy" src="notes/683058b2000000002202f175/images/img1.jpg" alt="">
+      <div class="t">683058b2000000002202f175</div>
+      <div class="meta">2025-05-23 · 683058b200</div>
+    </a>
+    <a class="site" href="notes/68304dca000000002300e952/">
+      <img class="th" loading="lazy" src="notes/68304dca000000002300e952/images/img1.jpg" alt="">
+      <div class="t">800 </div>
+      <div class="meta">2025-05-23 · 68304dca00</div>
+    </a>
+    <a class="site" href="notes/682ff8100000000023015c18/">
+      <img class="th" loading="lazy" src="notes/682ff8100000000023015c18/images/img1.jpg" alt="">
+      <div class="t">有些名人，一夜之间就变身艺术家，艺以人贵。诀窍在于: 不起艺名。艺贼，这些人的统</div>
+      <div class="meta">2025-05-23 · 682ff81000</div>
+    </a>
+    <a class="site" href="notes/682ff4fa0000000023010dfc/">
+      <img class="th" loading="lazy" src="notes/682ff4fa0000000023010dfc/images/img1.jpg" alt="">
+      <div class="t">ゲイジュツドロボー </div>
+      <div class="meta">2025-05-23 · 682ff4fa00</div>
+    </a>
+    <a class="site" href="notes/682fe5a100000000230024bf/">
+      <img class="th" loading="lazy" src="notes/682fe5a100000000230024bf/images/img1.jpg" alt="">
+      <div class="t">本来有点喜欢陈丹青的画，但却讨厌陈丹青说的话，进而连他的画也喜欢不起来了。这是怎</div>
+      <div class="meta">2025-05-23 · 682fe5a100</div>
+    </a>
+    <a class="site" href="notes/682fd39c000000002301c1d5/">
+      <img class="th" loading="lazy" src="notes/682fd39c000000002301c1d5/images/img1.jpg" alt="">
+      <div class="t">真正的认知成熟体现在对&quot;不确定性的把控能力&quot;和&quot;复杂系统的敬畏之心&quot;。现实本质是</div>
+      <div class="meta">2025-05-23 · 682fd39c00</div>
+    </a>
+    <a class="site" href="notes/682fb49f00000000230136cf/">
+      <img class="th" loading="lazy" src="notes/682fb49f00000000230136cf/images/img1.jpg" alt="">
+      <div class="t">若”底层逻辑”在于暴力，那么排第一位的事就得变成”在制度允许范围内尽可能地积蓄并</div>
+      <div class="meta">2025-05-22 · 682fb49f00</div>
+    </a>
+    <a class="site" href="notes/682f27cf000000002301c355/">
+      <img class="th" loading="lazy" src="notes/682f27cf000000002301c355/images/img1.jpg" alt="">
+      <div class="t">若”底层逻辑”在于暴力，那么排第一位的事就得变成”在制度允许范围内尽可能地积蓄并</div>
+      <div class="meta">2025-05-22 · 682f27cf00</div>
+    </a>
+    <a class="site" href="notes/682ee1c6000000002202ff3a/">
+      <img class="th" loading="lazy" src="notes/682ee1c6000000002202ff3a/images/img1.jpg" alt="">
+      <div class="t">682ee1c6000000002202ff3a</div>
+      <div class="meta">2025-05-22 · 682ee1c600</div>
+    </a>
+    <a class="site" href="notes/682ebe97000000002202887e/">
+      <img class="th" loading="lazy" src="notes/682ebe97000000002202887e/images/img1.jpg" alt="">
+      <div class="t">对我们这些学外语的好点，不然我们要发动语言腐败了。你的苦难，可以被我编码成幸福安</div>
+      <div class="meta">2025-05-22 · 682ebe9700</div>
+    </a>
+    <a class="site" href="notes/682e89cf000000002202e1da/">
+      <img class="th" loading="lazy" src="notes/682e89cf000000002202e1da/images/img1.jpg" alt="">
+      <div class="t">❌To be, or not to be?</div>
+      <div class="meta">2025-05-22 · 682e89cf00</div>
+    </a>
+    <a class="site" href="notes/682e87c6000000002301f450/">
+      <img class="th" loading="lazy" src="notes/682e87c6000000002301f450/images/img1.jpg" alt="">
+      <div class="t">「我輩は猫である」 </div>
+      <div class="meta">2025-05-22 · 682e87c600</div>
+    </a>
+    <a class="site" href="notes/682dae9c0000000023002324/">
+      <img class="th" loading="lazy" src="notes/682dae9c0000000023002324/images/img1.jpg" alt="">
+      <div class="t">AI认为当代MZ是个穿白大褂带祖母绿耳坠的...</div>
+      <div class="meta">2025-05-21 · 682dae9c00</div>
+    </a>
+    <a class="site" href="notes/682d446500000000220379ff/">
+      <img class="th" loading="lazy" src="notes/682d446500000000220379ff/images/img1.jpg" alt="">
+      <div class="t">具体文本的真理性(去蔽)在于其在特定群体中引发共鸣和行动的能力，而非真实性或文本</div>
+      <div class="meta">2025-05-21 · 682d446500</div>
+    </a>
+    <a class="site" href="notes/682cff06000000002202cbf1/">
+      <img class="th" loading="lazy" src="notes/682cff06000000002202cbf1/images/img1.jpg" alt="">
+      <div class="t">[推广] </div>
+      <div class="meta">2025-05-20 · 682cff0600</div>
+    </a>
+    <a class="site" href="notes/682c61e800000000230112d6/">
+      <img class="th" loading="lazy" src="notes/682c61e800000000230112d6/images/img1.jpg" alt="">
+      <div class="t">Transcendent values, a necessary evil, a</div>
+      <div class="meta">2025-05-20 · 682c61e800</div>
+    </a>
+    <a class="site" href="notes/682bfa99000000002202cefa/">
+      <img class="th" loading="lazy" src="notes/682bfa99000000002202cefa/images/img1.jpg" alt="">
+      <div class="t">要有文凭，但不要真有知识，真有知识会害了你</div>
+      <div class="meta">2025-05-20 · 682bfa9900</div>
+    </a>
+    <a class="site" href="notes/682bf367000000002300df36/">
+      <img class="th" loading="lazy" src="notes/682bf367000000002300df36/images/img1.jpg" alt="">
+      <div class="t">言语利他 行动利己 </div>
+      <div class="meta">2025-05-20 · 682bf36700</div>
+    </a>
+    <a class="site" href="notes/682aa52c0000000022037b83/">
+      <img class="th" loading="lazy" src="notes/682aa52c0000000022037b83/images/img1.jpg" alt="">
+      <div class="t">英语助人辨善恶？ </div>
+      <div class="meta">2025-05-19 · 682aa52c00</div>
+    </a>
+    <a class="site" href="notes/682a6fb5000000002300d303/">
+      <img class="th" loading="lazy" src="notes/682a6fb5000000002300d303/images/img1.jpg" alt="">
+      <div class="t">铁券云梯战未休， 明符暗码各封侯。</div>
+      <div class="meta">2025-05-18 · 682a6fb500</div>
+    </a>
+    <a class="site" href="notes/682a6f2b000000002202aac4/">
+      <img class="th" loading="lazy" src="notes/682a6f2b000000002202aac4/images/img1.jpg" alt="">
+      <div class="t">血.盟.铁.幕.垂垂落，</div>
+      <div class="meta">2025-05-18 · 682a6f2b00</div>
+    </a>
+    <a class="site" href="notes/6829c84e0000000022034d71/">
+      <img class="th" loading="lazy" src="notes/6829c84e0000000022034d71/images/img1.jpg" alt="">
+      <div class="t">鴟夷/盐铁论 </div>
+      <div class="meta">2025-05-18 · 6829c84e00</div>
+    </a>
+    <a class="site" href="notes/6829c7ab0000000023012bcd/">
+      <img class="th" loading="lazy" src="notes/6829c7ab0000000023012bcd/images/img1.jpg" alt="">
+      <div class="t">6829c7ab0000000023012bcd</div>
+      <div class="meta">2025-05-18 · 6829c7ab00</div>
+    </a>
+    <a class="site" href="notes/682949ed0000000023011387/">
+      <img class="th" loading="lazy" src="notes/682949ed0000000023011387/images/img1.jpg" alt="">
+      <div class="t">诊断意见: 智性体质，主体性缺乏症，M道德残留</div>
+      <div class="meta">2025-05-18 · 682949ed00</div>
+    </a>
+    <a class="site" href="notes/6828281d000000002300049c/">
+      <img class="th" loading="lazy" src="notes/6828281d000000002300049c/images/img1.jpg" alt="">
+      <div class="t">七圣人家美 春光蔡厝村</div>
+      <div class="meta">2025-05-17 · 6828281d00</div>
+    </a>
+    <a class="site" href="notes/6827fda300000000220351b9/">
+      <img class="th" loading="lazy" src="notes/6827fda300000000220351b9/images/img1.jpg" alt="">
+      <div class="t">趁唇红血热，尽情造作</div>
+      <div class="meta">2025-05-17 · 6827fda300</div>
+    </a>
+    <a class="site" href="notes/68269c400000000023001194/">
+      <img class="th" loading="lazy" src="notes/68269c400000000023001194/images/img1.jpg" alt="">
+      <div class="t">咒语 目前谈论超越负熵正义伦理还为时尚早</div>
+      <div class="meta">2025-05-16 · 68269c4000</div>
+    </a>
+    <a class="site" href="notes/682683990000000023003456/">
+      <img class="th" loading="lazy" src="notes/682683990000000023003456/images/img1.jpg" alt="">
+      <div class="t">臣请史官非秦记皆烧之。非博士官所职，天下敢有藏《诗》《书》百家语者，悉诣守、尉杂</div>
+      <div class="meta">2025-05-16 · 6826839900</div>
+    </a>
+    <a class="site" href="notes/6825d13f0000000023013ae5/">
+      <img class="th" loading="lazy" src="notes/6825d13f0000000023013ae5/images/img1.jpg" alt="">
+      <div class="t">文明的本质是永不停歇的叙事炼金术。从洞穴壁画到元宇宙，从甲骨卜辞到区块链，人类始</div>
+      <div class="meta">2025-05-15 · 6825d13f00</div>
+    </a>
+    <a class="site" href="notes/68247b46000000002300c1fa/">
+      <img class="th" loading="lazy" src="notes/68247b46000000002300c1fa/images/img1.jpg" alt="">
+      <div class="t">68247b46000000002300c1fa</div>
+      <div class="meta">2025-05-14 · 68247b4600</div>
+    </a>
+    <a class="site" href="notes/6824490f0000000022035939/">
+      <img class="th" loading="lazy" src="notes/6824490f0000000022035939/images/img1.jpg" alt="">
+      <div class="t">即便还原论再怎么挣扎，也逆转不了还原论被纳入整体论的消化系统。</div>
+      <div class="meta">2025-05-14 · 6824490f00</div>
+    </a>
+    <a class="site" href="notes/68242bf50000000023011a5b/">
+      <img class="th" loading="lazy" src="notes/68242bf50000000023011a5b/images/img1.jpg" alt="">
+      <div class="t">刚接触个新词，做个笔记:</div>
+      <div class="meta">2025-05-14 · 68242bf500</div>
+    </a>
+    <a class="site" href="notes/6823daab000000002301248e/">
+      <img class="th" loading="lazy" src="notes/6823daab000000002301248e/images/img1.jpg" alt="">
+      <div class="t">若确要批判什么，切勿反思批判行为本身是否正确。基于理性的批判纯属空谈，而且有投名</div>
+      <div class="meta">2025-05-13 · 6823daab00</div>
+    </a>
+    <a class="site" href="notes/6823c8f60000000022036ca3/">
+      <img class="th" loading="lazy" src="notes/6823c8f60000000022036ca3/images/img1.jpg" alt="">
+      <div class="t">脱水！ </div>
+      <div class="meta">2025-05-13 · 6823c8f600</div>
+    </a>
+    <a class="site" href="notes/682191970000000023003a0d/">
+      <img class="th" loading="lazy" src="notes/682191970000000023003a0d/images/img1.jpg" alt="">
+      <div class="t">貌似全世界的SCJZ成员</div>
+      <div class="meta">2025-05-12 · 6821919700</div>
+    </a>
+    <a class="site" href="notes/68208aa300000000230004b7/">
+      <img class="th" loading="lazy" src="notes/68208aa300000000230004b7/images/img1.jpg" alt="">
+      <div class="t">别问Prompt是个啥</div>
+      <div class="meta">2025-05-11 · 68208aa300</div>
+    </a>
+    <a class="site" href="notes/681d55270000000022029f1f/">
+      <img class="th" loading="lazy" src="notes/681d55270000000022029f1f/images/img1.jpg" alt="">
+      <div class="t">尻轮神马自足驾 已觉两腋风泠然</div>
+      <div class="meta">2025-05-09 · 681d552700</div>
+    </a>
+    <a class="site" href="notes/681c504c000000002202ac4f/">
+      <img class="th" loading="lazy" src="notes/681c504c000000002202ac4f/images/img1.jpg" alt="">
+      <div class="t">基于对尤瓦尔的认知革命的理解和自身的喜好偏向，留这么几种业余爱好的池子，以留条认</div>
+      <div class="meta">2025-05-08 · 681c504c00</div>
+    </a>
+    <a class="site" href="notes/681ae7d3000000002300c291/">
+      <img class="th" loading="lazy" src="notes/681ae7d3000000002300c291/images/img1.jpg" alt="">
+      <div class="t">设想一下, 刘慈欣《三体》中的智子, 喻指的是哲学。那么, 水滴喻指的, 又是什</div>
+      <div class="meta">2025-05-07 · 681ae7d300</div>
+    </a>
+    <a class="site" href="notes/681a2b490000000023016fc1/">
+      <img class="th" loading="lazy" src="notes/681a2b490000000023016fc1/images/img1.jpg" alt="">
+      <div class="t">在这路遥马急的人间 </div>
+      <div class="meta">2025-05-06 · 681a2b4900</div>
+    </a>
+    <a class="site" href="notes/681a0c170000000023002111/">
+      <img class="th" loading="lazy" src="notes/681a0c170000000023002111/images/img1.jpg" alt="">
+      <div class="t">SCI、SSCI、AHCI、JIF与ESI等CLVT的核心评价体系，深刻塑造着全</div>
+      <div class="meta">2025-05-06 · 681a0c1700</div>
+    </a>
+    <a class="site" href="notes/681956f0000000002300f1c8/">
+      <img class="th" loading="lazy" src="notes/681956f0000000002300f1c8/images/img1.jpg" alt="">
+      <div class="t">严格意义上的人文科学早已宣告终结。人文学科本质上只能作为爱好而非学问。人工智能将</div>
+      <div class="meta">2025-05-06 · 681956f000</div>
+    </a>
+    <a class="site" href="notes/681832600000000023002c3c/">
+      <img class="th" loading="lazy" src="notes/681832600000000023002c3c/images/img1.jpg" alt="">
+      <div class="t">他们朝我扔泥巴 我拿泥巴种荷花</div>
+      <div class="meta">2025-05-05 · 6818326000</div>
+    </a>
+    <a class="site" href="notes/681820bc0000000022034718/">
+      <img class="th" loading="lazy" src="notes/681820bc0000000022034718/images/img1.jpg" alt="">
+      <div class="t">∵Knowledge is power[微笑R]</div>
+      <div class="meta">2025-05-05 · 681820bc00</div>
+    </a>
+    <a class="site" href="notes/6815d3960000000023012a75/">
+      <img class="th" loading="lazy" src="notes/6815d3960000000023012a75/images/img1.jpg" alt="">
+      <div class="t">画个句号。 国内涉及学位的认知，以《中国学位法》为准，还得抠着字眼用(医学是医学</div>
+      <div class="meta">2025-05-03 · 6815d39600</div>
+    </a>
+    <a class="site" href="notes/6815a71a000000002301f0d7/">
+      <img class="th" loading="lazy" src="notes/6815a71a000000002301f0d7/images/img1.jpg" alt="">
+      <div class="t">鉴于那啥有那啥啥啥啥误会再列一遍，规范下那啥那啥[生气R]</div>
+      <div class="meta">2025-05-03 · 6815a71a00</div>
+    </a>
+    <a class="site" href="notes/68154d4f000000002202a600/">
+      <img class="th" loading="lazy" src="notes/68154d4f000000002202a600/images/img1.jpg" alt="">
+      <div class="t">临床医学博士(专博)和医学博士(学博)理想的样子是这样:</div>
+      <div class="meta">2025-05-02 · 68154d4f00</div>
+    </a>
+    <a class="site" href="notes/68154873000000002202a1d9/">
+      <img class="th" loading="lazy" src="notes/68154873000000002202a1d9/images/img1.jpg" alt="">
+      <div class="t">国际上M.D.就是Level7(硕)不是Level8(博)/国内分临床医学博士与</div>
+      <div class="meta">2025-05-02 · 6815487300</div>
+    </a>
+    <a class="site" href="notes/6814bc530000000022035218/">
+      <img class="th" loading="lazy" src="notes/6814bc530000000022035218/images/img1.jpg" alt="">
+      <div class="t">nepotism meritocracy</div>
+      <div class="meta">2025-05-02 · 6814bc5300</div>
+    </a>
+    <a class="site" href="notes/68142e05000000002202d66f/">
+      <img class="th" loading="lazy" src="notes/68142e05000000002202d66f/images/img1.jpg" alt="">
+      <div class="t">GM开挂 全员挂逼 </div>
+      <div class="meta">2025-05-02 · 68142e0500</div>
+    </a>
+    <a class="site" href="notes/681289f6000000002202817c/">
+      <img class="th" loading="lazy" src="notes/681289f6000000002202817c/images/img1.jpg" alt="">
+      <div class="t">sur la controverse de l&#x27;Hôpital Xiehe</div>
+      <div class="meta">2025-04-30 · 681289f600</div>
+    </a>
+    <a class="site" href="notes/6810584a000000002300de53/">
+      <img class="th" loading="lazy" src="notes/6810584a000000002300de53/images/img1.jpg" alt="">
+      <div class="t">6810584a000000002300de53</div>
+      <div class="meta">2025-04-29 · 6810584a00</div>
+    </a>
+    <a class="site" href="notes/681055330000000023010c3d/">
+      <img class="th" loading="lazy" src="notes/681055330000000023010c3d/images/img1.jpg" alt="">
+      <div class="t">企业家群体的公关危机，本质是私营资本试图通过挪用政治领域的治理符号与动员逻辑，构</div>
+      <div class="meta">2025-04-29 · 6810553300</div>
+    </a>
+    <a class="site" href="notes/680b74f2000000001d00b07f/">
+      <img class="th" loading="lazy" src="notes/680b74f2000000001d00b07f/images/img1.jpg" alt="">
+      <div class="t">680b74f2000000001d00b07f</div>
+      <div class="meta">2025-04-25 · 680b74f200</div>
+    </a>
+    <a class="site" href="notes/680a19ca000000001c034f6f/">
+      <img class="th" loading="lazy" src="notes/680a19ca000000001c034f6f/images/img1.jpg" alt="">
+      <div class="t">用层累形容文化，文化从来都是创造性地层累着的。这与地质学的层累有本质不同，并不遵</div>
+      <div class="meta">2025-04-24 · 680a19ca00</div>
+    </a>
+    <a class="site" href="notes/6809b0c7000000001202d26e/">
+      <img class="th" loading="lazy" src="notes/6809b0c7000000001202d26e/images/img1.jpg" alt="">
+      <div class="t">某文字学长者以典释典循环论证构建方言优越性与攀附中原望族妄称自诩雅言的文化达尔文</div>
+      <div class="meta">2025-04-24 · 6809b0c700</div>
+    </a>
+    <a class="site" href="notes/6808792d000000001c01537f/">
+      <img class="th" loading="lazy" src="notes/6808792d000000001c01537f/images/img1.jpg" alt="">
+      <div class="t">AMS与EMS </div>
+      <div class="meta">2025-04-23 · 6808792d00</div>
+    </a>
+    <a class="site" href="notes/680471c1000000001c0358d6/">
+      <img class="th" loading="lazy" src="notes/680471c1000000001c0358d6/images/img1.jpg" alt="">
+      <div class="t">秋乃田乃 可利本乃庵能</div>
+      <div class="meta">2025-04-20 · 680471c100</div>
+    </a>
+    <a class="site" href="notes/67ffae83000000001c011fec/">
+      <img class="th" loading="lazy" src="notes/67ffae83000000001c011fec/images/img1.jpg" alt="">
+      <div class="t">强制国标 GB 38031-2025</div>
+      <div class="meta">2025-04-16 · 67ffae8300</div>
+    </a>
+    <a class="site" href="notes/67fb3edb000000001c013d7c/">
+      <img class="th" loading="lazy" src="notes/67fb3edb000000001c013d7c/images/img1.jpg" alt="">
+      <div class="t">「烧烤牧场」问小白 </div>
+      <div class="meta">2025-04-13 · 67fb3edb00</div>
+    </a>
+    <a class="site" href="notes/67fa1645000000001c0330a3/">
+      <img class="th" loading="lazy" src="notes/67fa1645000000001c0330a3/images/img1.jpg" alt="">
+      <div class="t">提示词(如何让你的AI胡说八道)</div>
+      <div class="meta">2025-04-12 · 67fa164500</div>
+    </a>
+    <a class="site" href="notes/67f716de000000001202f734/">
+      <img class="th" loading="lazy" src="notes/67f716de000000001202f734/images/img1.jpg" alt="">
+      <div class="t">汽车因其高速移动特性和安全需求的高度敏感性，采用单项否决判定准则来评估其性能与系</div>
+      <div class="meta">2025-04-10 · 67f716de00</div>
+    </a>
+    <a class="site" href="notes/67f35e6d000000001c02ac1a/">
+      <img class="th" loading="lazy" src="notes/67f35e6d000000001c02ac1a/images/img1.jpg" alt="">
+      <div class="t">我在澎讯网的笔记下发布了一条评论</div>
+      <div class="meta">2025-04-07 · 67f35e6d00</div>
+    </a>
+    <a class="site" href="notes/67f27bac000000001c034cc4/">
+      <img class="th" loading="lazy" src="notes/67f27bac000000001c034cc4/images/img1.jpg" alt="">
+      <div class="t">67f27bac000000001c034cc4</div>
+      <div class="meta">2025-04-06 · 67f27bac00</div>
+    </a>
+    <a class="site" href="notes/67e7e706000000001c02a6b4/">
+      <img class="th" loading="lazy" src="notes/67e7e706000000001c02a6b4/images/img1.jpg" alt="">
+      <div class="t">学くずし字时的精神状态belike：严重怀疑其实是古代一帮草书书法家和行楷书法家</div>
+      <div class="meta">2025-03-29 · 67e7e70600</div>
+    </a>
+    <a class="site" href="notes/67d66437000000001b03dd5a/">
+      <img class="th" loading="lazy" src="notes/67d66437000000001b03dd5a/images/img1.jpg" alt="">
+      <div class="t">有多少日专生看过「源氏物語」❓</div>
+      <div class="meta">2025-03-16 · 67d6643700</div>
+    </a>
+    <a class="site" href="notes/67a333c30000000029036619/">
+      <img class="th" loading="lazy" src="notes/67a333c30000000029036619/images/img1.jpg" alt="">
+      <div class="t">かいじゅうの ジューダには</div>
+      <div class="meta">2025-02-05 · 67a333c300</div>
+    </a>
+    <a class="site" href="notes/671797e700000000210051dd/">
+      <img class="th" loading="lazy" src="notes/671797e700000000210051dd/images/img1.jpg" alt="">
+      <div class="t">潮州图书馆 连不上啊连不上</div>
+      <div class="meta">2024-10-22 · 671797e700</div>
+    </a>
+    <a class="site" href="notes/6700a989000000001902e3b5/">
+      <img class="th" loading="lazy" src="notes/6700a989000000001902e3b5/images/img1.jpg" alt="">
+      <div class="t">自习 </div>
+      <div class="meta">2024-10-05 · 6700a98900</div>
+    </a>
+    <a class="site" href="notes/66c0185b000000001e01e6cf/">
+      <img class="th" loading="lazy" src="notes/66c0185b000000001e01e6cf/images/img1.jpg" alt="">
+      <div class="t">康康我的小红书新头像 🗣</div>
+      <div class="meta">2024-08-17 · 66c0185b00</div>
+    </a>
+    <a class="site" href="notes/66a7364b000000002701e7ba/">
+      <img class="th" loading="lazy" src="notes/66a7364b000000002701e7ba/images/img1.jpg" alt="">
+      <div class="t">ChromeOS快捷键</div>
+      <div class="meta">2024-07-29 · 66a7364b00</div>
+    </a>
+    <a class="site" href="notes/668b3626000000001c0250f1/">
+      <img class="th" loading="lazy" src="notes/668b3626000000001c0250f1/images/img1.jpg" alt="">
+      <div class="t">寻日语学习搭子 </div>
+      <div class="meta">2024-07-08 · 668b362600</div>
     </a>
   </div>
+  <div class="count" id="count">共 512 条笔记</div>
 </main>
 
 <footer>
-  源仓库：<a href="https://github.com/syu-toutousai/syu-toutousai.github.io">syu-toutousai.github.io</a>
+  源仓库 · <a href="https://github.com/syu-toutousai/syu-toutousai.github.io">syu-toutousai.github.io</a>
 </footer>
+<script>
+function filter(v){
+  v=v.toLowerCase();
+  let n=0;
+  document.querySelectorAll('#grid .site').forEach(a=>{
+    const ok=a.textContent.toLowerCase().indexOf(v)!==-1;
+    a.style.display=ok?'':'none';
+    if(ok)n++;
+  });
+  document.getElementById('count').textContent='显示 '+n+' / '+512+' 条';
+}
+</script>
 </body>
 </html>
