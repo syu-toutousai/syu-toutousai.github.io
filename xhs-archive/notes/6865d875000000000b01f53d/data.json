@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "6865db3c000000000f03d568",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "“宴游方能促百业”",
+   "date": "2025-07-03",
+   "timestamp": "2025-07-03",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

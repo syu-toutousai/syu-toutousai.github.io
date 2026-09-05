@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "68ea22ad000000003902ac7f",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "～のは、～ではなく、～からです。",
+   "date": "2025-10-11",
+   "timestamp": "2025-10-11",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

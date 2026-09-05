@@ -19,5 +19,28 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "68921ec8000000002b00749e",
+   "nickname": "宋元明清",
+   "is_author": false,
+   "content": "阁下🇯🇵🐶？",
+   "date": "2025-08-05",
+   "timestamp": "2025-08-05",
+   "location": "山东",
+   "likes": "0",
+   "reply_to": null
+  },
+  {
+   "id": "6892f0c2000000002903e89c",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "您是DQN❓",
+   "date": "2025-08-06",
+   "timestamp": "2025-08-06",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": "68921ec8000000002b00749e"
+  }
+ ]
 }

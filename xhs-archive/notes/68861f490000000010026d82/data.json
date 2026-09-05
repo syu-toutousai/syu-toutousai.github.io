@@ -20,5 +20,28 @@
    "img2.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "68862f070000000013035e0c",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "今天，靴子落下了一只。终于可以开始读「平家物语」",
+   "date": "2025-07-27",
+   "timestamp": "2025-07-27",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  },
+  {
+   "id": "688644cd000000001100d319",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "@李国麟演员",
+   "date": "2025-07-27",
+   "timestamp": "2025-07-27",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

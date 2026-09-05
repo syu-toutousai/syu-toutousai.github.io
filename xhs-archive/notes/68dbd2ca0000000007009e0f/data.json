@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "68dc16820000000039002c63",
+   "nickname": "京都21街",
+   "is_author": false,
+   "content": "没有一道预制菜不是割韭菜的。",
+   "date": "2025-09-30",
+   "timestamp": "2025-09-30",
+   "location": "河北",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

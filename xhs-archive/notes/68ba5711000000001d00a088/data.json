@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "68bb08d20000000030007d0d",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "The unwritten rule of the symbolic realm (SR): perpetually maintain the symbolic illusion. Here SR refers to fields built on symbols, including culture, humanities, science, art, politics, etc. But it excludes faith, because although faith is expressed through symbols, it points beyond SR.",
+   "date": "2025-09-05",
+   "timestamp": "2025-09-05",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

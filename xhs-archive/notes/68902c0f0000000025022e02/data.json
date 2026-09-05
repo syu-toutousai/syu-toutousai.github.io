@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "68909e95000000002a000235",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "盛世集粟真智勇，乱世舍粥真慈悲。",
+   "date": "2025-08-04",
+   "timestamp": "2025-08-04",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

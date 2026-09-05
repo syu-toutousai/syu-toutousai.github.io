@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "6875ef7e0000000013037fde",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "区域性资源禀赋，一种魔性的诅咒。中东地区尤其如此。",
+   "date": "2025-07-15",
+   "timestamp": "2025-07-15",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

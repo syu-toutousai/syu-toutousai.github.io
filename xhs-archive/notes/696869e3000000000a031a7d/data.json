@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "69686a2c0000000005032c0e",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "「叫び」 畠山丑雄 新潮社",
+   "date": "01-15",
+   "timestamp": "01-15",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

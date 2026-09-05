@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "691b35a1000000003902e0cf",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "a ”victor-by-victimhood” game[doge]",
+   "date": "2025-11-17",
+   "timestamp": "2025-11-17",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

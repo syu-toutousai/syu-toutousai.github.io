@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "6931f37c000000001d0250c2",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "余裕しゃくしゃく[捂嘴笑R]",
+   "date": "2025-12-04",
+   "timestamp": "2025-12-04",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

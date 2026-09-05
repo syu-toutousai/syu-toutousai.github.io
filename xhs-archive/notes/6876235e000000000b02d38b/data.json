@@ -19,5 +19,28 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "687628fa0000000006005a9d",
+   "nickname": "一三五七",
+   "is_author": false,
+   "content": "所以小年轻会被骗啊[笑哭R]毕竟高龄少年",
+   "date": "2025-07-15",
+   "timestamp": "2025-07-15",
+   "location": "广西",
+   "likes": "0",
+   "reply_to": null
+  },
+  {
+   "id": "68762de70000000009016f06",
+   "nickname": "Dy违法，傻子才干",
+   "is_author": false,
+   "content": "你鼻子里装雷达了",
+   "date": "2025-07-15",
+   "timestamp": "2025-07-15",
+   "location": "天津",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

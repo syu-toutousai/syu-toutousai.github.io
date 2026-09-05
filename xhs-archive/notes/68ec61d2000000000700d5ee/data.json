@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "68ecc32700000000390077e0",
+   "nickname": "Faith Woo",
+   "is_author": false,
+   "content": "hi",
+   "date": "2025-10-13",
+   "timestamp": "2025-10-13",
+   "location": "日本",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

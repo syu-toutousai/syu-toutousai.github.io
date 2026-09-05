@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "68e9dfaf0000000039024fd7",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "开口闭口/言必称/动辄…越…越…",
+   "date": "2025-10-11",
+   "timestamp": "2025-10-11",
+   "location": "广东",
+   "likes": "1",
+   "reply_to": null
+  }
+ ]
 }

@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "689b0bbf0000000030004296",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "「莊犬夜吠」某天深夜。庄子里的一条狗，不安生，毫无缘由地叫了起来。没过一会儿，全莊的狗就都此起彼伏地叫了起来。",
+   "date": "2025-08-12",
+   "timestamp": "2025-08-12",
+   "location": "中国香港",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

@@ -19,5 +19,28 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "68648ee800000000130360ec",
+   "nickname": "泡泡鲁达",
+   "is_author": false,
+   "content": "多读点书吧",
+   "date": "2025-07-02",
+   "timestamp": "2025-07-02",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  },
+  {
+   "id": "6864b5b400000000130355c6",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "也想啊，可是看点什么呢",
+   "date": "2025-07-02",
+   "timestamp": "2025-07-02",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": "68648ee800000000130360ec"
+  }
+ ]
 }

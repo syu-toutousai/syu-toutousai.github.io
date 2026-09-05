@@ -23,5 +23,17 @@
    "img5.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "688b8e18000000002a0059b3",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "\"一个人开口闭口，谈利益，讲利己，最起码说明他很诚实。一个人开口闭口，都是仁义道德，你要注意了，这家伙要吃人\"",
+   "date": "2025-07-31",
+   "timestamp": "2025-07-31",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

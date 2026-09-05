@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "688da8b1000000002a006625",
+   "nickname": "SIGE",
+   "is_author": false,
+   "content": "",
+   "date": "2025-08-02",
+   "timestamp": "2025-08-02",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

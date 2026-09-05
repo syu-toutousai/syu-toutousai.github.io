@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "6894321a000000002a0091e2",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "然而世上并无天然胜任者[doge]",
+   "date": "2025-08-07",
+   "timestamp": "2025-08-07",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

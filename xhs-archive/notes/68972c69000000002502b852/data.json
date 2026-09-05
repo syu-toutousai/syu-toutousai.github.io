@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "68972c86000000002a01b966",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "只具备二维思维能力的人类是时代结构中的原始人，一直是",
+   "date": "2025-08-09",
+   "timestamp": "2025-08-09",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "689e4573000000003001908f",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "所谓危机，并非「虚构」的危机，而是「遮蔽虚构」的危机[捂嘴笑R]",
+   "date": "2025-08-14",
+   "timestamp": "2025-08-14",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "68c8e1c2000000003000b1d2",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "罗与贾[捂嘴笑R]",
+   "date": "2025-09-16",
+   "timestamp": "2025-09-16",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

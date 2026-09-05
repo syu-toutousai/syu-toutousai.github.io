@@ -19,5 +19,28 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "6a6ee1b6000000002a030a2d",
+   "nickname": "渔子酱",
+   "is_author": false,
+   "content": "什么意思",
+   "date": "08-02",
+   "timestamp": "08-02",
+   "location": "福建",
+   "likes": "0",
+   "reply_to": null
+  },
+  {
+   "id": "6a72ab83000000000302d583",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "劣化",
+   "date": "08-05",
+   "timestamp": "08-05",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": "6a6ee1b6000000002a030a2d"
+  }
+ ]
 }

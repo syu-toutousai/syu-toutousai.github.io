@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "687b53e50000000019025045",
+   "nickname": "2020cjq",
+   "is_author": false,
+   "content": "说得真不错。语言本身就是如此。",
+   "date": "2025-07-19",
+   "timestamp": "2025-07-19",
+   "location": "江苏",
+   "likes": "1",
+   "reply_to": null
+  }
+ ]
 }

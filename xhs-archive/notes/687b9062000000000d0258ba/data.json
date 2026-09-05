@@ -19,5 +19,28 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "687bce27000000000f03ca87",
+   "nickname": "小小",
+   "is_author": false,
+   "content": "？",
+   "date": "2025-07-19",
+   "timestamp": "2025-07-19",
+   "location": "浙江",
+   "likes": "0",
+   "reply_to": null
+  },
+  {
+   "id": "687bcf0b0000000013037e85",
+   "nickname": "小小",
+   "is_author": false,
+   "content": "哪儿看来的？",
+   "date": "2025-07-19",
+   "timestamp": "2025-07-19",
+   "location": "浙江",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

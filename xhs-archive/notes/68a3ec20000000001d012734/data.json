@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "68a3f25200000000300088f8",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "沉迷思辨与思辨层面的正确性的，都隐隐地在描绘一个幻想:人类系统是由脖颈以上即头颅组成的，这就是所谓的「头颅幻想」(HOI)",
+   "date": "2025-08-19",
+   "timestamp": "2025-08-19",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

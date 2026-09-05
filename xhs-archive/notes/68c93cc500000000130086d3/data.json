@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "68ca3bfd0000000030019c4f",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "其实是四个，dd, aw, my和dsx[捂嘴笑R]",
+   "date": "2025-09-17",
+   "timestamp": "2025-09-17",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

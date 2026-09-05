@@ -19,5 +19,39 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "689561d3000000002903c756",
+   "nickname": "ヤキモチ",
+   "is_author": false,
+   "content": "",
+   "date": "2025-08-08",
+   "timestamp": "2025-08-08",
+   "location": "山东",
+   "likes": "0",
+   "reply_to": null
+  },
+  {
+   "id": "68956885000000002a001d89",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "有情物无情物的说法指向的是日本人的心理结构，不是语法哦[doge]",
+   "date": "2025-08-08",
+   "timestamp": "2025-08-08",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": "689561d3000000002903c756"
+  },
+  {
+   "id": "68956a91000000002a01a790",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "① 頭の真上に太陽が(輝いて)いる。说的是晒吧好像[捂嘴笑R] ② ～もあれば、～ある。貌似是一条语法，古语残留那种[捂嘴笑R]",
+   "date": "2025-08-08",
+   "timestamp": "2025-08-08",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

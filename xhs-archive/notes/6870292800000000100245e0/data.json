@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "68702fae000000001100f7ad",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "谷崎润一郎是一位“将阴翳提炼为艺术黄金的文学炼金师”",
+   "date": "2025-07-10",
+   "timestamp": "2025-07-10",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

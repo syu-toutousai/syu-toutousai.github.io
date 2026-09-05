@@ -19,5 +19,28 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "68e9fc9e0000000039033e06",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "❌「雨が洗濯を済ました」",
+   "date": "2025-10-11",
+   "timestamp": "2025-10-11",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  },
+  {
+   "id": "68f0140700000000380130f5",
+   "nickname": "二亩地一担八",
+   "is_author": false,
+   "content": "雨洗！",
+   "date": "2025-10-15",
+   "timestamp": "2025-10-15",
+   "location": "河北",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

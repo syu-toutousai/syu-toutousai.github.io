@@ -19,5 +19,28 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "68ce1ab70000000030010570",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "LYH是一条对于正义投机成瘾的社会鲶鱼，但狼来了的故事不可能一直有听众[doge]",
+   "date": "2025-09-20",
+   "timestamp": "2025-09-20",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  },
+  {
+   "id": "68ce1c54000000003000bc07",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "所谓的「只是发个牢骚」，其实是其对于自身所持有的社交货币的挥霍行为。也就是说，其对社会信任的承载潜力，已经见顶。",
+   "date": "2025-09-20",
+   "timestamp": "2025-09-20",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

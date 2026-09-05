@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "68e953140000000038028f98",
+   "nickname": "二亩地一担八",
+   "is_author": false,
+   "content": "我秃了\n和\n它越来越强大",
+   "date": "2025-10-10",
+   "timestamp": "2025-10-10",
+   "location": "河北",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

@@ -19,5 +19,28 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "689d406900000000300059ba",
+   "nickname": "星池天",
+   "is_author": false,
+   "content": "好喜欢这个描述",
+   "date": "2025-08-14",
+   "timestamp": "2025-08-14",
+   "location": "重庆",
+   "likes": "1",
+   "reply_to": null
+  },
+  {
+   "id": "689d46a50000000026038adc",
+   "nickname": "鸭嘴龙石",
+   "is_author": false,
+   "content": "哇，真会言语表达！",
+   "date": "2025-08-14",
+   "timestamp": "2025-08-14",
+   "location": "四川",
+   "likes": "1",
+   "reply_to": null
+  }
+ ]
 }

@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "68e77aaa000000003802b642",
+   "nickname": "过曝一档",
+   "is_author": false,
+   "content": "技巧过剩",
+   "date": "2025-10-09",
+   "timestamp": "2025-10-09",
+   "location": "四川",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

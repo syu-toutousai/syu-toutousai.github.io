@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "688d748e000000002a002ef2",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "守住能量结界，克制进谏欲望，内观省察，自他两利",
+   "date": "2025-08-02",
+   "timestamp": "2025-08-02",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

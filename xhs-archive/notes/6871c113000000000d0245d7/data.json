@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "6871d601000000001102c4fb",
+   "nickname": "超超超甜🍬",
+   "is_author": false,
+   "content": "对的，同样的，中国发明外国，外国发明中国。",
+   "date": "2025-07-12",
+   "timestamp": "2025-07-12",
+   "location": "浙江",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

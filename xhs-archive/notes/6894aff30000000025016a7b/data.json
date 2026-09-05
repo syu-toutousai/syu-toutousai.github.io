@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "689559e3000000002a00b16d",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "一种被动改进逻辑，一种摸着石头过河的溯溪策略",
+   "date": "2025-08-08",
+   "timestamp": "2025-08-08",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

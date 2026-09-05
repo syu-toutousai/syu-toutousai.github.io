@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "68ecffc9000000003902d9b7",
+   "nickname": "MIHO",
+   "is_author": false,
+   "content": "何故、過去形なんだろう?",
+   "date": "2025-10-13",
+   "timestamp": "2025-10-13",
+   "location": "日本",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }
