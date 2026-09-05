@@ -1,6 +1,6 @@
 # Mirroring Status
 
-_Generated 2026-09-05T14:24:34+0000_ · notes: **542** · sources: refetch 519, sweep-valid 355, deployed 542, live-comments 0_
+_Generated 2026-09-05T16:19:25_ · notes: **542** · sources: refetch 519, sweep-valid 355, live-comments 0_
 
 ## Aggregate
 
@@ -15,11 +15,11 @@ _Generated 2026-09-05T14:24:34+0000_ · notes: **542** · sources: refetch 519, 
 | comments_none | 409 |
 | comments_sweep_only | 5 |
 | images_complete | 542 |
-| images_incomplete | 0 |
+| token_dead | 21 |
 
-## Files (543)
-- `mirroring-status.json` — machine-readable per-note index.
-- This file — human summary.
+## Files
+- `mirroring-status.json` machine-readable per-note index
+- This file human summary
 
 ## Comments needing attention: 53
 
@@ -79,30 +79,9 @@ _Generated 2026-09-05T14:24:34+0000_ · notes: **542** · sources: refetch 519, 
 | 680471c1… | 1 | 0 | need |
 | 67ffae83… | 1 | 0 | need |
 
-## Notes lacking live refetch data: 23
+## Notes lacking live refetch (not token-dead): 2
 
-- `6a7a75d9000000002201016d`
-- `6a7810b0000000002201152c`
-- `6930c2c6000000001e0173a8`
-- `6911a7470000000007003ff3`
-- `68f73832000000000700b150`
-- `68f734e20000000007031fce`
-- `68f5ba19000000000700d7de`
-- `68f23ec90000000007017f3d`
-- `68df6a500000000007039819`
-- `68d4e7e9000000001203137a`
-- `68c93cc500000000130086d3`
-- `68b23cf0000000001d0078b8`
-- `6899a5cf000000002501c62e`
-- `68972c69000000002502b852`
-- `6889aca2000000002501173c`
-- `6876235e000000000b02d38b`
 - `684c3fad000000002301c3d0`
 - `684512840000000023013b2d`
-- `6841220400000000220283fe`
-- `683a21120000000022035a78`
-- `68332179000000002202e8b1`
-- `682fe5a100000000230024bf`
-- `682f27cf000000002301c355`
 
-## Comments complete: 75 notes
+## Token-dead notes: 21 (xsec token no longer resolves; retried on refresh window)
