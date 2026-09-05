@@ -10,9 +10,9 @@
   "type": "normal",
   "stats": {
    "liked_count": "2",
-   "comment_count": "0",
-   "collected_count": "0",
-   "share_count": "0"
+   "comment_count": "",
+   "collected_count": "",
+   "share_count": ""
   },
   "source_url": "https://www.xiaohongshu.com/explore/68d05de7000000001202f389",
   "images": [

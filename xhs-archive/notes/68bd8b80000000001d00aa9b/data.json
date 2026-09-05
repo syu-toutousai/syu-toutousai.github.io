@@ -12,35 +12,12 @@
    "liked_count": "1",
    "comment_count": "2",
    "collected_count": "1",
-   "share_count": "0"
+   "share_count": ""
   },
   "source_url": "https://www.xiaohongshu.com/explore/68bd8b80000000001d00aa9b",
   "images": [
    "img1.jpg"
   ]
  },
- "comments": [
-  {
-   "id": "68bd9cf30000000030007126",
-   "nickname": "高龄少年",
-   "is_author": true,
-   "content": "撩动、诱启。",
-   "date": "2025-09-07",
-   "timestamp": "2025-09-07 14:55:47",
-   "location": "广东",
-   "likes": "0",
-   "reply_to": null
-  },
-  {
-   "id": "68bd8de0000000003000cec2",
-   "nickname": "高龄少年",
-   "is_author": true,
-   "content": "「to solicit imagination」的译文为「征启想象」(「征启」为新造汉语词，对应英语的「to solicit」, 意指一种未经要求的、侵扰性的间接调用与吁请)",
-   "date": "2025-09-07",
-   "timestamp": "2025-09-07 13:51:28",
-   "location": "广东",
-   "likes": "0",
-   "reply_to": null
-  }
- ]
+ "comments": []
 }

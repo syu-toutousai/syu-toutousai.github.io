@@ -1,8 +1,8 @@
 {
  "note": {
   "note_id": "6896962400000000250227c7",
-  "title": "成为作者 ",
-  "desc": "",
+  "title": "成为作者",
+  "desc": "我们不应无条件服从于纸张，而应思考其背后的恐惧与诱惑。恐惧源于暴力背书，诱惑则源于文字中的契约与认同。面对纸张时，除了诘问，更应成为作者，活出理想。",
   "author": "高龄少年",
   "author_id": "66149086000000000d02603d",
   "publish_time": "2025-08-09 00:28:20",
@@ -10,13 +10,15 @@
   "type": "normal",
   "stats": {
    "liked_count": "0",
-   "comment_count": "0",
+   "comment_count": "2",
    "collected_count": "0",
    "share_count": "0"
   },
   "source_url": "https://www.xiaohongshu.com/explore/6896962400000000250227c7",
   "images": [
-   "img1.jpg"
+   "img1.jpg",
+   "img2.jpg",
+   "img3.jpg"
   ]
  },
  "comments": []

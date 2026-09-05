@@ -12,24 +12,12 @@
    "liked_count": "2",
    "comment_count": "1",
    "collected_count": "1",
-   "share_count": "0"
+   "share_count": ""
   },
   "source_url": "https://www.xiaohongshu.com/explore/68c237d7000000001d00ed45",
   "images": [
    "img1.jpg"
   ]
  },
- "comments": [
-  {
-   "id": "68c3dd6f000000000a00ced7",
-   "nickname": "20607757",
-   "is_author": false,
-   "content": "流动的河水永不枯竭，却也不再是曾经流淌的河水。死水中漂浮的气泡，时隐时现，消失又重现，从不长久停留在原地。人类及其在世间的家园，亦是如此。",
-   "date": "2025-09-12",
-   "timestamp": "2025-09-12",
-   "location": "日本",
-   "likes": "2",
-   "reply_to": null
-  }
- ]
+ "comments": []
 }

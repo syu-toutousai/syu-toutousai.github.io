@@ -9,38 +9,15 @@
   "publish_timestamp_ms": 1759879654000,
   "type": "normal",
   "stats": {
-   "liked_count": "0",
+   "liked_count": "",
    "comment_count": "2",
-   "collected_count": "0",
-   "share_count": "0"
+   "collected_count": "",
+   "share_count": ""
   },
   "source_url": "https://www.xiaohongshu.com/explore/68e5a1e60000000007009dd3",
   "images": [
    "img1.jpg"
   ]
  },
- "comments": [
-  {
-   "id": "68e5c8e3000000003802c41e",
-   "nickname": "小红薯657B91D5",
-   "is_author": false,
-   "content": "酒税下边那个是吸烟税？",
-   "date": "2025-10-08",
-   "timestamp": "2025-10-08",
-   "location": "河北",
-   "likes": "0",
-   "reply_to": null
-  },
-  {
-   "id": "68e5d860000000003902bb49",
-   "nickname": "高龄少年",
-   "is_author": true,
-   "content": "是的[doge]",
-   "date": "2025-10-08",
-   "timestamp": "2025-10-08",
-   "location": "广东",
-   "likes": "0",
-   "reply_to": "68e5c8e3000000003802c41e"
-  }
- ]
+ "comments": []
 }

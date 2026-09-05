@@ -12,24 +12,12 @@
    "liked_count": "2",
    "comment_count": "1",
    "collected_count": "2",
-   "share_count": "0"
+   "share_count": ""
   },
   "source_url": "https://www.xiaohongshu.com/explore/68d50cfa000000001201f165",
   "images": [
    "img1.jpg"
   ]
  },
- "comments": [
-  {
-   "id": "68d5120100000000300118ed",
-   "nickname": "高龄少年",
-   "is_author": true,
-   "content": "「他的物质收益，直接等同于其成功引爆并劫掠的认知势能的当量。也就是说，其本质是一个游走于认知缝隙中的、高效而残酷的社会心理能量劫掠者」",
-   "date": "2025-09-25",
-   "timestamp": "2025-09-25",
-   "location": "广东",
-   "likes": "0",
-   "reply_to": null
-  }
- ]
+ "comments": []
 }

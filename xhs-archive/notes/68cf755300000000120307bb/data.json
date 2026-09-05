@@ -19,17 +19,5 @@
    "img1.jpg"
   ]
  },
- "comments": [
-  {
-   "id": "68cf80cd000000003000cd9f",
-   "nickname": "高龄少年",
-   "is_author": true,
-   "content": "strategic calculation 策略性计算(算计)",
-   "date": "2025-09-21",
-   "timestamp": "2025-09-21",
-   "location": "广东",
-   "likes": "0",
-   "reply_to": null
-  }
- ]
+ "comments": []
 }

@@ -11,25 +11,13 @@
   "stats": {
    "liked_count": "2",
    "comment_count": "1",
-   "collected_count": "0",
-   "share_count": "0"
+   "collected_count": "",
+   "share_count": ""
   },
   "source_url": "https://www.xiaohongshu.com/explore/6893ef44000000002501e19b",
   "images": [
    "img1.jpg"
   ]
  },
- "comments": [
-  {
-   "id": "68943238000000002a0067b1",
-   "nickname": "高龄少年",
-   "is_author": true,
-   "content": "鴨ネギ[捂嘴笑R]",
-   "date": "2025-08-07",
-   "timestamp": "2025-08-07",
-   "location": "广东",
-   "likes": "0",
-   "reply_to": null
-  }
- ]
+ "comments": []
 }

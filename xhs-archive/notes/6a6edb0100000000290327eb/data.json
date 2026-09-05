@@ -9,38 +9,15 @@
   "publish_timestamp_ms": 1785649921000,
   "type": "normal",
   "stats": {
-   "liked_count": "0",
+   "liked_count": "",
    "comment_count": "2",
-   "collected_count": "0",
-   "share_count": "0"
+   "collected_count": "",
+   "share_count": ""
   },
   "source_url": "https://www.xiaohongshu.com/explore/6a6edb0100000000290327eb",
   "images": [
    "img1.jpg"
   ]
  },
- "comments": [
-  {
-   "id": "6a6ee1b6000000002a030a2d",
-   "nickname": "渔子酱",
-   "is_author": false,
-   "content": "什么意思",
-   "date": "08-02",
-   "timestamp": "08-02",
-   "location": "福建",
-   "likes": "0",
-   "reply_to": null
-  },
-  {
-   "id": "6a72ab83000000000302d583",
-   "nickname": "高龄少年",
-   "is_author": true,
-   "content": "劣化",
-   "date": "08-05",
-   "timestamp": "08-05",
-   "location": "广东",
-   "likes": "0",
-   "reply_to": "6a6ee1b6000000002a030a2d"
-  }
- ]
+ "comments": []
 }

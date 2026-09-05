@@ -1,7 +1,7 @@
 {
  "note": {
   "note_id": "671797e700000000210051dd",
-  "title": "潮州图书馆 连不上啊连不上",
+  "title": "",
   "desc": "",
   "author": "高龄少年",
   "author_id": "66149086000000000d02603d",
@@ -19,97 +19,5 @@
    "img1.jpg"
   ]
  },
- "comments": [
-  {
-   "id": "685fb4fc000000000401560b",
-   "nickname": "右里🍐",
-   "is_author": false,
-   "content": "不是本地的可以办理阅读卡吗",
-   "date": "2025-06-28",
-   "timestamp": "2025-06-28 09:25:16",
-   "location": "江西",
-   "likes": "0",
-   "reply_to": null,
-   "_sub_more": 2
-  },
-  {
-   "id": "673964e6000000001a011cc7",
-   "nickname": "鲈鱼清蒸最好吃",
-   "is_author": false,
-   "content": "请问解决了吗[哭惹R]",
-   "date": "2024-11-17",
-   "timestamp": "2024-11-17 03:37:11",
-   "location": "广东",
-   "likes": "0",
-   "reply_to": null,
-   "_sub_more": 2
-  },
-  {
-   "id": "672184ff000000001802bf2f",
-   "nickname": "飞飞女王",
-   "is_author": false,
-   "content": "关注公众号在里面认证",
-   "date": "2024-10-30",
-   "timestamp": "2024-10-30 00:59:43",
-   "location": "广东",
-   "likes": "0",
-   "reply_to": null,
-   "_sub_more": 2
-  },
-  {
-   "id": "6745322f000000000700781f",
-   "nickname": "牛冰",
-   "is_author": false,
-   "content": "一个月前。 跟工作人员反映了。到现在还没好。",
-   "date": "2024-11-26",
-   "timestamp": "2024-11-26 02:28:00",
-   "location": "广东",
-   "likes": "0",
-   "reply_to": null
-  },
-  {
-   "id": "67190414000000001b02553a",
-   "nickname": "momo",
-   "is_author": false,
-   "content": "同问 连不上",
-   "date": "2024-10-23",
-   "timestamp": "2024-10-23 14:11:33",
-   "location": "广东",
-   "likes": "0",
-   "reply_to": null
-  },
-  {
-   "id": "685fbbee000000000f03d239",
-   "nickname": "高龄少年",
-   "is_author": true,
-   "content": "刷身份证即可，不限地区。无须办卡",
-   "date": "2025-06-28",
-   "timestamp": "2025-06-28 09:54:55",
-   "location": "广东",
-   "likes": "0",
-   "reply_to": "685fb4fc000000000401560b"
-  },
-  {
-   "id": "685dee2c00000000060060a9",
-   "nickname": "高龄少年",
-   "is_author": true,
-   "content": "已解决",
-   "date": "2025-06-27",
-   "timestamp": "2025-06-27 01:04:45",
-   "location": "广东",
-   "likes": "0",
-   "reply_to": "673964e6000000001a011cc7"
-  },
-  {
-   "id": "67282f95000000001b0012c7",
-   "nickname": "高龄少年",
-   "is_author": true,
-   "content": "认证了已经，还是连不上啊连不上",
-   "date": "2024-11-04",
-   "timestamp": "2024-11-04 02:21:10",
-   "location": "广东",
-   "likes": "0",
-   "reply_to": "672184ff000000001802bf2f"
-  }
- ]
+ "comments": []
 }

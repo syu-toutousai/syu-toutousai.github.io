@@ -9,38 +9,15 @@
   "publish_timestamp_ms": 1763082449000,
   "type": "normal",
   "stats": {
-   "liked_count": "0",
+   "liked_count": "",
    "comment_count": "2",
-   "collected_count": "0",
-   "share_count": "0"
+   "collected_count": "",
+   "share_count": ""
   },
   "source_url": "https://www.xiaohongshu.com/explore/691680d10000000007023645",
   "images": [
    "img1.jpg"
   ]
  },
- "comments": [
-  {
-   "id": "691681b80000000039028af6",
-   "nickname": "高龄少年",
-   "is_author": true,
-   "content": "機動戦士ガンダムGQuuuuuuX𝓰ᵤₙ𝒹ₐₘ",
-   "date": "2025-11-14",
-   "timestamp": "2025-11-14",
-   "location": "广东",
-   "likes": "0",
-   "reply_to": null
-  },
-  {
-   "id": "691693c700000000390028ec",
-   "nickname": "离酉赤申",
-   "is_author": false,
-   "content": "アマテラスじゃない",
-   "date": "2025-11-14",
-   "timestamp": "2025-11-14",
-   "location": "四川",
-   "likes": "0",
-   "reply_to": null
-  }
- ]
+ "comments": []
 }
