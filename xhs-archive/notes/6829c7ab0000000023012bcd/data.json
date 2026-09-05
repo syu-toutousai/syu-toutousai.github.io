@@ -9,14 +9,17 @@
   "publish_timestamp_ms": 1747568555000,
   "type": "normal",
   "stats": {
-   "liked_count": "0",
-   "comment_count": "0",
-   "collected_count": "0",
-   "share_count": "0"
+   "liked_count": "",
+   "comment_count": "",
+   "collected_count": "",
+   "share_count": ""
   },
   "source_url": "https://www.xiaohongshu.com/explore/6829c7ab0000000023012bcd",
   "images": [
-   "img1.jpg"
+   "img1.jpg",
+   "img2.jpg",
+   "img3.jpg",
+   "img4.jpg"
   ]
  },
  "comments": []

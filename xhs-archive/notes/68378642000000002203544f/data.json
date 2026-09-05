@@ -2,7 +2,7 @@
  "note": {
   "note_id": "68378642000000002203544f",
   "title": "",
-  "desc": "",
+  "desc": "MIT 18.06\nLinear Algebra\nGilbert Strang",
   "author": "高龄少年",
   "author_id": "66149086000000000d02603d",
   "publish_time": "2025-05-28 21:55:14",
@@ -10,9 +10,9 @@
   "type": "normal",
   "stats": {
    "liked_count": "1",
-   "comment_count": "0",
-   "collected_count": "0",
-   "share_count": "0"
+   "comment_count": "",
+   "collected_count": "1",
+   "share_count": ""
   },
   "source_url": "https://www.xiaohongshu.com/explore/68378642000000002203544f",
   "images": [

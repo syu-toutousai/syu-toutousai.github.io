@@ -10,8 +10,8 @@
   "type": "normal",
   "stats": {
    "liked_count": "1",
-   "comment_count": "0",
-   "collected_count": "0",
+   "comment_count": "",
+   "collected_count": "",
    "share_count": "1"
   },
   "source_url": "https://www.xiaohongshu.com/explore/6871f3e2000000000d027d8f",

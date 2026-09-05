@@ -2,7 +2,7 @@
  "note": {
   "note_id": "684667b90000000022037479",
   "title": "",
-  "desc": "",
+  "desc": "Traduttore, Traditore. Non Legor, Nisi Rectus.",
   "author": "高龄少年",
   "author_id": "66149086000000000d02603d",
   "publish_time": "2025-06-09 04:48:57",
@@ -10,13 +10,15 @@
   "type": "normal",
   "stats": {
    "liked_count": "3",
-   "comment_count": "0",
-   "collected_count": "0",
-   "share_count": "0"
+   "comment_count": "9",
+   "collected_count": "",
+   "share_count": ""
   },
   "source_url": "https://www.xiaohongshu.com/explore/684667b90000000022037479",
   "images": [
-   "img1.jpg"
+   "img1.jpg",
+   "img2.jpg",
+   "img3.jpg"
   ]
  },
  "comments": []

@@ -10,13 +10,16 @@
   "type": "normal",
   "stats": {
    "liked_count": "1",
-   "comment_count": "0",
-   "collected_count": "0",
-   "share_count": "0"
+   "comment_count": "1",
+   "collected_count": "",
+   "share_count": ""
   },
   "source_url": "https://www.xiaohongshu.com/explore/680b74f2000000001d00b07f",
   "images": [
-   "img1.jpg"
+   "img1.jpg",
+   "img2.jpg",
+   "img3.jpg",
+   "img4.jpg"
   ]
  },
  "comments": []
