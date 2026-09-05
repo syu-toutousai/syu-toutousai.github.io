@@ -1,7 +1,7 @@
 {
  "note": {
   "note_id": "691a753200000000070306a5",
-  "title": "「これは社会のバグです。社会は被害者になった方の勝ちなんです。被害者になったもん",
+  "title": "",
   "desc": "「これは社会のバグです。社会は被害者になった方の勝ちなんです。被害者になったもん勝ち」\nセリフ:ビンビンビッン",
   "author": "高龄少年",
   "author_id": "66149086000000000d02603d",
@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "691b35a1000000003902e0cf",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "a ”victor-by-victimhood” game[doge]",
+   "date": "2025-11-17",
+   "timestamp": "2025-11-17",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

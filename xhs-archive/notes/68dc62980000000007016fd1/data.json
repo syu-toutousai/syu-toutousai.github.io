@@ -1,7 +1,7 @@
 {
  "note": {
   "note_id": "68dc62980000000007016fd1",
-  "title": "粗粮语言学 tensile=yield",
+  "title": "",
   "desc": "粗粮语言学\ntensile=yield",
   "author": "高龄少年",
   "author_id": "66149086000000000d02603d",
@@ -19,5 +19,28 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "68dc75f30000000033026154",
+   "nickname": "乱拳打死老师傅",
+   "is_author": false,
+   "content": "Utensil",
+   "date": "2025-10-01",
+   "timestamp": "2025-10-01",
+   "location": "重庆",
+   "likes": "1",
+   "reply_to": null
+  },
+  {
+   "id": "68dcba2d0000000039032166",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "通过言语符号技术，悄悄改写受众心智，驱动受众以自身的tensile数据与竞争对手的yield数据对比[捂嘴笑R]",
+   "date": "2025-10-01",
+   "timestamp": "2025-10-01",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

@@ -1,7 +1,7 @@
 {
  "note": {
   "note_id": "690ec94a0000000007031ad0",
-  "title": "白鳥じゃなくなってしまったら…なんて考えながら生きている白鳥はいないわ。白鳥は死",
+  "title": "",
   "desc": "白鳥じゃなくなってしまったら…なんて考えながら生きている白鳥はいないわ。白鳥は死ぬまで白鳥よ。",
   "author": "高龄少年",
   "author_id": "66149086000000000d02603d",
@@ -19,5 +19,28 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "690ecdb9000000003900692b",
+   "nickname": "北北",
+   "is_author": false,
+   "content": "もつたらなんてなからきているはいないわまてよ",
+   "date": "2025-11-08",
+   "timestamp": "2025-11-08",
+   "location": "重庆",
+   "likes": "1",
+   "reply_to": null
+  },
+  {
+   "id": "690efc980000000033023cbf",
+   "nickname": "司徒伯雷",
+   "is_author": false,
+   "content": "如果它是AI  或机器天鹅会变身机甲怎么办[抠鼻R]",
+   "date": "2025-11-08",
+   "timestamp": "2025-11-08",
+   "location": "天津",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

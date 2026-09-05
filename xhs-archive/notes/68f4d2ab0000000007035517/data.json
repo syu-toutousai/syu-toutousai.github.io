@@ -1,7 +1,7 @@
 {
  "note": {
   "note_id": "68f4d2ab0000000007035517",
-  "title": "For an outward-opening door, it remains ",
+  "title": "",
   "desc": "For an outward-opening door, it remains impossible to unlatch it without a handle mechanism, regardless of its lock status.",
   "author": "高龄少年",
   "author_id": "66149086000000000d02603d",
@@ -19,5 +19,28 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "68f4d2d6000000003902e2d9",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "解锁（Unlocked） 和 解闩（Unlatched） 是两个不同的步骤。",
+   "date": "2025-10-19",
+   "timestamp": "2025-10-19",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  },
+  {
+   "id": "68f4d6c8000000003902edf6",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "\"Any Single Point of Failure is Intolerable.\"",
+   "date": "2025-10-19",
+   "timestamp": "2025-10-19",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

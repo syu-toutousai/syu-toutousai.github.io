@@ -1,7 +1,7 @@
 {
  "note": {
   "note_id": "68da9f5c000000001300b1f7",
-  "title": "余量 ",
+  "title": "",
   "desc": "余量",
   "author": "高龄少年",
   "author_id": "66149086000000000d02603d",
@@ -19,5 +19,17 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "68db7e19000000003902d2c4",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "不留余量的极限性精细化榨取 VS 预有余量的宽余式长期主义获利。前者富有冒险精神，后者则独具格局。",
+   "date": "2025-09-30",
+   "timestamp": "2025-09-30",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": null
+  }
+ ]
 }

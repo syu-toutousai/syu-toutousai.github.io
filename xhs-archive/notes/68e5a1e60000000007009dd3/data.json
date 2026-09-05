@@ -19,5 +19,28 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "68e5c8e3000000003802c41e",
+   "nickname": "小红薯657B91D5",
+   "is_author": false,
+   "content": "酒税下边那个是吸烟税？",
+   "date": "2025-10-08",
+   "timestamp": "2025-10-08",
+   "location": "河北",
+   "likes": "0",
+   "reply_to": null
+  },
+  {
+   "id": "68e5d860000000003902bb49",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "是的[doge]",
+   "date": "2025-10-08",
+   "timestamp": "2025-10-08",
+   "location": "广东",
+   "likes": "0",
+   "reply_to": "68e5c8e3000000003802c41e"
+  }
+ ]
 }
