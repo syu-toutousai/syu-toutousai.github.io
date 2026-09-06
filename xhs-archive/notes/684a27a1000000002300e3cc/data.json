@@ -1,23 +1,60 @@
 {
- "note": {
-  "note_id": "684a27a1000000002300e3cc",
-  "title": "",
-  "desc": "在古希腊，文字系统本身曾被视为“音声的仆从”，而非独立的思想载体。对“言说”的尊崇与对“书写”的轻视，根植于其社会结构、媒介特性和哲学传统。修辞家与哲人通过声音掌控公共领域，而书写者被归入体力劳动范畴",
-  "author": "高龄少年",
-  "author_id": "66149086000000000d02603d",
-  "publish_time": "2025-06-12 01:04:33",
-  "publish_timestamp_ms": 1749690273000,
-  "type": "normal",
-  "stats": {
-   "liked_count": "",
-   "comment_count": "3",
-   "collected_count": "3",
-   "share_count": ""
+  "note": {
+    "note_id": "684a27a1000000002300e3cc",
+    "title": "",
+    "desc": "在古希腊，文字系统本身曾被视为“音声的仆从”，而非独立的思想载体。对“言说”的尊崇与对“书写”的轻视，根植于其社会结构、媒介特性和哲学传统。修辞家与哲人通过声音掌控公共领域，而书写者被归入体力劳动范畴",
+    "author": "高龄少年",
+    "author_id": "66149086000000000d02603d",
+    "publish_time": "2025-06-12 01:04:33",
+    "publish_timestamp_ms": "1749690273000",
+    "type": "normal",
+    "stats": {
+      "liked_count": "0",
+      "comment_count": "3",
+      "collected_count": "3",
+      "share_count": "0"
+    },
+    "source_url": "https://www.xiaohongshu.com/explore/684a27a1000000002300e3cc",
+    "images": [
+      "img1.jpg"
+    ]
   },
-  "source_url": "https://www.xiaohongshu.com/explore/684a27a1000000002300e3cc",
-  "images": [
-   "img1.jpg"
+  "comments": [
+    {
+      "id": "684a2f280000000009014117",
+      "nickname": "高龄少年",
+      "is_author": true,
+      "content": "长短视频作品的大流行，从语言学的角度看，可以视为一种”文字系统之于音声的仆从”的时代的回归，即向着文字诞生前的口头语言社会的方向的重构。这次重构甚至有了取消书面文字系统的趋势，因为其超越地缘的动员性在技术赋能的基础上貌似已经无需依赖文字系统的转写",
+      "date": "2025-06-12",
+      "timestamp": "2025-06-12T00:00:00.000Z",
+      "location": "广东",
+      "likes": "",
+      "reply_to": "",
+      "is_reply": false
+    },
+    {
+      "id": "684a2e7d000000001c02c3c2",
+      "nickname": "Ivanovic",
+      "is_author": false,
+      "content": "表音文字是这样的",
+      "date": "2025-06-12",
+      "timestamp": "2025-06-12T00:00:00.000Z",
+      "location": "四川",
+      "likes": "1",
+      "reply_to": "",
+      "is_reply": false
+    },
+    {
+      "id": "684a2a5e0000000009014c41",
+      "nickname": "高龄少年",
+      "is_author": true,
+      "content": "有意思。绝大多数人，即便是学者，在谈论”语言”时，并不区分谈论的是”音声的言语”还是”文字的书写”，而这两者，其实是两种完全不同的东西",
+      "date": "2025-06-12",
+      "timestamp": "2025-06-12T00:00:00.000Z",
+      "location": "广东",
+      "likes": "",
+      "reply_to": "",
+      "is_reply": false
+    }
   ]
- },
- "comments": []
 }
