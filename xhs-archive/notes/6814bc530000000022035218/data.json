@@ -6,7 +6,7 @@
   "author": "高龄少年",
   "author_id": "66149086000000000d02603d",
   "publish_time": "2025-05-02 12:36:35",
-  "publish_timestamp_ms": 1746189395000,
+  "publish_timestamp_ms": "1746189395000",
   "type": "normal",
   "stats": {
    "liked_count": "2",
@@ -19,5 +19,18 @@
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "6814cad3000000001f0284d2",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "还是看已经作古的人写的虚构作品吧。其它的，算啦。",
+   "date": "2025-05-02",
+   "timestamp": "2025-05-02T00:00:00.000Z",
+   "location": "广东",
+   "likes": "",
+   "reply_to": "",
+   "is_reply": false
+  }
+ ]
 }
