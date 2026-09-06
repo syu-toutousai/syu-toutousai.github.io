@@ -1,12 +1,12 @@
 {
  "note": {
   "note_id": "6876235e000000000b02d38b",
-  "title": "要说喜欢的当代政治人物，还得说这两位:日本首相石破茂和阿根廷总统米莱。石演讲时，",
+  "title": "",
   "desc": "要说喜欢的当代政治人物，还得说这两位:日本首相石破茂和阿根廷总统米莱。石演讲时，手背上密密麻麻写满字，打小抄。米是个坐飞机能遇上的奥派总统。别的当代政治人物，还是算了吧。要么太过装逼，要么没人味儿",
   "author": "高龄少年",
   "author_id": "66149086000000000d02603d",
   "publish_time": "2025-07-15 09:46:06",
-  "publish_timestamp_ms": 1752572766000,
+  "publish_timestamp_ms": "1752572766000",
   "type": "normal",
   "stats": {
    "liked_count": "0",
@@ -24,12 +24,13 @@
    "id": "687628fa0000000006005a9d",
    "nickname": "一三五七",
    "is_author": false,
-   "content": "所以小年轻会被骗啊[笑哭R]毕竟高龄少年",
+   "content": "所以小年轻会被骗啊毕竟高龄少年",
    "date": "2025-07-15",
-   "timestamp": "2025-07-15",
+   "timestamp": "2025-07-15T00:00:00.000Z",
    "location": "广西",
-   "likes": "0",
-   "reply_to": null
+   "likes": "",
+   "reply_to": "",
+   "is_reply": false
   },
   {
    "id": "68762de70000000009016f06",
@@ -37,10 +38,11 @@
    "is_author": false,
    "content": "你鼻子里装雷达了",
    "date": "2025-07-15",
-   "timestamp": "2025-07-15",
+   "timestamp": "2025-07-15T00:00:00.000Z",
    "location": "天津",
-   "likes": "0",
-   "reply_to": null
+   "likes": "",
+   "reply_to": "",
+   "is_reply": false
   }
  ]
 }
