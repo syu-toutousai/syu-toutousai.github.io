@@ -1,48 +1,48 @@
 {
-  "note": {
-    "note_id": "6839484b000000002301488d",
-    "title": "",
-    "desc": "为啥有些人非得把东西给拟人化了以后才会说人话？",
-    "author": "高龄少年",
-    "author_id": "66149086000000000d02603d",
-    "publish_time": "2025-05-30 05:55:23",
-    "publish_timestamp_ms": "1748584523000",
-    "type": "normal",
-    "stats": {
-      "liked_count": "0",
-      "comment_count": "2",
-      "collected_count": "0",
-      "share_count": "0"
-    },
-    "source_url": "https://www.xiaohongshu.com/explore/6839484b000000002301488d",
-    "images": [
-      "img1.jpg"
-    ]
+ "note": {
+  "note_id": "6839484b000000002301488d",
+  "title": "",
+  "desc": "为啥有些人非得把东西给拟人化了以后才会说人话？",
+  "author": "高龄少年",
+  "author_id": "66149086000000000d02603d",
+  "publish_time": "2025-05-30 05:55:23",
+  "publish_timestamp_ms": "1748584523000",
+  "type": "normal",
+  "stats": {
+   "liked_count": "0",
+   "comment_count": "2",
+   "collected_count": "0",
+   "share_count": "0"
   },
-  "comments": [
-    {
-      "id": "68394959000000000903a396",
-      "nickname": "高龄少年",
-      "is_author": true,
-      "content": "学校希望你好好表现[捂嘴笑R]",
-      "date": "2025-05-30",
-      "timestamp": "2025-05-30T00:00:00.000Z",
-      "location": "广东",
-      "likes": "1",
-      "reply_to": "",
-      "is_reply": false
-    },
-    {
-      "id": "68395649000000000b0146f0",
-      "nickname": "高龄少年",
-      "is_author": true,
-      "content": "”学校希望你好好表现”类表达，本质是威权通过语言拟人化实现的权力美学化，以集体温情掩盖个体意志的让渡。",
-      "date": "2025-05-30",
-      "timestamp": "2025-05-30T00:00:00.000Z",
-      "location": "广东",
-      "likes": "",
-      "reply_to": "68394959000000000903a396",
-      "is_reply": true
-    }
+  "source_url": "https://www.xiaohongshu.com/explore/6839484b000000002301488d",
+  "images": [
+   "img1.jpg"
   ]
+ },
+ "comments": [
+  {
+   "id": "68394959000000000903a396",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "学校希望你好好表现[捂嘴笑R]",
+   "date": "2025-05-30",
+   "timestamp": "2025-05-30T00:00:00.000Z",
+   "location": "广东",
+   "likes": "1",
+   "reply_to": "",
+   "is_reply": false
+  },
+  {
+   "id": "68395649000000000b0146f0",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "”学校希望你好好表现”类表达，本质是威权通过语言拟人化实现的权力美学化，以集体温情掩盖个体意志的让渡。",
+   "date": "2025-05-30",
+   "timestamp": "2025-05-30T00:00:00.000Z",
+   "location": "广东",
+   "likes": "",
+   "reply_to": "68394959000000000903a396",
+   "is_reply": true
+  }
+ ]
 }
