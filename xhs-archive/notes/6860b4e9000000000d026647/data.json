@@ -1,23 +1,48 @@
 {
- "note": {
-  "note_id": "6860b4e9000000000d026647",
-  "title": "象牙塔中文科的破败现象，并非出于那些被翻来覆去咀嚼的表层原因，而是由于当代人之于",
-  "desc": "象牙塔中文科的破败现象，并非出于那些被翻来覆去咀嚼的表层原因，而是由于当代人之于当代人，乃至市井之于象牙塔的深度不信任与严重怀疑。市井社会早已悄悄达成共识:象牙塔中除自然科学外皆疑似狗腿子学问",
-  "author": "高龄少年",
-  "author_id": "66149086000000000d02603d",
-  "publish_time": "2025-06-29 03:37:13",
-  "publish_timestamp_ms": 1751168233000,
-  "type": "normal",
-  "stats": {
-   "liked_count": "1",
-   "comment_count": "2",
-   "collected_count": "1",
-   "share_count": ""
+  "note": {
+    "note_id": "6860b4e9000000000d026647",
+    "title": "",
+    "desc": "象牙塔中文科的破败现象，并非出于那些被翻来覆去咀嚼的表层原因，而是由于当代人之于当代人，乃至市井之于象牙塔的深度不信任与严重怀疑。市井社会早已悄悄达成共识:象牙塔中除自然科学外皆疑似狗腿子学问",
+    "author": "高龄少年",
+    "author_id": "66149086000000000d02603d",
+    "publish_time": "2025-06-29 03:37:13",
+    "publish_timestamp_ms": "1751168233000",
+    "type": "normal",
+    "stats": {
+      "liked_count": "1",
+      "comment_count": "2",
+      "collected_count": "1",
+      "share_count": "0"
+    },
+    "source_url": "https://www.xiaohongshu.com/explore/6860b4e9000000000d026647",
+    "images": [
+      "img1.jpg"
+    ]
   },
-  "source_url": "https://www.xiaohongshu.com/explore/6860b4e9000000000d026647",
-  "images": [
-   "img1.jpg"
+  "comments": [
+    {
+      "id": "6862f0910000000013037479",
+      "nickname": "高龄少年",
+      "is_author": true,
+      "content": "居然无一人为形式科学喊冤",
+      "date": "2025-06-30",
+      "timestamp": "2025-06-30T00:00:00.000Z",
+      "location": "广东",
+      "likes": "",
+      "reply_to": "",
+      "is_reply": false
+    },
+    {
+      "id": "6860babe000000000f03c070",
+      "nickname": "吕亮",
+      "is_author": false,
+      "content": "自然科学大部分是鹰爪学问",
+      "date": "2025-06-29",
+      "timestamp": "2025-06-29T00:00:00.000Z",
+      "location": "河南",
+      "likes": "",
+      "reply_to": "",
+      "is_reply": false
+    }
   ]
- },
- "comments": []
 }
