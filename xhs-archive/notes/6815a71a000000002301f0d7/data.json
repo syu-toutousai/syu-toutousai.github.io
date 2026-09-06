@@ -1,23 +1,72 @@
 {
- "note": {
-  "note_id": "6815a71a000000002301f0d7",
-  "title": "",
-  "desc": "鉴于那啥有那啥啥啥啥误会再列一遍，规范下那啥那啥[生气R]\n1⃣医学博士是医学博士\n2️⃣临床医学博士是临床医学博士\n3️⃣临床医学博士是临床医学博士\n4️⃣M.D.是M.D.\n区分不好这些容易那啥和稀泥",
-  "author": "高龄少年",
-  "author_id": "66149086000000000d02603d",
-  "publish_time": "2025-05-03 05:18:18",
-  "publish_timestamp_ms": 1746249498000,
-  "type": "normal",
-  "stats": {
-   "liked_count": "",
-   "comment_count": "4",
-   "collected_count": "",
-   "share_count": ""
+  "note": {
+    "note_id": "6815a71a000000002301f0d7",
+    "title": "",
+    "desc": "鉴于那啥有那啥啥啥啥误会再列一遍，规范下那啥那啥[生气R]\n1⃣医学博士是医学博士\n2️⃣临床医学博士是临床医学博士\n3️⃣临床医学博士是临床医学博士\n4️⃣M.D.是M.D.\n区分不好这些容易那啥和稀泥",
+    "author": "高龄少年",
+    "author_id": "66149086000000000d02603d",
+    "publish_time": "2025-05-03 05:18:18",
+    "publish_timestamp_ms": "1746249498000",
+    "type": "normal",
+    "stats": {
+      "liked_count": "0",
+      "comment_count": "4",
+      "collected_count": "0",
+      "share_count": "0"
+    },
+    "source_url": "https://www.xiaohongshu.com/explore/6815a71a000000002301f0d7",
+    "images": [
+      "img1.jpg"
+    ]
   },
-  "source_url": "https://www.xiaohongshu.com/explore/6815a71a000000002301f0d7",
-  "images": [
-   "img1.jpg"
+  "comments": [
+    {
+      "id": "6815c43b000000000b01e7a4",
+      "nickname": "momo",
+      "is_author": false,
+      "content": "问题是，美国的医学院教育体制和协和有一分钱关系？",
+      "date": "2025-05-03",
+      "timestamp": "2025-05-03T00:00:00.000Z",
+      "location": "四川",
+      "likes": "",
+      "reply_to": "",
+      "is_reply": false
+    },
+    {
+      "id": "6815cea500000000200134ec",
+      "nickname": "高龄少年",
+      "is_author": true,
+      "content": "确实",
+      "date": "2025-05-03",
+      "timestamp": "2025-05-03T00:00:00.000Z",
+      "location": "广东",
+      "likes": "",
+      "reply_to": "6815c43b000000000b01e7a4",
+      "is_reply": true
+    },
+    {
+      "id": "6815cfdb000000001f01b585",
+      "nickname": "高龄少年",
+      "is_author": true,
+      "content": "较真的话M.D.不是学位，和国内的临床医学博士/医学博士八竿子打不着(概念不对等，关公战秦琼)",
+      "date": "2025-05-03",
+      "timestamp": "2025-05-03T00:00:00.000Z",
+      "location": "广东",
+      "likes": "",
+      "reply_to": "",
+      "is_reply": false
+    },
+    {
+      "id": "6815dc720000000004016d9e",
+      "nickname": "peng",
+      "is_author": false,
+      "content": "医学和临床医学差不多",
+      "date": "2025-05-03",
+      "timestamp": "2025-05-03T00:00:00.000Z",
+      "location": "陕西",
+      "likes": "",
+      "reply_to": "",
+      "is_reply": false
+    }
   ]
- },
- "comments": []
 }
