@@ -1,98 +1,100 @@
 {
-  "note": {
-    "note_id": "668b3626000000001c0250f1",
-    "title": "寻日语学习搭子",
-    "desc": "#旅行碎片[话题]# #jlpt[话题]# #日语[话题]#\n寻日语学习搭子",
-    "author": "高龄少年",
-    "author_id": "66149086000000000d02603d",
-    "publish_time": "2024-07-08 00:43:18",
-    "publish_timestamp_ms": "1720399398000",
-    "type": "normal",
-    "stats": {
-      "liked_count": "0",
-      "comment_count": "6",
-      "collected_count": "0",
-      "share_count": "0"
-    },
-    "source_url": "https://www.xiaohongshu.com/explore/668b3626000000001c0250f1",
-    "images": [
-      "img1.jpg",
-      "img2.jpg",
-      "img3.jpg"
-    ]
+ "note": {
+  "note_id": "668b3626000000001c0250f1",
+  "title": "寻日语学习搭子",
+  "desc": "#旅行碎片[话题]# #jlpt[话题]# #日语[话题]#\n寻日语学习搭子",
+  "author": "高龄少年",
+  "author_id": "66149086000000000d02603d",
+  "publish_time": "2024-07-08 00:43:18",
+  "publish_timestamp_ms": "1720399398000",
+  "type": "normal",
+  "stats": {
+   "liked_count": "0",
+   "comment_count": "6",
+   "collected_count": "0",
+   "share_count": "0"
   },
-  "comments": [
-    {
-      "id": "668b37280000000015013a5e",
-      "nickname": "momo",
-      "is_author": false,
-      "content": "来来来我是广东人",
-      "date": "2024-07-08",
-      "timestamp": "2024-07-08T00:00:00.000Z",
-      "location": "日本",
-      "likes": "1",
-      "reply_to": "",
-      "is_reply": false
-    },
-    {
-      "id": "668b394a000000002301ba7a",
-      "nickname": "高龄少年",
-      "is_author": true,
-      "content": "哎呀 这岂不是太好了",
-      "date": "2024-07-08",
-      "timestamp": "2024-07-08T00:00:00.000Z",
-      "location": "广东",
-      "likes": "",
-      "reply_to": "668b37280000000015013a5e",
-      "is_reply": true
-    },
-    {
-      "id": "668b398c000000001500b4ab",
-      "nickname": "高龄少年",
-      "is_author": true,
-      "content": "咱先从起个日语名字开始吧",
-      "date": "2024-07-08",
-      "timestamp": "2024-07-08T00:00:00.000Z",
-      "location": "广东",
-      "likes": "",
-      "reply_to": "668b37280000000015013a5e",
-      "is_reply": true
-    },
-    {
-      "id": "6866be68000000000f03e758",
-      "nickname": "高龄少年",
-      "is_author": true,
-      "content": "N2已过。年底N1",
-      "date": "2025-07-03",
-      "timestamp": "2025-07-03T00:00:00.000Z",
-      "location": "广东",
-      "likes": "",
-      "reply_to": "",
-      "is_reply": false
-    },
-    {
-      "id": "668b60ba0000000015013a90",
-      "nickname": "高龄少年",
-      "is_author": true,
-      "content": "推し燃えた。",
-      "date": "2024-07-08",
-      "timestamp": "2024-07-08T00:00:00.000Z",
-      "location": "广东",
-      "likes": "",
-      "reply_to": "",
-      "is_reply": false
-    },
-    {
-      "id": "668b3acd000000000303a18f",
-      "nickname": "Martine Cheung",
-      "is_author": false,
-      "content": "五十音图开始",
-      "date": "2024-07-08",
-      "timestamp": "2024-07-08T00:00:00.000Z",
-      "location": "重庆",
-      "likes": "",
-      "reply_to": "",
-      "is_reply": false
-    }
-  ]
+  "source_url": "https://www.xiaohongshu.com/explore/668b3626000000001c0250f1",
+  "images": [
+   "img1.jpg",
+   "img2.jpg",
+   "img3.jpg"
+  ],
+  "author_avatar": "avatars/66149086000000000d02603d.webp",
+  "author_profile": "https://www.xiaohongshu.com/user/profile/66149086000000000d02603d"
+ },
+ "comments": [
+  {
+   "id": "668b37280000000015013a5e",
+   "nickname": "momo",
+   "is_author": false,
+   "content": "来来来我是广东人",
+   "date": "2024-07-08",
+   "timestamp": "2024-07-08T00:00:00.000Z",
+   "location": "日本",
+   "likes": "1",
+   "reply_to": "",
+   "is_reply": false
+  },
+  {
+   "id": "668b394a000000002301ba7a",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "哎呀 这岂不是太好了",
+   "date": "2024-07-08",
+   "timestamp": "2024-07-08T00:00:00.000Z",
+   "location": "广东",
+   "likes": "",
+   "reply_to": "668b37280000000015013a5e",
+   "is_reply": true
+  },
+  {
+   "id": "668b398c000000001500b4ab",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "咱先从起个日语名字开始吧",
+   "date": "2024-07-08",
+   "timestamp": "2024-07-08T00:00:00.000Z",
+   "location": "广东",
+   "likes": "",
+   "reply_to": "668b37280000000015013a5e",
+   "is_reply": true
+  },
+  {
+   "id": "6866be68000000000f03e758",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "N2已过。年底N1",
+   "date": "2025-07-03",
+   "timestamp": "2025-07-03T00:00:00.000Z",
+   "location": "广东",
+   "likes": "",
+   "reply_to": "",
+   "is_reply": false
+  },
+  {
+   "id": "668b60ba0000000015013a90",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "推し燃えた。",
+   "date": "2024-07-08",
+   "timestamp": "2024-07-08T00:00:00.000Z",
+   "location": "广东",
+   "likes": "",
+   "reply_to": "",
+   "is_reply": false
+  },
+  {
+   "id": "668b3acd000000000303a18f",
+   "nickname": "Martine Cheung",
+   "is_author": false,
+   "content": "五十音图开始",
+   "date": "2024-07-08",
+   "timestamp": "2024-07-08T00:00:00.000Z",
+   "location": "重庆",
+   "likes": "",
+   "reply_to": "",
+   "is_reply": false
+  }
+ ]
 }

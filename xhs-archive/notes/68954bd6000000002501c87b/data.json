@@ -17,7 +17,9 @@
   "source_url": "https://www.xiaohongshu.com/explore/68954bd6000000002501c87b",
   "images": [
    "img1.jpg"
-  ]
+  ],
+  "author_avatar": "avatars/66149086000000000d02603d.webp",
+  "author_profile": "https://www.xiaohongshu.com/user/profile/66149086000000000d02603d"
  },
  "comments": [
   {
@@ -29,7 +31,8 @@
    "timestamp": "2025-08-08",
    "location": "广东",
    "likes": "0",
-   "reply_to": null
+   "reply_to": "",
+   "is_reply": false
   }
  ]
 }

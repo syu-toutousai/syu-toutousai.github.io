@@ -17,7 +17,9 @@
   "source_url": "https://www.xiaohongshu.com/explore/68e9fc100000000007037ee6",
   "images": [
    "img1.jpg"
-  ]
+  ],
+  "author_avatar": "avatars/66149086000000000d02603d.webp",
+  "author_profile": "https://www.xiaohongshu.com/user/profile/66149086000000000d02603d"
  },
  "comments": [
   {
@@ -29,7 +31,8 @@
    "timestamp": "2025-10-11",
    "location": "广东",
    "likes": "0",
-   "reply_to": null
+   "reply_to": "",
+   "is_reply": false
   },
   {
    "id": "68f0140700000000380130f5",
@@ -40,7 +43,8 @@
    "timestamp": "2025-10-15",
    "location": "河北",
    "likes": "0",
-   "reply_to": null
+   "reply_to": "",
+   "is_reply": false
   }
  ]
 }

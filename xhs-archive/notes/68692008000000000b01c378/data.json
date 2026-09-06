@@ -17,7 +17,9 @@
   "source_url": "https://www.xiaohongshu.com/explore/68692008000000000b01c378",
   "images": [
    "img1.jpg"
-  ]
+  ],
+  "author_avatar": "avatars/66149086000000000d02603d.webp",
+  "author_profile": "https://www.xiaohongshu.com/user/profile/66149086000000000d02603d"
  },
  "comments": [
   {
@@ -29,7 +31,8 @@
    "timestamp": "2025-07-05",
    "location": "广东",
    "likes": "0",
-   "reply_to": null
+   "reply_to": "",
+   "is_reply": false
   },
   {
    "id": "68692ec0000000000f03e3da",
@@ -40,7 +43,8 @@
    "timestamp": "2025-07-05",
    "location": "广东",
    "likes": "0",
-   "reply_to": null
+   "reply_to": "",
+   "is_reply": false
   },
   {
    "id": "6869a114000000000602fb1a",
@@ -51,7 +55,8 @@
    "timestamp": "2025-07-05",
    "location": "广东",
    "likes": "0",
-   "reply_to": null
+   "reply_to": "",
+   "is_reply": false
   },
   {
    "id": "6869a71a0000000011019c8c",
@@ -62,7 +67,8 @@
    "timestamp": "2025-07-05",
    "location": "广东",
    "likes": "0",
-   "reply_to": null
+   "reply_to": "",
+   "is_reply": false
   },
   {
    "id": "686a84960000000013037a86",
@@ -73,7 +79,8 @@
    "timestamp": "2025-07-06",
    "location": "广东",
    "likes": "0",
-   "reply_to": null
+   "reply_to": "",
+   "is_reply": false
   }
  ]
 }

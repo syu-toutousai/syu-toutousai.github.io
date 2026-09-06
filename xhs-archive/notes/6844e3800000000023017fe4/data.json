@@ -1,180 +1,182 @@
 {
-  "note": {
-    "note_id": "6844e3800000000023017fe4",
-    "title": "",
-    "desc": "'哈佛演讲蒋'现象与'横渠四句董'现象看似发生在不同领域（国际精英演讲与本土文化带货），但两者存在深层次共性",
-    "author": "高龄少年",
-    "author_id": "66149086000000000d02603d",
-    "publish_time": "2025-06-08 01:12:32",
-    "publish_timestamp_ms": "1749345152000",
-    "type": "normal",
-    "stats": {
-      "liked_count": "2",
-      "comment_count": "13",
-      "collected_count": "0",
-      "share_count": "0"
-    },
-    "source_url": "https://www.xiaohongshu.com/explore/6844e3800000000023017fe4",
-    "images": [
-      "img1.jpg"
-    ]
+ "note": {
+  "note_id": "6844e3800000000023017fe4",
+  "title": "",
+  "desc": "'哈佛演讲蒋'现象与'横渠四句董'现象看似发生在不同领域（国际精英演讲与本土文化带货），但两者存在深层次共性",
+  "author": "高龄少年",
+  "author_id": "66149086000000000d02603d",
+  "publish_time": "2025-06-08 01:12:32",
+  "publish_timestamp_ms": "1749345152000",
+  "type": "normal",
+  "stats": {
+   "liked_count": "2",
+   "comment_count": "13",
+   "collected_count": "0",
+   "share_count": "0"
   },
-  "comments": [
-    {
-      "id": "6844f134000000000703508a",
-      "nickname": "晓码歌🐬",
-      "is_author": false,
-      "content": "表达的同是价值观",
-      "date": "2025-06-08",
-      "timestamp": "2025-06-08T00:00:00.000Z",
-      "location": "陕西",
-      "likes": "1",
-      "reply_to": "",
-      "is_reply": false
-    },
-    {
-      "id": "6844f489000000000903ba2a",
-      "nickname": "高龄少年",
-      "is_author": true,
-      "content": "有道理",
-      "date": "2025-06-08",
-      "timestamp": "2025-06-08T00:00:00.000Z",
-      "location": "广东",
-      "likes": "1",
-      "reply_to": "6844f134000000000703508a",
-      "is_reply": true
-    },
-    {
-      "id": "6844f7c30000000007035d0f",
-      "nickname": "晓码歌🐬",
-      "is_author": false,
-      "content": "同样赋予使命v带给人类希望",
-      "date": "2025-06-08",
-      "timestamp": "2025-06-08T00:00:00.000Z",
-      "location": "陕西",
-      "likes": "1",
-      "reply_to": "6844f134000000000703508a",
-      "is_reply": true
-    },
-    {
-      "id": "684a91890000000020023d78",
-      "nickname": "他大舅",
-      "is_author": false,
-      "content": "主打一个不真实，一个在自己老上级老同事被网暴一言不发，一个背刺中学母校迎合歪果仁",
-      "date": "2025-06-12",
-      "timestamp": "2025-06-12T00:00:00.000Z",
-      "location": "山东",
-      "likes": "2",
-      "reply_to": "",
-      "is_reply": false
-    },
-    {
-      "id": "684a962f000000000900c26f",
-      "nickname": "高龄少年",
-      "is_author": true,
-      "content": "这么看确实有些魔幻",
-      "date": "2025-06-12",
-      "timestamp": "2025-06-12T00:00:00.000Z",
-      "location": "广东",
-      "likes": "1",
-      "reply_to": "684a91890000000020023d78",
-      "is_reply": true
-    },
-    {
-      "id": "68469c4d000000000303767c",
-      "nickname": "小红薯68703FCB",
-      "is_author": false,
-      "content": "非常正确，都是精致的利己主义者，懂得给自己贴什么标签",
-      "date": "2025-06-09",
-      "timestamp": "2025-06-09T00:00:00.000Z",
-      "location": "湖南",
-      "likes": "2",
-      "reply_to": "",
-      "is_reply": false
-    },
-    {
-      "id": "68469d280000000007034d61",
-      "nickname": "高龄少年",
-      "is_author": true,
-      "content": "有道理 然莫奈其何",
-      "date": "2025-06-09",
-      "timestamp": "2025-06-09T00:00:00.000Z",
-      "location": "中国香港",
-      "likes": "1",
-      "reply_to": "68469c4d000000000303767c",
-      "is_reply": true
-    },
-    {
-      "id": "68469d93000000000b01e2ed",
-      "nickname": "小红薯68703FCB",
-      "is_author": false,
-      "content": "所以更多有素质的人要发声，而不是被一群乌合之众和没文化的丈母娘把持网络和舆论，裹挟人民群众去捧臭脚",
-      "date": "2025-06-09",
-      "timestamp": "2025-06-09T00:00:00.000Z",
-      "location": "湖南",
-      "likes": "2",
-      "reply_to": "68469c4d000000000303767c",
-      "is_reply": true
-    },
-    {
-      "id": "68455e96000000001c033629",
-      "nickname": "SH24601",
-      "is_author": false,
-      "content": "对自己不满，找个好欺负的网暴，内心妒忌罢了",
-      "date": "2025-06-08",
-      "timestamp": "2025-06-08T00:00:00.000Z",
-      "location": "上海",
-      "likes": "1",
-      "reply_to": "",
-      "is_reply": false
-    },
-    {
-      "id": "684563aa000000000900eb95",
-      "nickname": "高龄少年",
-      "is_author": true,
-      "content": "有道理 分析即认可",
-      "date": "2025-06-08",
-      "timestamp": "2025-06-08T00:00:00.000Z",
-      "location": "广东",
-      "likes": "1",
-      "reply_to": "68455e96000000001c033629",
-      "is_reply": true
-    },
-    {
-      "id": "686bbb9c0000000004015268",
-      "nickname": "桃心",
-      "is_author": false,
-      "content": "你是说丈母娘网暴老俞那事儿吗",
-      "date": "2025-07-07",
-      "timestamp": "2025-07-07T00:00:00.000Z",
-      "location": "吉林",
-      "likes": "",
-      "reply_to": "68455e96000000001c033629",
-      "is_reply": true
-    },
-    {
-      "id": "6844fd76000000000b01cf3c",
-      "nickname": "小红薯1295319842",
-      "is_author": false,
-      "content": "抄袭奥巴马，讲出来真的很怪异。",
-      "date": "2025-06-08",
-      "timestamp": "2025-06-08T00:00:00.000Z",
-      "location": "北京",
-      "likes": "1",
-      "reply_to": "",
-      "is_reply": false
-    },
-    {
-      "id": "68469d52000000000900eccf",
-      "nickname": "高龄少年",
-      "is_author": true,
-      "content": "有道理 藤校都这样",
-      "date": "2025-06-09",
-      "timestamp": "2025-06-09T00:00:00.000Z",
-      "location": "中国香港",
-      "likes": "",
-      "reply_to": "6844fd76000000000b01cf3c",
-      "is_reply": true
-    }
-  ]
+  "source_url": "https://www.xiaohongshu.com/explore/6844e3800000000023017fe4",
+  "images": [
+   "img1.jpg"
+  ],
+  "author_avatar": "avatars/66149086000000000d02603d.webp",
+  "author_profile": "https://www.xiaohongshu.com/user/profile/66149086000000000d02603d"
+ },
+ "comments": [
+  {
+   "id": "6844f134000000000703508a",
+   "nickname": "晓码歌🐬",
+   "is_author": false,
+   "content": "表达的同是价值观",
+   "date": "2025-06-08",
+   "timestamp": "2025-06-08T00:00:00.000Z",
+   "location": "陕西",
+   "likes": "1",
+   "reply_to": "",
+   "is_reply": false
+  },
+  {
+   "id": "6844f489000000000903ba2a",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "有道理",
+   "date": "2025-06-08",
+   "timestamp": "2025-06-08T00:00:00.000Z",
+   "location": "广东",
+   "likes": "1",
+   "reply_to": "6844f134000000000703508a",
+   "is_reply": true
+  },
+  {
+   "id": "6844f7c30000000007035d0f",
+   "nickname": "晓码歌🐬",
+   "is_author": false,
+   "content": "同样赋予使命v带给人类希望",
+   "date": "2025-06-08",
+   "timestamp": "2025-06-08T00:00:00.000Z",
+   "location": "陕西",
+   "likes": "1",
+   "reply_to": "6844f134000000000703508a",
+   "is_reply": true
+  },
+  {
+   "id": "684a91890000000020023d78",
+   "nickname": "他大舅",
+   "is_author": false,
+   "content": "主打一个不真实，一个在自己老上级老同事被网暴一言不发，一个背刺中学母校迎合歪果仁",
+   "date": "2025-06-12",
+   "timestamp": "2025-06-12T00:00:00.000Z",
+   "location": "山东",
+   "likes": "2",
+   "reply_to": "",
+   "is_reply": false
+  },
+  {
+   "id": "684a962f000000000900c26f",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "这么看确实有些魔幻",
+   "date": "2025-06-12",
+   "timestamp": "2025-06-12T00:00:00.000Z",
+   "location": "广东",
+   "likes": "1",
+   "reply_to": "684a91890000000020023d78",
+   "is_reply": true
+  },
+  {
+   "id": "68469c4d000000000303767c",
+   "nickname": "小红薯68703FCB",
+   "is_author": false,
+   "content": "非常正确，都是精致的利己主义者，懂得给自己贴什么标签",
+   "date": "2025-06-09",
+   "timestamp": "2025-06-09T00:00:00.000Z",
+   "location": "湖南",
+   "likes": "2",
+   "reply_to": "",
+   "is_reply": false
+  },
+  {
+   "id": "68469d280000000007034d61",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "有道理 然莫奈其何",
+   "date": "2025-06-09",
+   "timestamp": "2025-06-09T00:00:00.000Z",
+   "location": "中国香港",
+   "likes": "1",
+   "reply_to": "68469c4d000000000303767c",
+   "is_reply": true
+  },
+  {
+   "id": "68469d93000000000b01e2ed",
+   "nickname": "小红薯68703FCB",
+   "is_author": false,
+   "content": "所以更多有素质的人要发声，而不是被一群乌合之众和没文化的丈母娘把持网络和舆论，裹挟人民群众去捧臭脚",
+   "date": "2025-06-09",
+   "timestamp": "2025-06-09T00:00:00.000Z",
+   "location": "湖南",
+   "likes": "2",
+   "reply_to": "68469c4d000000000303767c",
+   "is_reply": true
+  },
+  {
+   "id": "68455e96000000001c033629",
+   "nickname": "SH24601",
+   "is_author": false,
+   "content": "对自己不满，找个好欺负的网暴，内心妒忌罢了",
+   "date": "2025-06-08",
+   "timestamp": "2025-06-08T00:00:00.000Z",
+   "location": "上海",
+   "likes": "1",
+   "reply_to": "",
+   "is_reply": false
+  },
+  {
+   "id": "684563aa000000000900eb95",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "有道理 分析即认可",
+   "date": "2025-06-08",
+   "timestamp": "2025-06-08T00:00:00.000Z",
+   "location": "广东",
+   "likes": "1",
+   "reply_to": "68455e96000000001c033629",
+   "is_reply": true
+  },
+  {
+   "id": "686bbb9c0000000004015268",
+   "nickname": "桃心",
+   "is_author": false,
+   "content": "你是说丈母娘网暴老俞那事儿吗",
+   "date": "2025-07-07",
+   "timestamp": "2025-07-07T00:00:00.000Z",
+   "location": "吉林",
+   "likes": "",
+   "reply_to": "68455e96000000001c033629",
+   "is_reply": true
+  },
+  {
+   "id": "6844fd76000000000b01cf3c",
+   "nickname": "小红薯1295319842",
+   "is_author": false,
+   "content": "抄袭奥巴马，讲出来真的很怪异。",
+   "date": "2025-06-08",
+   "timestamp": "2025-06-08T00:00:00.000Z",
+   "location": "北京",
+   "likes": "1",
+   "reply_to": "",
+   "is_reply": false
+  },
+  {
+   "id": "68469d52000000000900eccf",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "有道理 藤校都这样",
+   "date": "2025-06-09",
+   "timestamp": "2025-06-09T00:00:00.000Z",
+   "location": "中国香港",
+   "likes": "",
+   "reply_to": "6844fd76000000000b01cf3c",
+   "is_reply": true
+  }
+ ]
 }

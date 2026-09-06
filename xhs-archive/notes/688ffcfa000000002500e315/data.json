@@ -1,60 +1,62 @@
 {
-  "note": {
-    "note_id": "688ffcfa000000002500e315",
-    "title": "",
-    "desc": "有些人毕生寻求如何把自己的人生课题的重量，嫁接到他人的脊梁上",
-    "author": "高龄少年",
-    "author_id": "66149086000000000d02603d",
-    "publish_time": "2025-08-04 00:21:14",
-    "publish_timestamp_ms": "1754266874000",
-    "type": "normal",
-    "stats": {
-      "liked_count": "2",
-      "comment_count": "3",
-      "collected_count": "2",
-      "share_count": "0"
-    },
-    "source_url": "https://www.xiaohongshu.com/explore/688ffcfa000000002500e315",
-    "images": [
-      "img1.jpg"
-    ]
+ "note": {
+  "note_id": "688ffcfa000000002500e315",
+  "title": "",
+  "desc": "有些人毕生寻求如何把自己的人生课题的重量，嫁接到他人的脊梁上",
+  "author": "高龄少年",
+  "author_id": "66149086000000000d02603d",
+  "publish_time": "2025-08-04 00:21:14",
+  "publish_timestamp_ms": "1754266874000",
+  "type": "normal",
+  "stats": {
+   "liked_count": "2",
+   "comment_count": "3",
+   "collected_count": "2",
+   "share_count": "0"
   },
-  "comments": [
-    {
-      "id": "6890122e000000002a0041c0",
-      "nickname": "SIGE",
-      "is_author": false,
-      "content": "人话就是:骑着别人做有利自己的事。",
-      "date": "2025-08-04",
-      "timestamp": "2025-08-04T00:00:00.000Z",
-      "location": "广东",
-      "likes": "1",
-      "reply_to": "",
-      "is_reply": false
-    },
-    {
-      "id": "689012b4000000002a006660",
-      "nickname": "高龄少年",
-      "is_author": true,
-      "content": "小点声，别被被骑的那些人听见[捂嘴笑R]",
-      "date": "2025-08-04",
-      "timestamp": "2025-08-04T00:00:00.000Z",
-      "location": "广东",
-      "likes": "",
-      "reply_to": "6890122e000000002a0041c0",
-      "is_reply": true
-    },
-    {
-      "id": "689012e9000000002903fcb1",
-      "nickname": "SIGE",
-      "is_author": false,
-      "content": "哦！",
-      "date": "2025-08-04",
-      "timestamp": "2025-08-04T00:00:00.000Z",
-      "location": "广东",
-      "likes": "",
-      "reply_to": "6890122e000000002a0041c0",
-      "is_reply": true
-    }
-  ]
+  "source_url": "https://www.xiaohongshu.com/explore/688ffcfa000000002500e315",
+  "images": [
+   "img1.jpg"
+  ],
+  "author_avatar": "avatars/66149086000000000d02603d.webp",
+  "author_profile": "https://www.xiaohongshu.com/user/profile/66149086000000000d02603d"
+ },
+ "comments": [
+  {
+   "id": "6890122e000000002a0041c0",
+   "nickname": "SIGE",
+   "is_author": false,
+   "content": "人话就是:骑着别人做有利自己的事。",
+   "date": "2025-08-04",
+   "timestamp": "2025-08-04T00:00:00.000Z",
+   "location": "广东",
+   "likes": "1",
+   "reply_to": "",
+   "is_reply": false
+  },
+  {
+   "id": "689012b4000000002a006660",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "小点声，别被被骑的那些人听见[捂嘴笑R]",
+   "date": "2025-08-04",
+   "timestamp": "2025-08-04T00:00:00.000Z",
+   "location": "广东",
+   "likes": "",
+   "reply_to": "6890122e000000002a0041c0",
+   "is_reply": true
+  },
+  {
+   "id": "689012e9000000002903fcb1",
+   "nickname": "SIGE",
+   "is_author": false,
+   "content": "哦！",
+   "date": "2025-08-04",
+   "timestamp": "2025-08-04T00:00:00.000Z",
+   "location": "广东",
+   "likes": "",
+   "reply_to": "6890122e000000002a0041c0",
+   "is_reply": true
+  }
+ ]
 }

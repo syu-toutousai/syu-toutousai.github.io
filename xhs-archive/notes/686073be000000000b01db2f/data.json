@@ -1,60 +1,62 @@
 {
-  "note": {
-    "note_id": "686073be000000000b01db2f",
-    "title": "",
-    "desc": "问: 何谓真理？\n答: 喷子。",
-    "author": "高龄少年",
-    "author_id": "66149086000000000d02603d",
-    "publish_time": "2025-06-28 22:59:10",
-    "publish_timestamp_ms": "1751151550000",
-    "type": "normal",
-    "stats": {
-      "liked_count": "1",
-      "comment_count": "3",
-      "collected_count": "1",
-      "share_count": "0"
-    },
-    "source_url": "https://www.xiaohongshu.com/explore/686073be000000000b01db2f",
-    "images": [
-      "img1.jpg"
-    ]
+ "note": {
+  "note_id": "686073be000000000b01db2f",
+  "title": "",
+  "desc": "问: 何谓真理？\n答: 喷子。",
+  "author": "高龄少年",
+  "author_id": "66149086000000000d02603d",
+  "publish_time": "2025-06-28 22:59:10",
+  "publish_timestamp_ms": "1751151550000",
+  "type": "normal",
+  "stats": {
+   "liked_count": "1",
+   "comment_count": "3",
+   "collected_count": "1",
+   "share_count": "0"
   },
-  "comments": [
-    {
-      "id": "686078ee00000000200205f5",
-      "nickname": "小红薯5F60689C",
-      "is_author": false,
-      "content": "少数人探索发现，多数人实战演习，合并后的叫真理。",
-      "date": "2025-06-28",
-      "timestamp": "2025-06-28T00:00:00.000Z",
-      "location": "上海",
-      "likes": "",
-      "reply_to": "",
-      "is_reply": false
-    },
-    {
-      "id": "68607baf00000000130353a7",
-      "nickname": "高龄少年",
-      "is_author": true,
-      "content": "有道理",
-      "date": "2025-06-28",
-      "timestamp": "2025-06-28T00:00:00.000Z",
-      "location": "广东",
-      "likes": "",
-      "reply_to": "686078ee00000000200205f5",
-      "is_reply": true
-    },
-    {
-      "id": "6864b8970000000011018acc",
-      "nickname": "高龄少年",
-      "is_author": true,
-      "content": "独霸方塘类虎狞浓荫尽锁禁雷声东风倘过吾唇外万籁当即化哑鸣",
-      "date": "2025-07-02",
-      "timestamp": "2025-07-02T00:00:00.000Z",
-      "location": "广东",
-      "likes": "",
-      "reply_to": "",
-      "is_reply": false
-    }
-  ]
+  "source_url": "https://www.xiaohongshu.com/explore/686073be000000000b01db2f",
+  "images": [
+   "img1.jpg"
+  ],
+  "author_avatar": "avatars/66149086000000000d02603d.webp",
+  "author_profile": "https://www.xiaohongshu.com/user/profile/66149086000000000d02603d"
+ },
+ "comments": [
+  {
+   "id": "686078ee00000000200205f5",
+   "nickname": "小红薯5F60689C",
+   "is_author": false,
+   "content": "少数人探索发现，多数人实战演习，合并后的叫真理。",
+   "date": "2025-06-28",
+   "timestamp": "2025-06-28T00:00:00.000Z",
+   "location": "上海",
+   "likes": "",
+   "reply_to": "",
+   "is_reply": false
+  },
+  {
+   "id": "68607baf00000000130353a7",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "有道理",
+   "date": "2025-06-28",
+   "timestamp": "2025-06-28T00:00:00.000Z",
+   "location": "广东",
+   "likes": "",
+   "reply_to": "686078ee00000000200205f5",
+   "is_reply": true
+  },
+  {
+   "id": "6864b8970000000011018acc",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "独霸方塘类虎狞浓荫尽锁禁雷声东风倘过吾唇外万籁当即化哑鸣",
+   "date": "2025-07-02",
+   "timestamp": "2025-07-02T00:00:00.000Z",
+   "location": "广东",
+   "likes": "",
+   "reply_to": "",
+   "is_reply": false
+  }
+ ]
 }

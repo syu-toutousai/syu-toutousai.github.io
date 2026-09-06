@@ -1,60 +1,62 @@
 {
-  "note": {
-    "note_id": "68607bec00000000120140aa",
-    "title": "",
-    "desc": "西方文明（其哲学、科学、社科、文学）很大程度上可视作一场跨越两千年的、以理性为工具、围绕圣经这一“元文本”展开的、史诗级的“同人创作运动”",
-    "author": "高龄少年",
-    "author_id": "66149086000000000d02603d",
-    "publish_time": "2025-06-28 23:34:04",
-    "publish_timestamp_ms": "1751153644000",
-    "type": "normal",
-    "stats": {
-      "liked_count": "2",
-      "comment_count": "3",
-      "collected_count": "0",
-      "share_count": "0"
-    },
-    "source_url": "https://www.xiaohongshu.com/explore/68607bec00000000120140aa",
-    "images": [
-      "img1.jpg"
-    ]
+ "note": {
+  "note_id": "68607bec00000000120140aa",
+  "title": "",
+  "desc": "西方文明（其哲学、科学、社科、文学）很大程度上可视作一场跨越两千年的、以理性为工具、围绕圣经这一“元文本”展开的、史诗级的“同人创作运动”",
+  "author": "高龄少年",
+  "author_id": "66149086000000000d02603d",
+  "publish_time": "2025-06-28 23:34:04",
+  "publish_timestamp_ms": "1751153644000",
+  "type": "normal",
+  "stats": {
+   "liked_count": "2",
+   "comment_count": "3",
+   "collected_count": "0",
+   "share_count": "0"
   },
-  "comments": [
-    {
-      "id": "68608938000000002002cb2f",
-      "nickname": "大红读医书",
-      "is_author": false,
-      "content": "说的太绕口。简单就是，人类近两千年都是对轴心时代的注解。",
-      "date": "2025-06-29",
-      "timestamp": "2025-06-29T00:00:00.000Z",
-      "location": "上海",
-      "likes": "1",
-      "reply_to": "",
-      "is_reply": false
-    },
-    {
-      "id": "6860bcc8000000001100ecc6",
-      "nickname": "七个隆咚锵",
-      "is_author": false,
-      "content": "据我所知，哲学_科学知识体系来着古希腊，不是希伯来",
-      "date": "2025-06-29",
-      "timestamp": "2025-06-29T00:00:00.000Z",
-      "location": "河北",
-      "likes": "1",
-      "reply_to": "",
-      "is_reply": false
-    },
-    {
-      "id": "686082f20000000011019014",
-      "nickname": "小八鬼火冒起",
-      "is_author": false,
-      "content": "保留看法",
-      "date": "2025-06-29",
-      "timestamp": "2025-06-29T00:00:00.000Z",
-      "location": "日本",
-      "likes": "",
-      "reply_to": "",
-      "is_reply": false
-    }
-  ]
+  "source_url": "https://www.xiaohongshu.com/explore/68607bec00000000120140aa",
+  "images": [
+   "img1.jpg"
+  ],
+  "author_avatar": "avatars/66149086000000000d02603d.webp",
+  "author_profile": "https://www.xiaohongshu.com/user/profile/66149086000000000d02603d"
+ },
+ "comments": [
+  {
+   "id": "68608938000000002002cb2f",
+   "nickname": "大红读医书",
+   "is_author": false,
+   "content": "说的太绕口。简单就是，人类近两千年都是对轴心时代的注解。",
+   "date": "2025-06-29",
+   "timestamp": "2025-06-29T00:00:00.000Z",
+   "location": "上海",
+   "likes": "1",
+   "reply_to": "",
+   "is_reply": false
+  },
+  {
+   "id": "6860bcc8000000001100ecc6",
+   "nickname": "七个隆咚锵",
+   "is_author": false,
+   "content": "据我所知，哲学_科学知识体系来着古希腊，不是希伯来",
+   "date": "2025-06-29",
+   "timestamp": "2025-06-29T00:00:00.000Z",
+   "location": "河北",
+   "likes": "1",
+   "reply_to": "",
+   "is_reply": false
+  },
+  {
+   "id": "686082f20000000011019014",
+   "nickname": "小八鬼火冒起",
+   "is_author": false,
+   "content": "保留看法",
+   "date": "2025-06-29",
+   "timestamp": "2025-06-29T00:00:00.000Z",
+   "location": "日本",
+   "likes": "",
+   "reply_to": "",
+   "is_reply": false
+  }
+ ]
 }
