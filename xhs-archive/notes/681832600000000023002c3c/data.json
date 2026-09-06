@@ -1,23 +1,48 @@
 {
- "note": {
-  "note_id": "681832600000000023002c3c",
-  "title": "",
-  "desc": "他们朝我扔泥巴\n我拿泥巴种荷花\n哈哈",
-  "author": "高龄少年",
-  "author_id": "66149086000000000d02603d",
-  "publish_time": "2025-05-05 03:37:04",
-  "publish_timestamp_ms": 1746416224000,
-  "type": "normal",
-  "stats": {
-   "liked_count": "",
-   "comment_count": "2",
-   "collected_count": "",
-   "share_count": ""
+  "note": {
+    "note_id": "681832600000000023002c3c",
+    "title": "",
+    "desc": "他们朝我扔泥巴\n我拿泥巴种荷花\n哈哈",
+    "author": "高龄少年",
+    "author_id": "66149086000000000d02603d",
+    "publish_time": "2025-05-05 03:37:04",
+    "publish_timestamp_ms": "1746416224000",
+    "type": "normal",
+    "stats": {
+      "liked_count": "0",
+      "comment_count": "2",
+      "collected_count": "0",
+      "share_count": "0"
+    },
+    "source_url": "https://www.xiaohongshu.com/explore/681832600000000023002c3c",
+    "images": [
+      "img1.jpg"
+    ]
   },
-  "source_url": "https://www.xiaohongshu.com/explore/681832600000000023002c3c",
-  "images": [
-   "img1.jpg"
+  "comments": [
+    {
+      "id": "6818336a000000001f0185f4",
+      "nickname": "高龄少年",
+      "is_author": true,
+      "content": "泥巴砖头与荷花小楼--论对批判性的收编与以收编的批判性循环构建韧性并附带引致新一轮批判性的韧性构建",
+      "date": "2025-05-05",
+      "timestamp": "2025-05-05T00:00:00.000Z",
+      "location": "广东",
+      "likes": "",
+      "reply_to": "",
+      "is_reply": false
+    },
+    {
+      "id": "681848cc000000001f029d33",
+      "nickname": "高龄少年",
+      "is_author": true,
+      "content": "一场批判能量的消解运动。而已。",
+      "date": "2025-05-05",
+      "timestamp": "2025-05-05T00:00:00.000Z",
+      "location": "广东",
+      "likes": "",
+      "reply_to": "6818336a000000001f0185f4",
+      "is_reply": true
+    }
   ]
- },
- "comments": []
 }
