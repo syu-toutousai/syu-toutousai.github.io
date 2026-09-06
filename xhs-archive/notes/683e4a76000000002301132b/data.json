@@ -6,18 +6,31 @@
   "author": "高龄少年",
   "author_id": "66149086000000000d02603d",
   "publish_time": "2025-06-03 01:05:58",
-  "publish_timestamp_ms": 1748912758000,
+  "publish_timestamp_ms": "1748912758000",
   "type": "normal",
   "stats": {
-   "liked_count": "",
+   "liked_count": "0",
    "comment_count": "1",
-   "collected_count": "",
-   "share_count": ""
+   "collected_count": "0",
+   "share_count": "0"
   },
   "source_url": "https://www.xiaohongshu.com/explore/683e4a76000000002301132b",
   "images": [
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "683f0a2000000000090393fe",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "制度是河流的堤岸，体制是河床的形态，而机制才是水流本身的力量",
+   "date": "2025-06-03",
+   "timestamp": "2025-06-03T00:00:00.000Z",
+   "location": "广东",
+   "likes": "",
+   "reply_to": "",
+   "is_reply": false
+  }
+ ]
 }
