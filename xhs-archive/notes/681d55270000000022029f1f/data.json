@@ -1,23 +1,48 @@
 {
- "note": {
-  "note_id": "681d55270000000022029f1f",
-  "title": "",
-  "desc": "尻轮神马自足驾\n已觉两腋风泠然\nー宋・杨时",
-  "author": "高龄少年",
-  "author_id": "66149086000000000d02603d",
-  "publish_time": "2025-05-09 01:06:47",
-  "publish_timestamp_ms": 1746752807000,
-  "type": "normal",
-  "stats": {
-   "liked_count": "1",
-   "comment_count": "2",
-   "collected_count": "1",
-   "share_count": ""
+  "note": {
+    "note_id": "681d55270000000022029f1f",
+    "title": "",
+    "desc": "尻轮神马自足驾\n已觉两腋风泠然\nー宋・杨时",
+    "author": "高龄少年",
+    "author_id": "66149086000000000d02603d",
+    "publish_time": "2025-05-09 01:06:47",
+    "publish_timestamp_ms": "1746752807000",
+    "type": "normal",
+    "stats": {
+      "liked_count": "1",
+      "comment_count": "2",
+      "collected_count": "1",
+      "share_count": "0"
+    },
+    "source_url": "https://www.xiaohongshu.com/explore/681d55270000000022029f1f",
+    "images": [
+      "img1.jpg"
+    ]
   },
-  "source_url": "https://www.xiaohongshu.com/explore/681d55270000000022029f1f",
-  "images": [
-   "img1.jpg"
+  "comments": [
+    {
+      "id": "681f62500000000009039f50",
+      "nickname": "高龄少年",
+      "is_author": true,
+      "content": "读了道德经，越看越不对味，发现这不是在劝周王别吹牛皮嘛，而且还退一万步说，要吹牛皮，也得讲究点策略，润物细无声，上善若水，别让人觉察出来您在吹牛皮...还说煎鱼这事主要是别折腾不然会糊锅，然后弄个无为概念概括，意思是说有为就是胡乱折腾...这不治理术嘛",
+      "date": "2025-05-10",
+      "timestamp": "2025-05-10T00:00:00.000Z",
+      "location": "广东",
+      "likes": "",
+      "reply_to": "",
+      "is_reply": false
+    },
+    {
+      "id": "681f62a3000000000d0172e1",
+      "nickname": "高龄少年",
+      "is_author": true,
+      "content": "说好的哲学呢",
+      "date": "2025-05-10",
+      "timestamp": "2025-05-10T00:00:00.000Z",
+      "location": "广东",
+      "likes": "",
+      "reply_to": "681f62500000000009039f50",
+      "is_reply": true
+    }
   ]
- },
- "comments": []
 }
