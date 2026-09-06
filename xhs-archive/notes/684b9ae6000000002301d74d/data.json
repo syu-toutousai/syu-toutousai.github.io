@@ -1,23 +1,96 @@
 {
- "note": {
-  "note_id": "684b9ae6000000002301d74d",
-  "title": "",
-  "desc": "有种说法认为人格分掠夺型与创造型，有意思",
-  "author": "高龄少年",
-  "author_id": "66149086000000000d02603d",
-  "publish_time": "2025-06-13 03:28:38",
-  "publish_timestamp_ms": 1749785318000,
-  "type": "normal",
-  "stats": {
-   "liked_count": "1",
-   "comment_count": "6",
-   "collected_count": "",
-   "share_count": ""
+  "note": {
+    "note_id": "684b9ae6000000002301d74d",
+    "title": "",
+    "desc": "有种说法认为人格分掠夺型与创造型，有意思",
+    "author": "高龄少年",
+    "author_id": "66149086000000000d02603d",
+    "publish_time": "2025-06-13 03:28:38",
+    "publish_timestamp_ms": "1749785318000",
+    "type": "normal",
+    "stats": {
+      "liked_count": "1",
+      "comment_count": "6",
+      "collected_count": "0",
+      "share_count": "0"
+    },
+    "source_url": "https://www.xiaohongshu.com/explore/684b9ae6000000002301d74d",
+    "images": [
+      "img1.jpg"
+    ]
   },
-  "source_url": "https://www.xiaohongshu.com/explore/684b9ae6000000002301d74d",
-  "images": [
-   "img1.jpg"
+  "comments": [
+    {
+      "id": "684d3f8c000000000c01793a",
+      "nickname": "梅酒苏打",
+      "is_author": false,
+      "content": "好像内心想成为掠夺性，但是本性趋势更符合创造型，一直不自觉在探索自己的potential",
+      "date": "2025-06-14",
+      "timestamp": "2025-06-14T00:00:00.000Z",
+      "location": "上海",
+      "likes": "1",
+      "reply_to": "",
+      "is_reply": false
+    },
+    {
+      "id": "684d5ac4000000000b015fe1",
+      "nickname": "高龄少年",
+      "is_author": true,
+      "content": "谁还不是个创造型掠夺者 [捂嘴笑R]",
+      "date": "2025-06-14",
+      "timestamp": "2025-06-14T00:00:00.000Z",
+      "location": "广东",
+      "likes": "",
+      "reply_to": "684d3f8c000000000c01793a",
+      "is_reply": true
+    },
+    {
+      "id": "684d5c7e000000000401a7eb",
+      "nickname": "梅酒苏打",
+      "is_author": false,
+      "content": "但真的很向往直接用掠夺性干大事生存的人",
+      "date": "2025-06-14",
+      "timestamp": "2025-06-14T00:00:00.000Z",
+      "location": "上海",
+      "likes": "",
+      "reply_to": "684d3f8c000000000c01793a",
+      "is_reply": true
+    },
+    {
+      "id": "684e0902000000000900dcd5",
+      "nickname": "高龄少年",
+      "is_author": true,
+      "content": "掠夺是个技术活",
+      "date": "2025-06-14",
+      "timestamp": "2025-06-14T00:00:00.000Z",
+      "location": "广东",
+      "likes": "",
+      "reply_to": "684d3f8c000000000c01793a",
+      "is_reply": true
+    },
+    {
+      "id": "684b9dba000000000b016cfb",
+      "nickname": "高龄少年",
+      "is_author": true,
+      "content": "In contrast, the 'productive personality' (broadly equivalent to the creative type) refers to individuals who fully realize their potential, driving progress through cooperation and innovation.",
+      "date": "2025-06-13",
+      "timestamp": "2025-06-13T00:00:00.000Z",
+      "location": "中国香港",
+      "likes": "1",
+      "reply_to": "",
+      "is_reply": false
+    },
+    {
+      "id": "684b9db200000000090383ff",
+      "nickname": "高龄少年",
+      "is_author": true,
+      "content": "Psychologist Erich Fromm explicitly proposed the 'exploitative personality' in his classification of character types, characterized by acquiring resources through cunning or force, lacking constructiveness, and often dominating others to fulfill their own needs.",
+      "date": "2025-06-13",
+      "timestamp": "2025-06-13T00:00:00.000Z",
+      "location": "中国香港",
+      "likes": "",
+      "reply_to": "",
+      "is_reply": false
+    }
   ]
- },
- "comments": []
 }
