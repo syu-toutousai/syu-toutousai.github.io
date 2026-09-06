@@ -1,23 +1,96 @@
 {
- "note": {
-  "note_id": "68154d4f000000002202a600",
-  "title": "",
-  "desc": "临床医学博士(专博)和医学博士(学博)理想的样子是这样:\n学博定位是医学科学家，悠哉搞科研，有啥新成果打个样就完事。专博是专门干活救死扶伤的，专攻应用与实践，冲在临床第一线干活。然而，现实是学博在干专博的事，专博的那啥培养还不太那啥啥，有个别还不太行。此处省去一万字\n不把这些弄清楚真没法子沟通，一团浆糊。跟你说医学博士你跟我说Ph.D.[生气R]你说个Doctor of Medical Science也成，所以中外文混杂本身就没法沟通\n估计慢慢会接近理想状态:流淌着新鲜血液的专博们享受博士待遇，开心干临床，痛并快乐着。学博专博双学位的横着走，高智商学博悠哉哉搞科研。然后之后，学霸学博看专博的论文再也不觉得辣眼睛...  不过这得等把专博这事理清楚才有可能。",
-  "author": "高龄少年",
-  "author_id": "66149086000000000d02603d",
-  "publish_time": "2025-05-02 22:55:11",
-  "publish_timestamp_ms": 1746226511000,
-  "type": "normal",
-  "stats": {
-   "liked_count": "11",
-   "comment_count": "6",
-   "collected_count": "6",
-   "share_count": "2"
+  "note": {
+    "note_id": "68154d4f000000002202a600",
+    "title": "",
+    "desc": "临床医学博士(专博)和医学博士(学博)理想的样子是这样:\n学博定位是医学科学家，悠哉搞科研，有啥新成果打个样就完事。专博是专门干活救死扶伤的，专攻应用与实践，冲在临床第一线干活。然而，现实是学博在干专博的事，专博的那啥培养还不太那啥啥，有个别还不太行。此处省去一万字\n不把这些弄清楚真没法子沟通，一团浆糊。跟你说医学博士你跟我说Ph.D.[生气R]你说个Doctor of Medical Science也成，所以中外文混杂本身就没法沟通\n估计慢慢会接近理想状态:流淌着新鲜血液的专博们享受博士待遇，开心干临床，痛并快乐着。学博专博双学位的横着走，高智商学博悠哉哉搞科研。然后之后，学霸学博看专博的论文再也不觉得辣眼睛...  不过这得等把专博这事理清楚才有可能。",
+    "author": "高龄少年",
+    "author_id": "66149086000000000d02603d",
+    "publish_time": "2025-05-02 22:55:11",
+    "publish_timestamp_ms": "1746226511000",
+    "type": "normal",
+    "stats": {
+      "liked_count": "11",
+      "comment_count": "6",
+      "collected_count": "6",
+      "share_count": "2"
+    },
+    "source_url": "https://www.xiaohongshu.com/explore/68154d4f000000002202a600",
+    "images": [
+      "img1.jpg"
+    ]
   },
-  "source_url": "https://www.xiaohongshu.com/explore/68154d4f000000002202a600",
-  "images": [
-   "img1.jpg"
+  "comments": [
+    {
+      "id": "68154e84000000000400e04a",
+      "nickname": "momo",
+      "is_author": false,
+      "content": "导师是临床的，就会想要学生多下临床，顺便还发文章；导师是学术型的，就会想要学生安心搞科研。",
+      "date": "2025-05-02",
+      "timestamp": "2025-05-02T00:00:00.000Z",
+      "location": "湖南",
+      "likes": "2",
+      "reply_to": "",
+      "is_reply": false
+    },
+    {
+      "id": "6815501e000000001f02a3ad",
+      "nickname": "高龄少年",
+      "is_author": true,
+      "content": "嗯 属实得看跟什么人",
+      "date": "2025-05-02",
+      "timestamp": "2025-05-02T00:00:00.000Z",
+      "location": "广东",
+      "likes": "",
+      "reply_to": "68154e84000000000400e04a",
+      "is_reply": true
+    },
+    {
+      "id": "68155d390000000013011a4f",
+      "nickname": "momo",
+      "is_author": false,
+      "content": "中国的医学培养制度太混乱了",
+      "date": "2025-05-03",
+      "timestamp": "2025-05-03T00:00:00.000Z",
+      "location": "湖南",
+      "likes": "3",
+      "reply_to": "68154e84000000000400e04a",
+      "is_reply": true
+    },
+    {
+      "id": "681563b000000000080262f0",
+      "nickname": "阿牛",
+      "is_author": false,
+      "content": "浑水摸鱼",
+      "date": "2025-05-03",
+      "timestamp": "2025-05-03T00:00:00.000Z",
+      "location": "辽宁",
+      "likes": "",
+      "reply_to": "68154e84000000000400e04a",
+      "is_reply": true
+    },
+    {
+      "id": "68197021000000000b01eed5",
+      "nickname": "momo",
+      "is_author": false,
+      "content": "诶 就不能统一一下嘛，这么多学制，其实就是临床学阀和科研学阀在打架，行业这么不景气，当个主治也挺好",
+      "date": "2025-05-06",
+      "timestamp": "2025-05-06T00:00:00.000Z",
+      "location": "江西",
+      "likes": "",
+      "reply_to": "",
+      "is_reply": false
+    },
+    {
+      "id": "681576980000000013012f2b",
+      "nickname": "卡塔利那的杰克巴尔多",
+      "is_author": false,
+      "content": "专业型普遍存在技术封锁/资源壁垒，当然也有好单位好导师教技术、放手干的",
+      "date": "2025-05-03",
+      "timestamp": "2025-05-03T00:00:00.000Z",
+      "location": "辽宁",
+      "likes": "",
+      "reply_to": "",
+      "is_reply": false
+    }
   ]
- },
- "comments": []
 }
