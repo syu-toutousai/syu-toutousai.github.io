@@ -1,25 +1,62 @@
 {
- "note": {
-  "note_id": "685dff2b00000000100242f3",
-  "title": "",
-  "desc": "",
-  "author": "高龄少年",
-  "author_id": "66149086000000000d02603d",
-  "publish_time": "2025-06-27 02:17:15",
-  "publish_timestamp_ms": 1750990635000,
-  "type": "normal",
-  "stats": {
-   "liked_count": "",
-   "comment_count": "2",
-   "collected_count": "",
-   "share_count": ""
+  "note": {
+    "note_id": "685dff2b00000000100242f3",
+    "title": "",
+    "desc": "",
+    "author": "高龄少年",
+    "author_id": "66149086000000000d02603d",
+    "publish_time": "2025-06-27 02:17:15",
+    "publish_timestamp_ms": "1750990635000",
+    "type": "normal",
+    "stats": {
+      "liked_count": "0",
+      "comment_count": "3",
+      "collected_count": "0",
+      "share_count": "0"
+    },
+    "source_url": "https://www.xiaohongshu.com/explore/685dff2b00000000100242f3",
+    "images": [
+      "img1.jpg",
+      "img2.jpg",
+      "img3.jpg"
+    ]
   },
-  "source_url": "https://www.xiaohongshu.com/explore/685dff2b00000000100242f3",
-  "images": [
-   "img1.jpg",
-   "img2.jpg",
-   "img3.jpg"
+  "comments": [
+    {
+      "id": "685e08610000000006005766",
+      "nickname": "高龄少年",
+      "is_author": true,
+      "content": "池田晶子的哲学入门书 [捂嘴笑R]",
+      "date": "2025-06-27",
+      "timestamp": "2025-06-27T00:00:00.000Z",
+      "location": "广东",
+      "likes": "",
+      "reply_to": "",
+      "is_reply": false
+    },
+    {
+      "id": "685dffa4000000001101896a",
+      "nickname": "高龄少年",
+      "is_author": true,
+      "content": "飲茶写的书[捂嘴笑R]",
+      "date": "2025-06-27",
+      "timestamp": "2025-06-27T00:00:00.000Z",
+      "location": "广东",
+      "likes": "",
+      "reply_to": "",
+      "is_reply": false
+    },
+    {
+      "id": "685e02190000000011019a64",
+      "nickname": "高龄少年",
+      "is_author": true,
+      "content": "",
+      "date": "2025-06-27",
+      "timestamp": "2025-06-27T00:00:00.000Z",
+      "location": "广东",
+      "likes": "",
+      "reply_to": "",
+      "is_reply": false
+    }
   ]
- },
- "comments": []
 }
