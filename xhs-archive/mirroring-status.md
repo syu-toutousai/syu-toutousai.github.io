@@ -1,19 +1,19 @@
 # Mirroring Status
 
-_Generated 2026-09-05T16:20:12_ · notes: **542** · sources: refetch 519, sweep-valid 355, live-comments 0_
+_Generated 2026-09-06T03:20:11_ · notes: **542** · sources: refetch 525, sweep-valid 355, live-comments 1_
 
 ## Aggregate
 
 | item | count |
 |---|---|
-| refetched | 519 |
-| no_refetch | 23 |
+| refetched | 525 |
+| no_refetch | 17 |
 | images_incomplete | 0 |
 | images_unknown | 0 |
-| comments_full | 75 |
+| comments_full | 76 |
 | comments_partial | 53 |
 | comments_none | 409 |
-| comments_sweep_only | 5 |
+| comments_sweep_only | 4 |
 | images_complete | 542 |
 | token_dead | 21 |
 
@@ -25,7 +25,7 @@ _Generated 2026-09-05T16:20:12_ · notes: **542** · sources: refetch 519, sweep
 
 | note | live | onsite | state |
 |---|---|---|---|
-| 6900332c… | 69 | 17 | partial |
+| 6900332c… | 69 | 16 | partial |
 | 681956f0… | 35 | 0 | need |
 | 681ae7d3… | 23 | 0 | need |
 | 6844e380… | 13 | 0 | need |
@@ -79,9 +79,8 @@ _Generated 2026-09-05T16:20:12_ · notes: **542** · sources: refetch 519, sweep
 | 680471c1… | 1 | 0 | need |
 | 67ffae83… | 1 | 0 | need |
 
-## Notes lacking live refetch (not token-dead): 2
+## Notes lacking live refetch (not token-dead): 1
 
 - `684c3fad000000002301c3d0`
-- `684512840000000023013b2d`
 
 ## Token-dead notes: 21 (xsec token no longer resolves; retried on refresh window)

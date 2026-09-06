@@ -2,21 +2,22 @@
  "note": {
   "note_id": "682fe5a100000000230024bf",
   "title": "",
-  "desc": "",
+  "desc": "本来有点喜欢陈丹青的画，但却讨厌陈丹青说的话，进而连他的画也喜欢不起来了。这是怎么回事？",
   "author": "高龄少年",
   "author_id": "66149086000000000d02603d",
   "publish_time": "2025-05-23 03:04:01",
   "publish_timestamp_ms": 1747969441000,
   "type": "normal",
   "stats": {
-   "liked_count": "0",
-   "comment_count": "0",
-   "collected_count": "0",
-   "share_count": "0"
+   "liked_count": "",
+   "comment_count": "",
+   "collected_count": "",
+   "share_count": ""
   },
   "source_url": "https://www.xiaohongshu.com/explore/682fe5a100000000230024bf",
   "images": [
-   "img1.jpg"
+   "img1.jpg",
+   "img2.jpg"
   ]
  },
  "comments": []
