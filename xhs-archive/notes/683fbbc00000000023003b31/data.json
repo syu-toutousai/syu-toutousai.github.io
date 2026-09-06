@@ -6,18 +6,31 @@
   "author": "高龄少年",
   "author_id": "66149086000000000d02603d",
   "publish_time": "2025-06-04 03:21:36",
-  "publish_timestamp_ms": 1749007296000,
+  "publish_timestamp_ms": "1749007296000",
   "type": "normal",
   "stats": {
-   "liked_count": "",
+   "liked_count": "0",
    "comment_count": "1",
-   "collected_count": "",
-   "share_count": ""
+   "collected_count": "0",
+   "share_count": "0"
   },
   "source_url": "https://www.xiaohongshu.com/explore/683fbbc00000000023003b31",
   "images": [
    "img1.jpg"
   ]
  },
- "comments": []
+ "comments": [
+  {
+   "id": "684005bb000000000b0154d6",
+   "nickname": "高龄少年",
+   "is_author": true,
+   "content": "康梁时代",
+   "date": "2025-06-04",
+   "timestamp": "2025-06-04T00:00:00.000Z",
+   "location": "广东",
+   "likes": "",
+   "reply_to": "",
+   "is_reply": false
+  }
+ ]
 }
