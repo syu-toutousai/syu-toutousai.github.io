@@ -1,23 +1,48 @@
 {
- "note": {
-  "note_id": "68383a2c000000002202d222",
-  "title": "",
-  "desc": "科学这个词的语义，在汉语中为什么一直在窄化？",
-  "author": "高龄少年",
-  "author_id": "66149086000000000d02603d",
-  "publish_time": "2025-05-29 10:42:52",
-  "publish_timestamp_ms": 1748515372000,
-  "type": "normal",
-  "stats": {
-   "liked_count": "",
-   "comment_count": "2",
-   "collected_count": "",
-   "share_count": ""
+  "note": {
+    "note_id": "68383a2c000000002202d222",
+    "title": "",
+    "desc": "科学这个词的语义，在汉语中为什么一直在窄化？",
+    "author": "高龄少年",
+    "author_id": "66149086000000000d02603d",
+    "publish_time": "2025-05-29 10:42:52",
+    "publish_timestamp_ms": "1748515372000",
+    "type": "normal",
+    "stats": {
+      "liked_count": "0",
+      "comment_count": "2",
+      "collected_count": "0",
+      "share_count": "0"
+    },
+    "source_url": "https://www.xiaohongshu.com/explore/68383a2c000000002202d222",
+    "images": [
+      "img1.jpg"
+    ]
   },
-  "source_url": "https://www.xiaohongshu.com/explore/68383a2c000000002202d222",
-  "images": [
-   "img1.jpg"
+  "comments": [
+    {
+      "id": "68384eb6000000000103c3f9",
+      "nickname": "拖泥凳",
+      "is_author": false,
+      "content": "因爲這種语言的使用者思想一直在窄化。（注意我用字的字體）",
+      "date": "2025-05-29",
+      "timestamp": "2025-05-29T00:00:00.000Z",
+      "location": "广东",
+      "likes": "",
+      "reply_to": "",
+      "is_reply": false
+    },
+    {
+      "id": "68385a95000000000900d327",
+      "nickname": "高龄少年",
+      "is_author": true,
+      "content": "有意思",
+      "date": "2025-05-29",
+      "timestamp": "2025-05-29T00:00:00.000Z",
+      "location": "广东",
+      "likes": "",
+      "reply_to": "68384eb6000000000103c3f9",
+      "is_reply": true
+    }
   ]
- },
- "comments": []
 }
